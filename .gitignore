@@ -261,7 +261,4 @@ paket-files/
 __pycache__/
 *.pyc
 *.~u
-*.~u
-Automata01.project.~u
-*.~u
-*.~u
+*.project.~u
