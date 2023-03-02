@@ -9,7 +9,7 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-*.project.~u
+*/.~u
 
 # Build results
 [Dd]ebug/
@@ -260,3 +260,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+*.~u
+*.~u
+Automata01.project.~u
+*.~u
