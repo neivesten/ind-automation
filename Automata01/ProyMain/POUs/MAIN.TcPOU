@@ -6,13 +6,17 @@ VAR
 	
 	Pulsador AT %I*: BOOL;
 	Lampara AT %Q*: BOOL;
+	PulsadoR2 AT %I*: BOOL;
+	Inversor AT %Q*: BOOL;
 
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[Lampara := Pulsador;]]></ST>
+      <ST><![CDATA[Lampara := Pulsador;
+Inversor := PulsadoR2;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
+      <LineId Id="12" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
