@@ -9,7 +9,7 @@ VAR
 
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[Pulsador := Lampara;]]></ST>
+      <ST><![CDATA[Lampara := Pulsador;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />

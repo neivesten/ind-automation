@@ -14,9 +14,9 @@
 			</Tasks>
 		</System>
 		<Plc>
-			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="1" PrjFilePath="1\1.plcproj" TmcFilePath="1\1.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{213013E0-0C65-97D3-FF3E-6A06F754F1B4}">
-					<Name>1 Instance</Name>
+			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{84ABB8D8-E95D-83E1-7830-1A7FD972D052}">
+					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
 						<Name>PlcTask Inputs</Name>
@@ -498,9 +498,13 @@
 		</Io>
 	</Project>
 	<Mappings>
-		<OwnerA Name="TIPC^1^1 Instance">
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
+		<OwnerA Name="TIPC^ProyMain^ProyMain Instance">
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.Pulsador" VarB="Channel 3^Pulsador de marcha"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Lampara" VarB="Channel 4^Lámpara de falta material"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>
