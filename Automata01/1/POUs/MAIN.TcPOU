@@ -5,11 +5,11 @@
 VAR
 	
 	Pulsador AT %I*: BOOL;
-	Lámpara AT %I*: BOOL;
+	Lampara AT %Q*: BOOL;
 
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[Pulsador := Lámpara]]></ST>
+      <ST><![CDATA[Pulsador := Lampara]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
