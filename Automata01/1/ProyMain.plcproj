@@ -7,7 +7,7 @@
     <DownloadApplicationInfo>true</DownloadApplicationInfo>
     <WriteProductVersion>true</WriteProductVersion>
     <GenerateTpy>false</GenerateTpy>
-    <Name>_1</Name>
+    <Name>ProyMain</Name>
     <ProgramVersion>3.1.4024.0</ProgramVersion>
     <Application>{e8ed7956-d38f-465a-aa8e-c4caa83d3bc4}</Application>
     <TypeSystem>{d4d0251c-d726-4da7-b49b-61838045c126}</TypeSystem>
