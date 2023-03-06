@@ -7,7 +7,7 @@ VAR
 	Pulsador AT %I*: BOOL;
 	Lampara AT %Q*: BOOL;
 	PulsadoR2 AT %I*: BOOL;
-	Inversor AT %Q*: BOOL;
+	Inversor AT %Q*: BOOL; 
 
 END_VAR]]></Declaration>
     <Implementation>
