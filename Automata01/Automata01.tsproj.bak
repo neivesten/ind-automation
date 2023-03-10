@@ -15,14 +15,41 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{660211A2-20D8-66C0-7571-1F924C023F3D}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{AC4660CF-7669-2B2E-D2EF-37A2A91B3C3C}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Vars VarGrpType="1">
+						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>MAIN.pulsador</Name>
+							<Comment><![CDATA[Pulsador AT %I*: BOOL;
+Lampara AT %Q*: BOOL;]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.verificador_arriba</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.verificador_abajo</Name>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
+					<Vars VarGrpType="2" AreaNo="1">
+						<Name>PlcTask Outputs</Name>
+						<Var>
+							<Name>MAIN.motor_verificador</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.lampara_material</Name>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
 					<UnrestoredVarLinks ImportTime="2023-03-10T17:30:52">
 						<OwnerA Name="InputDst" Prefix="TIPC^ProyMain^ProyMain Instance" Type="1">
 							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
 								<Link VarA="MAIN.PulsadoR2" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 4^Pulsador de parada [NC]" Size="1" RestoreInfo="ANotFound"/>
-								<Link VarA="MAIN.Pulsador" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 3^Pulsador de marcha" Size="1" RestoreInfo="ANotFound"/>
 							</OwnerB>
 						</OwnerA>
 						<OwnerA Name="OutputSrc" Prefix="TIPC^ProyMain^ProyMain Instance" Type="2">
@@ -34,10 +61,18 @@
 					</UnrestoredVarLinks>
 					<Contexts>
 						<Context>
-							<Id>1</Id>
-							<Name>Default</Name>
+							<Id NeedCalleeCall="true">0</Id>
+							<Name>PlcTask</Name>
+							<ManualConfig>
+								<OTCID>#x02010030</OTCID>
+							</ManualConfig>
+							<Priority>20</Priority>
+							<CycleTime>10000000</CycleTime>
 						</Context>
 					</Contexts>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x08502001"/>
+					</TaskPouOids>
 				</Instance>
 			</Project>
 		</Plc>
@@ -482,7 +517,7 @@
 				<Vars VarGrpType="2" InsertType="1">
 					<Name>Outputs</Name>
 				</Vars>
-				<Image Id="4" ImageFlags="#x00000042" AddrType="12" ImageType="5">
+				<Image Id="4" ImageFlags="#x00000042" AddrType="5" ImageType="5">
 					<Name>Image</Name>
 				</Image>
 				<DpRam/>
@@ -491,5 +526,14 @@
 	</Project>
 	<Mappings>
 		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
+		<OwnerA Name="TIPC^ProyMain^ProyMain Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.pulsador" VarB="Channel 3^Pulsador de marcha"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.verificador_abajo" VarB="Channel 4^Cilindro vertical del descargador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.verificador_arriba" VarB="Channel 3^Cilindro vertical del descargador arriba"/>
+			</OwnerB>
+		</OwnerA>
 	</Mappings>
 </TcSmProject>
