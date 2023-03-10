@@ -524,6 +524,10 @@
 				<Link VarA="PlcTask Outputs^MAIN.Inversor" VarB="Channel 6^Invierte la marcha del motor de la cinta"/>
 				<Link VarA="PlcTask Outputs^MAIN.Lampara" VarB="Channel 5^Activa la marcha el motor de la cinta"/>
 			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Descargador_adelante" VarB="Channel 1^Cilindro del descargador adelante (hacia el palé)"/>
+				<Link VarA="PlcTask Outputs^MAIN.Descargador_atras" VarB="Channel 2^Cilindro del descargador atrás (hacia el punto de descarga)"/>
+			</OwnerB>
 		</OwnerA>
 	</Mappings>
 </TcSmProject>
