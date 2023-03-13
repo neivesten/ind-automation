@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{C15AC204-96C5-1193-38F4-49182B5CCBE9}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{18379D1B-2970-5E69-62F6-ADDD9EBB5DA7}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -96,7 +96,7 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.Alimentador_adelante</Name>
+							<Name>MAIN.Alimentador_delante</Name>
 							<Comment><![CDATA[Terminal 7]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
@@ -175,7 +175,7 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.Alimentador_adelante2</Name>
+							<Name>MAIN.Alimentador_adelante</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
