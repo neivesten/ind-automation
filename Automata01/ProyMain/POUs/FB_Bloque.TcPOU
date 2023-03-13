@@ -1596,7 +1596,7 @@ END_VAR
     </Action>
     <Action Name="OK_exit" Id="{6923b980-9502-4e1c-97e4-e82bb8b6c6b3}">
       <Implementation>
-        <ST><![CDATA[pieza_ok := false;]]></ST>
+        <ST><![CDATA[pieza_ok := true;]]></ST>
       </Implementation>
     </Action>
     <ObjectProperties>
