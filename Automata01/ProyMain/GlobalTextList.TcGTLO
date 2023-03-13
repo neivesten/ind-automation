@@ -15,6 +15,26 @@
               <v n="TextDefault">"Estoy Arriba"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
+            <o>
+              <v n="TextID">"750"</v>
+              <v n="TextDefault">"Lámpara"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"935"</v>
+              <v n="TextDefault">"Pieza NO OK"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"336"</v>
+              <v n="TextDefault">"Pieza OK"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"839"</v>
+              <v n="TextDefault">"Verificador Activado"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
           </l>
           <l n="Languages" t="ArrayList" />
           <v n="GuidInit">{4a4e31ae-9e61-4285-a6bd-11b761123fc7}</v>

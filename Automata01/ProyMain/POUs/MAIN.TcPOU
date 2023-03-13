@@ -7,39 +7,13 @@ VAR
 	//Pulsador AT %I*: BOOL;
 	//Lampara AT %Q*: BOOL;
 	
-	//pulsador AT %I*: BOOL;
-	motor_verificador AT %Q*: BOOL;
-	//verificador_arriba AT %I*: BOOL;
-	verificador_abajo AT %I*: BOOL;
-	lampara_material AT %Q*: BOOL;
+	test_pieza: FB_Bloque;
 
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[motor_verificador := TRUE;
-
-
-
-IF verificador_abajo := TRUE THEN 	
-
-	lampara_material := TRUE;
-
-ELSE
-	
-	lampara_material := FALSE;
-
-END_IF]]></ST>
+      <ST><![CDATA[test_pieza();]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
-      <LineId Id="12" Count="0" />
-      <LineId Id="53" Count="0" />
-      <LineId Id="52" Count="0" />
-      <LineId Id="27" Count="0" />
-      <LineId Id="32" Count="0" />
-      <LineId Id="34" Count="2" />
-      <LineId Id="30" Count="0" />
-      <LineId Id="37" Count="0" />
-      <LineId Id="39" Count="0" />
-      <LineId Id="38" Count="0" />
       <LineId Id="29" Count="0" />
     </LineIds>
   </POU>
