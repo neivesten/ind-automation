@@ -7,7 +7,52 @@ VAR
 	Pulsador AT %I*: BOOL;
 	Lampara AT %Q*: BOOL;
 	PulsadoR2 AT %I*: BOOL;
-	Inversor AT %Q*: BOOL; 
+	Inversor AT %Q*: BOOL;
+
+	//Terminal 2
+	Pulsador_parada_emergencia AT %I*: BOOL;
+	Selector_modo_manual AT %I*: BOOL;
+	Pulsador_marcha AT %I*: BOOL;
+	Pulsador_parada_NC AT %I*: BOOL;
+	Parte_operativa_conectada AT %I*: BOOL;
+	Presencia_pale AT %I*: BOOL;
+	Codigo_pale_bit_0 AT %I*: BOOL;
+	Codigo_pale_bit_1 AT %I*: BOOL;
+	
+	
+	//Terminal 3
+	Codigo_pale_bit_2 AT %I*: BOOL;
+	Detector_presion AT %I*: BOOL;
+	
+	//Terminal 4
+	Desconecta_parte_operativa AT %Q*: BOOL;
+	Lampara_alarma AT %Q*: BOOL;
+	Lampara_marcha AT %Q*: BOOL;
+	Lampara_falta_material AT %Q*: BOOL;
+	Activa_marcha_motor_cinta AT %Q*: BOOL;
+	Invierte_marcha_motor_cinta AT %Q*: BOOL;
+	Retenedor_pale_baja AT %Q*: BOOL;
+	Separador_pale_sube AT %Q*: BOOL;
+	
+	
+	//Terminal 5
+ 	Avisador_sonoro AT %Q*: BOOL;
+	
+	//Terminal 6
+	Horizontal_descargador_detras AT %I*: BOOL;
+	Horizontal_descargador_delante AT %I*: BOOL;
+	Vertical_descargador_arriba AT %I*: BOOL;
+	Vertical_descargador_abajo AT %I*: BOOL;
+	Verificador_arriba AT %I*: BOOL;
+	Verificador_abajo AT %I*: BOOL;
+	Desplazador_detras AT %I*: BOOL;
+	Alimentador_detras AT %I*: BOOL;
+	
+	
+	//Terminal 7
+	Alimentador_adelante AT %I*: BOOL;
+	Vacio_obtenido_vacuostato_descargador AT %I*: BOOL;
+	Base_en_Alimentador AT %I*: BOOL;
 	
 	//Terminal 8
 	Descargador_adelante AT %Q*: BOOL;
