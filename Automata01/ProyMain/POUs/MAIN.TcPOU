@@ -7,21 +7,19 @@ VAR
 	//Pulsador AT %I*: BOOL;
 	//Lampara AT %Q*: BOOL;
 	
-	pulsador AT %I*: BOOL;
+	//pulsador AT %I*: BOOL;
 	motor_verificador AT %Q*: BOOL;
-	verificador_arriba AT %I*: BOOL;
+	//verificador_arriba AT %I*: BOOL;
 	verificador_abajo AT %I*: BOOL;
 	lampara_material AT %Q*: BOOL;
 
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[motor_verificador := pulsador;
+      <ST><![CDATA[motor_verificador := TRUE;
 
-IF verificador_arriba := TRUE THEN
 
-	lampara_material := TRUE;
 
-ELSIF verificador_abajo := TRUE THEN 	
+IF verificador_abajo := TRUE THEN 	
 
 	lampara_material := TRUE;
 
@@ -33,11 +31,9 @@ END_IF]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="12" Count="0" />
+      <LineId Id="53" Count="0" />
+      <LineId Id="52" Count="0" />
       <LineId Id="27" Count="0" />
-      <LineId Id="26" Count="0" />
-      <LineId Id="31" Count="0" />
-      <LineId Id="28" Count="0" />
-      <LineId Id="33" Count="0" />
       <LineId Id="32" Count="0" />
       <LineId Id="34" Count="2" />
       <LineId Id="30" Count="0" />
