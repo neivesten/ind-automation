@@ -9,8 +9,15 @@ VAR
 	PulsadoR2 AT %I*: BOOL;
 	Inversor AT %Q*: BOOL; 
 	
+	//Terminal 8
 	Descargador_adelante AT %Q*: BOOL;
 	Descargador_atras AT %Q*: BOOL;
+	Descargador_baja AT %Q*: BOOL;
+	Rechazador_adelante AT %Q*: BOOL;
+	Verificador_baja AT %Q*: BOOL;
+	Desplazador_adelante AT %Q*: BOOL;
+	Alimentador_adelante AT %Q*: BOOL;
+	Eyector_succiona AT %Q*: BOOL;
 	
 
 END_VAR]]></Declaration>
