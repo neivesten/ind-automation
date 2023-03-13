@@ -15,28 +15,138 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{9F4233E7-A813-93E1-A9B2-7E5B53535E2A}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{C15AC204-96C5-1193-38F4-49182B5CCBE9}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
 						<Name>PlcTask Inputs</Name>
 						<Var>
-							<Name>MAIN.Pulsador</Name>
+							<Name>MAIN.Pulsador_parada_emergencia</Name>
+							<Comment><![CDATA[Terminal 2]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.PulsadoR2</Name>
+							<Name>MAIN.Selector_modo_manual</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Pulsador_marcha</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Pulsador_parada_NC</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Parte_operativa_conectada</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Presencia_pale</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Codigo_pale_bit_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Codigo_pale_bit_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Codigo_pale_bit_2</Name>
+							<Comment><![CDATA[Terminal 3]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Detector_presion</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Horizontal_descargador_detras</Name>
+							<Comment><![CDATA[Terminal 6]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Horizontal_descargador_delante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Vertical_descargador_arriba</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Vertical_descargador_abajo</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Verificador_arriba</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Verificador_abajo</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Desplazador_detras</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Alimentador_detras</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Alimentador_adelante</Name>
+							<Comment><![CDATA[Terminal 7]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Vacio_obtenido_vacuostato_descargador</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Base_en_Alimentador</Name>
 							<Type>BOOL</Type>
 						</Var>
 					</Vars>
 					<Vars VarGrpType="2" AreaNo="1">
 						<Name>PlcTask Outputs</Name>
 						<Var>
-							<Name>MAIN.Lampara</Name>
+							<Name>MAIN.Desconecta_parte_operativa</Name>
+							<Comment><![CDATA[Terminal 4]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.Inversor</Name>
+							<Name>MAIN.Lampara_alarma</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Lampara_marcha</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Lampara_falta_material</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Activa_marcha_motor_cinta</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Invierte_marcha_motor_cinta</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Retenedor_pale_baja</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Separador_pale_sube</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Avisador_sonoro</Name>
+							<Comment><![CDATA[Terminal 5]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -65,7 +175,7 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.Alimentador_adelante</Name>
+							<Name>MAIN.Alimentador_adelante2</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -73,6 +183,20 @@
 							<Type>BOOL</Type>
 						</Var>
 					</Vars>
+					<UnrestoredVarLinks ImportTime="2023-03-13T15:50:26">
+						<OwnerA Name="InputDst" Prefix="TIPC^ProyMain^ProyMain Instance" Type="1">
+							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+								<Link VarA="MAIN.PulsadoR2" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 4^Pulsador de parada [NC]" Size="1" RestoreInfo="ANotFound"/>
+								<Link VarA="MAIN.Pulsador" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 3^Pulsador de marcha" Size="1" RestoreInfo="ANotFound"/>
+							</OwnerB>
+						</OwnerA>
+						<OwnerA Name="OutputSrc" Prefix="TIPC^ProyMain^ProyMain Instance" Type="2">
+							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+								<Link VarA="MAIN.Inversor" TypeA="BOOL" InOutA="1" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 6^Invierte la marcha del motor de la cinta" Size="1" RestoreInfo="ANotFound"/>
+								<Link VarA="MAIN.Lampara" TypeA="BOOL" InOutA="1" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 5^Activa la marcha el motor de la cinta" Size="1" RestoreInfo="ANotFound"/>
+							</OwnerB>
+						</OwnerA>
+					</UnrestoredVarLinks>
 					<Contexts>
 						<Context>
 							<Id NeedCalleeCall="true">0</Id>
@@ -541,14 +665,6 @@
 	<Mappings>
 		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
 		<OwnerA Name="TIPC^ProyMain^ProyMain Instance">
-			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
-				<Link VarA="PlcTask Inputs^MAIN.PulsadoR2" VarB="Channel 4^Pulsador de parada [NC]"/>
-				<Link VarA="PlcTask Inputs^MAIN.Pulsador" VarB="Channel 3^Pulsador de marcha"/>
-			</OwnerB>
-			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
-				<Link VarA="PlcTask Outputs^MAIN.Inversor" VarB="Channel 6^Invierte la marcha del motor de la cinta"/>
-				<Link VarA="PlcTask Outputs^MAIN.Lampara" VarB="Channel 5^Activa la marcha el motor de la cinta"/>
-			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
 				<Link VarA="PlcTask Outputs^MAIN.Descargador_adelante" VarB="Channel 1^Cilindro del descargador adelante (hacia el palé)"/>
 				<Link VarA="PlcTask Outputs^MAIN.Descargador_atras" VarB="Channel 2^Cilindro del descargador atrás (hacia el punto de descarga)"/>

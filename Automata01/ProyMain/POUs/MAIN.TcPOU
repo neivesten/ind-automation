@@ -3,11 +3,6 @@
   <POU Name="MAIN" Id="{56f4075e-4895-4e88-bf82-4d98b9642bb1}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
-	
-	Pulsador AT %I*: BOOL;
-	Lampara AT %Q*: BOOL;
-	PulsadoR2 AT %I*: BOOL;
-	Inversor AT %Q*: BOOL;
 
 	//Terminal 2
 	Pulsador_parada_emergencia AT %I*: BOOL;
@@ -50,7 +45,7 @@ VAR
 	
 	
 	//Terminal 7
-	Alimentador_adelante AT %I*: BOOL;
+	Alimentador_delante AT %I*: BOOL;
 	Vacio_obtenido_vacuostato_descargador AT %I*: BOOL;
 	Base_en_Alimentador AT %I*: BOOL;
 	
