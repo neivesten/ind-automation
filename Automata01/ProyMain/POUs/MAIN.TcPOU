@@ -62,10 +62,18 @@ VAR
 
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[IF Pulsador_marcha := TRUE THEN
+	
+	Descargador_adelante := TRUE;
+
+END_IF]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="12" Count="0" />
+      <LineId Id="80" Count="0" />
+      <LineId Id="77" Count="0" />
+      <LineId Id="79" Count="0" />
+      <LineId Id="78" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
