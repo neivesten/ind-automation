@@ -9,11 +9,64 @@ END_VAR
 VAR_OUTPUT
 END_VAR
 VAR
-	pulsador AT %I*: BOOL; 
-	verificador_abajo AT %I*: BOOL;
-	motor AT %Q*: BOOL;
-	lampara AT %Q*: BOOL;
+ 
 	pieza_ok AT %Q*: BOOL;
+	
+	//Terminal 2
+	Pulsador_parada_emergencia AT %I*: BOOL;
+	Selector_modo_manual AT %I*: BOOL;
+	Pulsador_marcha AT %I*: BOOL;
+	Pulsador_parada_NC AT %I*: BOOL;
+	Parte_operativa_conectada AT %I*: BOOL;
+	Presencia_pale AT %I*: BOOL;
+	Codigo_pale_bit_0 AT %I*: BOOL;
+	Codigo_pale_bit_1 AT %I*: BOOL;
+	
+	
+	//Terminal 3
+	Codigo_pale_bit_2 AT %I*: BOOL;
+	Detector_presion AT %I*: BOOL;
+	
+	//Terminal 4
+	Desconecta_parte_operativa AT %Q*: BOOL;
+	Lampara_alarma AT %Q*: BOOL;
+	Lampara_marcha AT %Q*: BOOL;
+	Lampara_falta_material AT %Q*: BOOL;
+	Activa_marcha_motor_cinta AT %Q*: BOOL;
+	Invierte_marcha_motor_cinta AT %Q*: BOOL;
+	Retenedor_pale_baja AT %Q*: BOOL;
+	Separador_pale_sube AT %Q*: BOOL;
+	
+	
+	//Terminal 5
+ 	Avisador_sonoro AT %Q*: BOOL;
+	
+	//Terminal 6
+	Horizontal_descargador_detras AT %I*: BOOL;
+	Horizontal_descargador_delante AT %I*: BOOL;
+	Vertical_descargador_arriba AT %I*: BOOL;
+	Vertical_descargador_abajo AT %I*: BOOL;
+	Verificador_arriba AT %I*: BOOL;
+	Verificador_abajo AT %I*: BOOL;
+	Desplazador_detras AT %I*: BOOL;
+	Alimentador_detras AT %I*: BOOL;
+	
+	
+	//Terminal 7
+	Alimentador_delante AT %I*: BOOL;
+	Vacio_obtenido_vacuostato_descargador AT %I*: BOOL;
+	Base_en_Alimentador AT %I*: BOOL;
+	
+	//Terminal 8
+	Descargador_adelante AT %Q*: BOOL;
+	Descargador_atras AT %Q*: BOOL;
+	Descargador_baja AT %Q*: BOOL;
+	Rechazador_adelante AT %Q*: BOOL;
+	Verificador_baja AT %Q*: BOOL;
+	Desplazador_adelante AT %Q*: BOOL;
+	Alimentador_adelante AT %Q*: BOOL;
+	Eyector_succiona AT %Q*: BOOL;
+	
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -38,7 +91,7 @@ END_VAR
                               <o>
                                 <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                 <o n="Value" t="StringValue">
-                                  <v n="Value">"lampara"</v>
+                                  <v n="Value">"lampara_falta_material"</v>
                                   <v n="DefaultValue">""</v>
                                 </o>
                                 <v n="Id">221L</v>
@@ -202,7 +255,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"pulsador"</v>
+                            <v n="Value">"pulsador_marcha"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">52L</v>
@@ -275,7 +328,7 @@ END_VAR
                               <o>
                                 <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                 <o n="Value" t="StringValue">
-                                  <v n="Value">"motor"</v>
+                                  <v n="Value">"verificador_baja"</v>
                                   <v n="DefaultValue">""</v>
                                 </o>
                                 <v n="Id">86L</v>
