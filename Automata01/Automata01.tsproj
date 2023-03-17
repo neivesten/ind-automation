@@ -230,9 +230,6 @@
 							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
 								<Link VarA="MAIN.test_pieza.pulsador" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 3^Pulsador de marcha" Size="1" RestoreInfo="ANotFound"/>
 							</OwnerB>
-							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
-								<Link VarA="MAIN.test_pieza.verificador_abajo" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 6^Cilindro del verificador abajo" Size="1" RestoreInfo="ANotFound"/>
-							</OwnerB>
 						</OwnerA>
 						<OwnerA Name="OutputSrc" Prefix="TIPC^ProyMain^ProyMain Instance" Type="2">
 							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
@@ -708,4 +705,14 @@
 			</Device>
 		</Io>
 	</Project>
+	<Mappings>
+		<OwnerA Name="TIPC^ProyMain^ProyMain Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_emergencia" VarB="Channel 1^Pulsador de parada de emergencia"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
 </TcSmProject>
