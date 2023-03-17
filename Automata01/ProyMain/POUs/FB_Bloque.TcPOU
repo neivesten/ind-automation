@@ -10,7 +10,7 @@ VAR_OUTPUT
 END_VAR
 VAR
 
-	pieza_ok AT %Q*: BOOL;
+	pieza_ok: BOOL;
 	
 	//Terminal 2
 	Pulsador_parada_emergencia AT %I*: BOOL;
@@ -721,6 +721,73 @@ END_VAR
                       <v n="Id">58L</v>
                       <v n="IdParent">9L</v>
                     </o>
+                    <o t="SFCTransition">
+                      <n n="VariableName" />
+                      <n n="EmbeddedTransition" />
+                      <l2 n="EmbeddedTransitionProperties" />
+                      <l2 n="Attributes" cet="SFCAttribute">
+                        <o>
+                          <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                          <o n="Value" t="StringValue">
+                            <v n="Value">"True"</v>
+                            <v n="DefaultValue">""</v>
+                          </o>
+                          <v n="Id">577L</v>
+                          <v n="IdParent">576L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                          <o n="Value" t="StringValue">
+                            <v n="Value">""</v>
+                            <v n="DefaultValue">""</v>
+                          </o>
+                          <v n="Id">578L</v>
+                          <v n="IdParent">576L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                          <o n="Value" t="BoolValue">
+                            <v n="Value">"FALSE"</v>
+                            <v n="DefaultValue">"FALSE"</v>
+                          </o>
+                          <v n="Id">579L</v>
+                          <v n="IdParent">576L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
+                          <o n="Value" t="EnumValue">
+                            <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
+                            <n n="BaseType" />
+                            <v n="Value">"0"</v>
+                            <v n="DefaultValue">"0"</v>
+                          </o>
+                          <v n="Id">580L</v>
+                          <v n="IdParent">576L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
+                          <o n="Value" t="BoolValue">
+                            <v n="Value">"FALSE"</v>
+                            <v n="DefaultValue">"FALSE"</v>
+                          </o>
+                          <v n="Id">581L</v>
+                          <v n="IdParent">576L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{8294df19-5962-4dee-a874-1051dabb0e3e}</v>
+                          <o n="Value" t="EnumValue">
+                            <v n="TemplateGuid">{6ecff51c-9b8f-4338-aab0-67c2b31b07e9}</v>
+                            <n n="BaseType" />
+                            <v n="Value">"0"</v>
+                            <v n="DefaultValue">"0"</v>
+                          </o>
+                          <v n="Id">582L</v>
+                          <v n="IdParent">576L</v>
+                        </o>
+                      </l2>
+                      <v n="Id">576L</v>
+                      <v n="IdParent">9L</v>
+                    </o>
                     <o t="SFCBranch">
                       <o n="ElementList" t="SFCElementList">
                         <l2 n="InnerList" cet="SFCSegment">
@@ -918,7 +985,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"True"</v>
+                                        <v n="Value">"notOK.t &gt; Tcheck"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">213L</v>
@@ -1349,13 +1416,67 @@ END_VAR
                       <l2 n="EmbeddedEntryActionProperties" />
                       <l2 n="EmbeddedExitActionProperties" />
                       <o n="ElementList" t="SFCElementList">
-                        <l2 n="InnerList" />
+                        <l2 n="InnerList" cet="SFCActionAssociation">
+                          <o>
+                            <l2 n="Attributes" cet="SFCAttribute">
+                              <o>
+                                <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">"Desplazador_Adelante"</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">584L</v>
+                                <v n="IdParent">583L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">""</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">585L</v>
+                                <v n="IdParent">583L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                                <o n="Value" t="BoolValue">
+                                  <v n="Value">"FALSE"</v>
+                                  <v n="DefaultValue">"FALSE"</v>
+                                </o>
+                                <v n="Id">586L</v>
+                                <v n="IdParent">583L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
+                                <o n="Value" t="EnumValue">
+                                  <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
+                                  <n n="BaseType" />
+                                  <v n="Value">"0"</v>
+                                  <v n="DefaultValue">"0"</v>
+                                </o>
+                                <v n="Id">587L</v>
+                                <v n="IdParent">583L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{e174fc0d-80b0-4a9e-a530-ca239c249a50}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">"N"</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">588L</v>
+                                <v n="IdParent">583L</v>
+                              </o>
+                            </l2>
+                            <v n="Id">583L</v>
+                            <v n="IdParent">238L</v>
+                          </o>
+                        </l2>
                       </o>
                       <l2 n="Attributes" cet="SFCAttribute">
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"Reset"</v>
+                            <v n="Value">"PrepDescargador"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">239L</v>
@@ -1465,7 +1586,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"Reset.t &gt; Treset "</v>
+                            <v n="Value">"PrepDescargador.t &gt; Treset "</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">251L</v>
