@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{0FB9FF46-DE44-87B1-AB97-42B744E318CD}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{7A97FDEC-AB0B-0F1D-B3C2-6446F2899552}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -712,12 +712,21 @@
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Detector_presion" VarB="Channel 2^Detector de presión"/>
 			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_falta_material" VarB="Channel 4^Lámpara de falta material"/>
+			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Desplazador_detras" VarB="Channel 7^Cilindro del desplazador detrás"/>
 				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_arriba" VarB="Channel 5^Cilindro del verificador arriba"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Base_en_Alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
 				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Alimentador_adelante" VarB="Channel 7^Cilindro del alimentador adelante (hacia el punto de verificación)"/>
 				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desplazador_adelante" VarB="Channel 6^Cilindro del desplazador adelante (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Verificador_baja" VarB="Channel 5^Cilindro del verificador baja"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>
