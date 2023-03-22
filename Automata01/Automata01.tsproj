@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{F196CF1B-1F01-28CD-2559-439773E67E75}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{C21599E7-FEE4-8B68-3099-9FFC31E4D011}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -698,7 +698,7 @@
 				<Vars VarGrpType="2" InsertType="1">
 					<Name>Outputs</Name>
 				</Vars>
-				<Image Id="4" ImageFlags="#x00000042" AddrType="5" ImageType="5">
+				<Image Id="4" ImageFlags="#x00000042" AddrType="12" ImageType="5">
 					<Name>Image</Name>
 				</Image>
 				<DpRam/>
@@ -707,6 +707,9 @@
 	</Project>
 	<Mappings>
 		<OwnerA Name="TIPC^ProyMain^ProyMain Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_marcha" VarB="Channel 3^Pulsador de marcha"/>
+			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
 			</OwnerB>
