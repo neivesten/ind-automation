@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{F196CF1B-1F01-28CD-2559-439773E67E75}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{AB8E19A0-77D2-7913-896E-54FAE18347D3}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -229,9 +229,6 @@
 						<OwnerA Name="InputDst" Prefix="TIPC^ProyMain^ProyMain Instance" Type="1">
 							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
 								<Link VarA="MAIN.test_pieza.pulsador" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 3^Pulsador de marcha" Size="1" RestoreInfo="ANotFound"/>
-							</OwnerB>
-							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
-								<Link VarA="MAIN.test_pieza.verificador_abajo" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 6^Cilindro del verificador abajo" Size="1" RestoreInfo="ANotFound"/>
 							</OwnerB>
 						</OwnerA>
 						<OwnerA Name="OutputSrc" Prefix="TIPC^ProyMain^ProyMain Instance" Type="2">
@@ -708,4 +705,18 @@
 			</Device>
 		</Io>
 	</Project>
+	<Mappings>
+		<OwnerA Name="TIPC^ProyMain^ProyMain Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador" VarB="Channel 2^Vacío obtenido en el vacuostado del descargador"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_baja" VarB="Channel 3^Cilindro del descargador baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Eyector_succiona" VarB="Channel 8^Eyector de vacío del descargador succiona"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
 </TcSmProject>
