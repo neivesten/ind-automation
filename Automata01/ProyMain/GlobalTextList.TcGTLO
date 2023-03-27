@@ -21,6 +21,16 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"215"</v>
+              <v n="TextDefault">"eyector"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"654"</v>
+              <v n="TextDefault">"horizontal"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"750"</v>
               <v n="TextDefault">"Lámpara"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -43,6 +53,11 @@
             <o>
               <v n="TextID">"839"</v>
               <v n="TextDefault">"Verificador Activado"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"437"</v>
+              <v n="TextDefault">"vertical"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
           </l>
