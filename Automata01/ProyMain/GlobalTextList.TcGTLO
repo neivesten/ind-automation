@@ -21,8 +21,33 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"642"</v>
+              <v n="TextDefault">"Ciclos Completados"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"957"</v>
+              <v n="TextDefault">"Cinta"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"81"</v>
+              <v n="TextDefault">"Colocado"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"497"</v>
               <v n="TextDefault">"Comenzar"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"481"</v>
+              <v n="TextDefault">"Delante"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"437"</v>
+              <v n="TextDefault">"Descargador"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -93,6 +118,11 @@
             <o>
               <v n="TextID">"876"</v>
               <v n="TextDefault">"Rechazador"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"629"</v>
+              <v n="TextDefault">"Vacío"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
