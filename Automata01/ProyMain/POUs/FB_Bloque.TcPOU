@@ -7840,7 +7840,7 @@ END_VAR
     </Action>
     <Action Name="Preparado_entry" Id="{304360c9-4dcf-4b7e-9bf1-3317d2c36270}">
       <Implementation>
-        <ST><![CDATA[Ciclos:= 3;
+        <ST><![CDATA[//Ciclos:= 3;
 Rechazados :=0;
 Aceptados :=0;
 Restantes:=Ciclos;]]></ST>
@@ -7960,13 +7960,15 @@ Restantes:=Restantes-1;]]></ST>
       <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Bloque.Preparado_entry">
-      <LineId Id="1" Count="3" />
+      <LineId Id="2" Count="2" />
+      <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Bloque.Rechaza_exit">
       <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Bloque.Step1_exit">
-      <LineId Id="1" Count="2" />
+      <LineId Id="2" Count="1" />
+      <LineId Id="1" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>

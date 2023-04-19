@@ -6,8 +6,18 @@
         <o xml:space="preserve" t="GlobalTextListObject">
           <l n="TextList" t="ArrayList" cet="TextListRow">
             <o>
+              <v n="TextID">"307"</v>
+              <v n="TextDefault">"%i"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"789"</v>
               <v n="TextDefault">"Abajo"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"231"</v>
+              <v n="TextDefault">"Aceptados"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -18,6 +28,11 @@
             <o>
               <v n="TextID">"25"</v>
               <v n="TextDefault">"Arriba"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"701"</v>
+              <v n="TextDefault">"Ciclos"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -118,6 +133,26 @@
             <o>
               <v n="TextID">"876"</v>
               <v n="TextDefault">"Rechazador"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"970"</v>
+              <v n="TextDefault">"Rechazados"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"888"</v>
+              <v n="TextDefault">"Rechazads"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"94"</v>
+              <v n="TextDefault">"Rehczados"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"560"</v>
+              <v n="TextDefault">"Restantes"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
