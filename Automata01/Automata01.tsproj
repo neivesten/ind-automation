@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{1B57F20D-6178-6B14-BA82-D1382169D5B1}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{670DA335-72E8-D7D6-C8C1-65BB364F3494}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -665,7 +665,7 @@
 				</Box>
 				<EtherCAT/>
 			</Device>
-			<Device Id="2" Disabled="true" DevType="112" AmsPort="28674" AmsNetId="192.168.74.1.3.1" RemoteName="Device 2 (EtherCAT Automation Protocol)">
+			<Device Id="2" DevType="112" AmsPort="28674" AmsNetId="192.168.74.1.3.1" RemoteName="Device 2 (EtherCAT Automation Protocol)">
 				<Name>Device 2 (EtherCAT Automation Protocol)</Name>
 				<AddressInfo>
 					<Pnp>
@@ -680,7 +680,7 @@
 				<Ethernet DeviceDesc="FEC1"/>
 				<Eap EapDeviceGuid="{5690CCA2-0334-4CEF-8ADD-FFE8D4835E4B}"/>
 			</Device>
-			<Device Id="3" Disabled="true" DevType="121">
+			<Device Id="3" DevType="121">
 				<Name>Device 3 (NOV-DP-RAM)</Name>
 				<AddressInfo>
 					<Isa>
