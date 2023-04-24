@@ -31,18 +31,23 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"873"</v>
-              <v n="TextDefault">"Ci"</v>
-              <l n="LanguageTexts" t="ArrayList" />
-            </o>
-            <o>
               <v n="TextID">"701"</v>
               <v n="TextDefault">"Ciclos"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"248"</v>
-              <v n="TextDefault">"CN"</v>
+              <v n="TextID">"642"</v>
+              <v n="TextDefault">"Ciclos Completados"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"957"</v>
+              <v n="TextDefault">"Cinta"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"81"</v>
+              <v n="TextDefault">"Colocado"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -51,13 +56,13 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"249"</v>
-              <v n="TextDefault">"CR"</v>
+              <v n="TextID">"481"</v>
+              <v n="TextDefault">"Delante"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"145"</v>
-              <v n="TextDefault">"CV"</v>
+              <v n="TextID">"437"</v>
+              <v n="TextDefault">"Descargador"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -101,16 +106,6 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"253"</v>
-              <v n="TextDefault">"mnj"</v>
-              <l n="LanguageTexts" t="ArrayList" />
-            </o>
-            <o>
-              <v n="TextID">"295"</v>
-              <v n="TextDefault">"nknknk"</v>
-              <l n="LanguageTexts" t="ArrayList" />
-            </o>
-            <o>
               <v n="TextID">"935"</v>
               <v n="TextDefault">"Pieza NO OK"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -136,13 +131,18 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"943"</v>
-              <v n="TextDefault">"PV"</v>
+              <v n="TextID">"876"</v>
+              <v n="TextDefault">"Rechazador"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"876"</v>
-              <v n="TextDefault">"Rechazador"</v>
+              <v n="TextID">"970"</v>
+              <v n="TextDefault">"Rechazados"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"888"</v>
+              <v n="TextDefault">"Rechazads"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -153,6 +153,11 @@
             <o>
               <v n="TextID">"560"</v>
               <v n="TextDefault">"Restantes"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"629"</v>
+              <v n="TextDefault">"Vacío"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
