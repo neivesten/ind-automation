@@ -15,8 +15,11 @@ VAR
 	Aceptados:INT;
 	Rechazados: INT;
 	Restantes: INT;
+	comprobador_de_etapas: INT;
 	
 	pieza_ok: BOOL;
+	
+	
 	
 	//Terminal 2
 	Pulsador_parada_emergencia AT %I*: BOOL;
@@ -6923,7 +6926,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{a2621e18-7de3-4ea6-ae6d-89e9e0b7befd}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
+                            <v n="Value">"Adios_base_exit"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">1425L</v>
@@ -7828,6 +7831,11 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
+    <Action Name="Adios_base_exit" Id="{bd9705a1-02d1-4e5b-afea-7345924524d9}">
+      <Implementation>
+        <ST><![CDATA[comprobador_de_etapas := comprobador_de_etapas +1;]]></ST>
+      </Implementation>
+    </Action>
     <Action Name="notOK_exit" Id="{7c7983fe-474f-4382-8939-3f4e8ea06912}">
       <Implementation>
         <ST><![CDATA[pieza_ok := FALSE;]]></ST>
@@ -7848,14 +7856,16 @@ Restantes:=Ciclos;]]></ST>
     </Action>
     <Action Name="Rechaza_exit" Id="{8ccff171-5b8c-4f3f-b00b-570fce4abd22}">
       <Implementation>
-        <ST><![CDATA[Rechazados:= Rechazados+1;]]></ST>
+        <ST><![CDATA[Rechazados:= Rechazados+1;
+comprobador_de_etapas := 0;]]></ST>
       </Implementation>
     </Action>
     <Action Name="Step1_exit" Id="{4c99de15-c4a8-4ce6-a026-b728c1b7c456}">
       <Implementation>
         <ST><![CDATA[Ciclos:=Ciclos-1;
 Aceptados:=Aceptados+1;
-Restantes:=Restantes-1;]]></ST>
+Restantes:=Restantes-1;
+comprobador_de_etapas:=0;]]></ST>
       </Implementation>
     </Action>
     <ObjectProperties>
@@ -7953,6 +7963,9 @@ Restantes:=Restantes-1;]]></ST>
         </TypeList>
       </XmlArchive>
     </ObjectProperties>
+    <LineIds Name="FB_Bloque.Adios_base_exit">
+      <LineId Id="1" Count="0" />
+    </LineIds>
     <LineIds Name="FB_Bloque.notOK_exit">
       <LineId Id="1" Count="0" />
     </LineIds>
@@ -7964,11 +7977,12 @@ Restantes:=Restantes-1;]]></ST>
       <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Bloque.Rechaza_exit">
-      <LineId Id="1" Count="0" />
+      <LineId Id="1" Count="1" />
     </LineIds>
     <LineIds Name="FB_Bloque.Step1_exit">
       <LineId Id="2" Count="1" />
       <LineId Id="1" Count="0" />
+      <LineId Id="4" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
