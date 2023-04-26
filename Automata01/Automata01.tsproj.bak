@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{22F03984-7556-793E-5654-E2D0FFAD3A4A}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{3AF40063-6371-B18C-D5B3-8A9F8AA4EBDE}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -694,7 +694,7 @@
 				<Vars VarGrpType="2" InsertType="1">
 					<Name>Outputs</Name>
 				</Vars>
-				<Image Id="4" ImageFlags="#x00000042" AddrType="5" ImageType="5">
+				<Image Id="4" ImageFlags="#x00000042" AddrType="12" ImageType="5">
 					<Name>Image</Name>
 				</Image>
 				<DpRam/>
