@@ -7,12 +7,25 @@ END_VAR
 VAR_OUTPUT
 END_VAR
 VAR
+	Timer: INT;
+	Q: INT;
+	EN: INT;
+	PT: INT;
+	ET: INT;
+	IN: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[(* OUTPUT FUNCTION *)
+IF Timer.Q THEN
+  Q := NOT Q;
+END_IF
+
+(* FUNCTION BLOCKS *)
+Timer(IN := EN AND NOT Timer.Q, PT := PT, ET => ET);]]></ST>
     </Implementation>
     <LineIds Name="FB_Clock">
+      <LineId Id="17" Count="5" />
       <LineId Id="9" Count="0" />
     </LineIds>
   </POU>
