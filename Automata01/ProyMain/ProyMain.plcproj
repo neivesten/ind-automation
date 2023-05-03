@@ -40,6 +40,7 @@
   <ItemGroup>
     <Folder Include="DUTs" />
     <Folder Include="GVLs" />
+    <Folder Include="POUs\Estación" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />
   </ItemGroup>
