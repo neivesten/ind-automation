@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_Estacion" Id="{df0570d8-ffbb-4d88-bb38-12d681ec79be}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Estacion
+VAR_INPUT
+    EstadoPausa: BOOL;
+    EstadoReinicia: BOOL;
+    UnidadesSolicitadas: UINT := 1;
+    
+    RodamientoBajo: BOOL;
+    TpoCintaRetenedor: TIME := T#1S;
+    TpoCintaSeparador: TIME := T#1S;
+    TpoPaleEntrada: TIME := T#400ms;
+    TpoPaleSalida: TIME := T#1s;
+    TpoPaleTransferencia: TIME := T#1S;
+    TpoPrensaHidraulico: TIME := T#2s;
+    TpoPrensaProtector: TIME := T#2s;
+END_VAR
+VAR_OUTPUT
+    CondicionInicial: BOOL := TRUE;
+    UnidadesPendientes: UINT;
+    UnidadesRealizadas: UINT;
+    PaleCodigo: BYTE;
+    
+    // Entradas comunes
+    PulsadorEmergencia AT %I*: BOOL;
+    SelectorManual AT %I*: BOOL;
+    PulsadorMarcha AT %I*: BOOL;
+    PulsadorParada AT %I*: BOOL := TRUE; // Contacto normalmente cerrado
+    EstacionConectada AT %I*: BOOL := TRUE;
+    DetectorPresion AT %I*: BOOL := TRUE;
+
+    PalePresencia AT %I*: BOOL;
+    PaleCodigoBit0 AT %I*: BOOL;
+    PaleCodigoBit1 AT %I*: BOOL;
+    PaleCodigoBit2 AT %I*: BOOL;
+
+    // Entradas espeficicas
+    ManipuladorDetras AT %I*: BOOL; // Sobre el pale
+    ManipuladorMedio AT %I*: BOOL := TRUE; // En la vertical
+    ManipuladorDelante AT %I*: BOOL; // Sobre el punto de trasvase de la presa
+    IntroductorDetras AT %I*: BOOL := TRUE;
+    IntroductorDelante AT %I*: BOOL;
+    ExtractorDetras AT %I*: BOOL := TRUE;
+    ExtractorDelante AT %I*: BOOL;
+    ProtectorAbajo AT %I*: BOOL;
+    PrensadorArriba AT %I*: BOOL := TRUE;
+    PrensadorAbajoAlto AT %I*: BOOL;
+    PrensadorAbajoBajo AT %I*: BOOL;
+    ManipuladorVacioObtenido AT %I*: BOOL;
+END_VAR
+VAR
+    // Bloques funcionales
+    Coordinador: FB_Coordinador_SFC;
+    SituarPale: FB_SituarPale_SFC;
+    CargarBase: FB_CargarBase_SFC;
+    PrensarRodamiento: FB_PrensarRodamiento_SFC;
+    DescargarBase: FB_DescargarBase_SFC;
+    TransferirPale: FB_TransferirPale_SFC;
+    
+    // Salidas comunes
+    DesconectaEstacion AT %Q*: BOOL;
+    LamparaAlarma AT %Q*: BOOL;
+    LamparaMarcha AT %Q*: BOOL;
+    AvisadorSonoro AT %Q*: BOOL;
+
+    CintaMotorActiva AT %Q*: BOOL;
+    CintaMotorInvierte AT %Q*: BOOL;
+    CintaRetenedorBaja AT %Q*: BOOL;
+    CintaSeparadorSube AT %Q*: BOOL;
+    
+    // Salidas especificas
+    ManipuladorAdelante AT %Q*: BOOL; // Hacia el punto de trasvase de la prensa
+    ManipuladorAtras AT %Q*: BOOL; // Hacia el pale
+    IntroductorAdelante AT %Q*: BOOL;
+    ExtractorAdelante AT %Q*: BOOL;
+    ProtectorBaja AT %Q*: BOOL;
+    PrensadorBaja AT %Q*: BOOL;
+    PrensadorSube AT %Q*: BOOL;
+    ManipuladorSucciona AT %Q*: BOOL;
+    HidraulicoActiva AT %Q*: BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <LineIds Name="FB_Estacion">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

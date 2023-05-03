@@ -26,6 +26,9 @@
     <Compile Include="POUs\Estacion\FB_Coordinador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Estacion\FB_Estacion.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\FB_Bloque.TcPOU">
       <SubType>Code</SubType>
     </Compile>
