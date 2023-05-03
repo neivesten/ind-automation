@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_Estacion" Id="{895dbeb0-ff54-4e55-bd93-6e2a09303d8a}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Estacion
+VAR_INPUT
+    EstadoPausa: BOOL;
+    EstadoReinicia: BOOL;
+    UnidadesSolicitadas: UINT := 1;
+    
+    RodamientoBajo: BOOL;
+    TpoCintaRetenedor: TIME := T#1S;
+    TpoCintaSeparador: TIME := T#1S;
+    TpoPaleEntrada: TIME := T#400ms;
+    TpoPaleSalida: TIME := T#1s;
+    TpoPaleTransferencia: TIME := T#1S;
+    TpoPrensaHidraulico: TIME := T#2s;
+    TpoPrensaProtector: TIME := T#2s;
+END_VAR
+VAR_OUTPUT
+    CondicionInicial: BOOL := TRUE;
+    UnidadesPendientes: UINT;
+    UnidadesRealizadas: UINT;
+    PaleCodigo: BYTE;
+    
+    // Entradas comunes
+    PulsadorEmergencia AT %I*: BOOL;
+    SelectorManual AT %I*: BOOL;
+    PulsadorMarcha AT %I*: BOOL;
+    PulsadorParada AT %I*: BOOL := TRUE; // Contacto normalmente cerrado
+    EstacionConectada AT %I*: BOOL := TRUE;
+    DetectorPresion AT %I*: BOOL := TRUE;
+
+    PalePresencia AT %I*: BOOL;
+    PaleCodigoBit0 AT %I*: BOOL;
+    PaleCodigoBit1 AT %I*: BOOL;
+    PaleCodigoBit2 AT %I*: BOOL;
+
+    // Entradas espeficicas
+    ManipuladorDetras AT %I*: BOOL; // Sobre el pale
+    ManipuladorMedio AT %I*: BOOL := TRUE; // En la vertical
+    ManipuladorDelante AT %I*: BOOL; // Sobre el punto de trasvase de la presa
+    IntroductorDetras AT %I*: BOOL := TRUE;
+    IntroductorDelante AT %I*: BOOL;
+    ExtractorDetras AT %I*: BOOL := TRUE;
+    ExtractorDelante AT %I*: BOOL;
+    ProtectorAbajo AT %I*: BOOL;
+    PrensadorArriba AT %I*: BOOL := TRUE;
+    PrensadorAbajoAlto AT %I*: BOOL;
+    PrensadorAbajoBajo AT %I*: BOOL;
+    ManipuladorVacioObtenido AT %I*: BOOL;
+END_VAR
+VAR
+    // Bloques funcionales
+    Coordinador: FB_Coordinador_SFC;
+    SituarPale: FB_SituarPale_SFC;
+    CargarBase: FB_CargarBase_SFC;
+    PrensarRodamiento: FB_PrensarRodamiento_SFC;
+    DescargarBase: FB_DescargarBase_SFC;
+    TransferirPale: FB_TransferirPale_SFC;
+    
+    // Salidas comunes
+    DesconectaEstacion AT %Q*: BOOL;
+    LamparaAlarma AT %Q*: BOOL;
+    LamparaMarcha AT %Q*: BOOL;
+    AvisadorSonoro AT %Q*: BOOL;
+
+    CintaMotorActiva AT %Q*: BOOL;
+    CintaMotorInvierte AT %Q*: BOOL;
+    CintaRetenedorBaja AT %Q*: BOOL;
+    CintaSeparadorSube AT %Q*: BOOL;
+    
+    // Salidas especificas
+    ManipuladorAdelante AT %Q*: BOOL; // Hacia el punto de trasvase de la prensa
+    ManipuladorAtras AT %Q*: BOOL; // Hacia el pale
+    IntroductorAdelante AT %Q*: BOOL;
+    ExtractorAdelante AT %Q*: BOOL;
+    ProtectorBaja AT %Q*: BOOL;
+    PrensadorBaja AT %Q*: BOOL;
+    PrensadorSube AT %Q*: BOOL;
+    ManipuladorSucciona AT %Q*: BOOL;
+    HidraulicoActiva AT %Q*: BOOL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[// MODO AUTOMATICO
+IF NOT SelectorManual THEN
+    // Bloques funcionales
+    Coordinador(
+        UnidadesPendientes := UnidadesPendientes,
+        UnidadesRealizadas := UnidadesRealizadas,
+        SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := TRUE,
+        Execute := CondicionInicial AND (UnidadesSolicitadas > 0) AND PulsadorMarcha,
+        PaleSituado := SituarPale.Done,
+        BaseCargada := CargarBase.Done,
+        RodamientoPrensado := PrensarRodamiento.Done,
+        BaseDescargada := DescargarBase.Done,
+        PaleTransferido := TransferirPale.Done,
+        CondicionInicial := CondicionInicial,
+        UnidadesSolicitadas := UnidadesSolicitadas
+        );
+        
+    SituarPale(
+        SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := NOT Coordinador.SituaPale,
+        Execute := Coordinador.SituaPale,
+        TpoPaleEntrada := TpoPaleEntrada,
+        PalePresencia := PalePresencia,
+        PaleCodigoBit0 := PaleCodigoBit0,
+        PaleCodigoBit1 := PaleCodigoBit1,
+        PaleCodigoBit2:= PaleCodigoBit2
+        );
+        
+    CargarBase(
+        SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := NOT Coordinador.CargaBase,
+        Execute := Coordinador.CargaBase,
+        ManipuladorDetras := ManipuladorDetras,
+        ManipuladorMedio := ManipuladorMedio,
+        ManipuladorDelante := ManipuladorDelante,
+        ManipuladorVacioObtenido := ManipuladorVacioObtenido
+        );
+    
+    PrensarRodamiento(
+        SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := NOT Coordinador.PrensaRodamiento,
+        Execute := Coordinador.PrensaRodamiento,
+        RodamientoBajo := RodamientoBajo,
+        TpoPrensaHidraulico := TpoPrensaHidraulico,
+        TpoPrensaProtector := TpoPrensaProtector,
+        IntroductorDetras := IntroductorDetras,
+        IntroductorDelante := IntroductorDelante,
+        ExtractorDetras := ExtractorDetras,
+        ExtractorDelante := ExtractorDelante,
+        ProtectorAbajo := ProtectorAbajo,
+        PrensadorArriba := PrensadorArriba,
+        PrensadorAbajoAlto := PrensadorAbajoAlto,
+        PrensadorAbajoBajo := PrensadorAbajoBajo
+        );
+    
+    DescargarBase(
+        SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := NOT Coordinador.DescargaBase,
+        Execute := Coordinador.DescargaBase,
+        ManipuladorDetras := ManipuladorDetras,
+        ManipuladorMedio := ManipuladorMedio,
+        ManipuladorDelante := ManipuladorDelante,
+        ManipuladorVacioObtenido := ManipuladorVacioObtenido
+        );
+    
+    TransferirPale(
+        SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := NOT Coordinador.TransfierePale,
+        Execute := Coordinador.TransfierePale,
+        TpoCintaRetenedor := TpoCintaRetenedor,
+        TpoCintaSeparador := TpoCintaSeparador,
+        TpoPaleSalida := TpoPaleSalida,
+        TpoPaleTransferencia := TpoPaleTransferencia,
+        PalePresencia := PalePresencia
+        );
+    
+    // Acciones
+    // DesconectaEstacion :=
+    LamparaAlarma := Coordinador.LamparaAlarma;
+    LamparaMarcha := Coordinador.LamparaMarcha;
+    // AvisadorSonoro :=
+
+    CintaMotorActiva := NOT EstadoPausa AND (SituarPale.CintaMotorActiva OR TransferirPale.CintaMotorActiva);
+    // CintaMotorInvierte :=
+    CintaRetenedorBaja:= TransferirPale.CintaRetenedorBaja;
+    CintaSeparadorSube :=TransferirPale.CintaSeparadorSube;
+    ManipuladorAdelante := CargarBase.ManipuladorAdelante OR DescargarBase.ManipuladorAdelante;
+    ManipuladorAtras := CargarBase.ManipuladorAtras OR DescargarBase.ManipuladorAtras;
+    IntroductorAdelante := PrensarRodamiento.IntroductorAdelante;
+    ExtractorAdelante := PrensarRodamiento.ExtractorAdelante;
+    ProtectorBaja := PrensarRodamiento.ProtectorBaja;
+    PrensadorBaja := PrensarRodamiento.PrensadorBaja;
+    PrensadorSube := PrensarRodamiento.PrensadorSube;
+    ManipuladorSucciona := CargarBase.ManipuladorSucciona OR DescargarBase.ManipuladorSucciona;
+    HidraulicoActiva := PrensarRodamiento.HidraulicoActiva;
+END_IF
+
+// Parametros de Salida
+CondicionInicial := EstacionConectada AND ManipuladorMedio AND IntroductorDetras AND ExtractorDetras AND PrensadorArriba;
+ 
+IF SelectorManual THEN
+    PaleCodigo.0 := PaleCodigoBit0;
+    PaleCodigo.1 := PaleCodigoBit1;
+    PaleCodigo.2 := PaleCodigoBit2;
+ELSE 
+    PaleCodigo := SituarPale.PaleCodigo;
+END_IF
+]]></ST>
+    </Implementation>
+    <LineIds Name="FB_Estacion">
+      <LineId Id="4065" Count="113" />
+      <LineId Id="411" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
