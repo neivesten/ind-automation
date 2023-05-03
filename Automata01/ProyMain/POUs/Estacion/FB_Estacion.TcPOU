@@ -7,14 +7,11 @@ VAR_INPUT
     EstadoReinicia: BOOL;
     UnidadesSolicitadas: UINT := 1;
     
-    RodamientoBajo: BOOL;
-    TpoCintaRetenedor: TIME := T#1S;
-    TpoCintaSeparador: TIME := T#1S;
-    TpoPaleEntrada: TIME := T#400ms;
-    TpoPaleSalida: TIME := T#1s;
-    TpoPaleTransferencia: TIME := T#1S;
-    TpoPrensaHidraulico: TIME := T#2s;
-    TpoPrensaProtector: TIME := T#2s;
+    Pieza_ok: BOOL;
+    Tcheck: TIME := T#1S;
+    Treset: TIME := T#1S;
+    Tdesplazador: TIME := T#1S;
+	Tcinta: TIME := T#0.5S;
 END_VAR
 VAR_OUTPUT
     CondicionInicial: BOOL := TRUE;
