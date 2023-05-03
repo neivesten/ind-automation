@@ -6,6 +6,16 @@
         <o xml:space="preserve" t="GlobalTextListObject">
           <l n="TextList" t="ArrayList" cet="TextListRow">
             <o>
+              <v n="TextID">"189"</v>
+              <v n="TextDefault">"  ➡ ⬅ ⬇ ⬆ ← → ↓ ↑"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"198"</v>
+              <v n="TextDefault">" ➙"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"307"</v>
               <v n="TextDefault">"%i"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -28,6 +38,11 @@
             <o>
               <v n="TextID">"25"</v>
               <v n="TextDefault">"Arriba"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"54"</v>
+              <v n="TextDefault">"Aspirar"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -156,6 +171,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"815"</v>
+              <v n="TextDefault">"Succionar"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"629"</v>
               <v n="TextDefault">"Vacío"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -168,6 +188,26 @@
             <o>
               <v n="TextID">"839"</v>
               <v n="TextDefault">"Verificador Activado"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"575"</v>
+              <v n="TextDefault">"➡"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"509"</v>
+              <v n="TextDefault">"⬅"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"381"</v>
+              <v n="TextDefault">"⬆"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"169"</v>
+              <v n="TextDefault">"⬇"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
           </l>
