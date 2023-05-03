@@ -41,6 +41,9 @@
     <Compile Include="POUs\Tareas\FB_AlimentadorVerificadorDesplazador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Tareas\FB_Descargadro_SFC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Tareas\FB_SituarPale_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
