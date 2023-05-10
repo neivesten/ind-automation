@@ -16,7 +16,7 @@ END_VAR
 VAR_OUTPUT
     CondicionInicial: BOOL := TRUE;
     Ciclos: UINT;
-    Aceptadas: UINT;
+    Aceptados: UINT;
     PaleCodigo: BYTE;
     
     // Entradas comunes
@@ -79,13 +79,95 @@ VAR
 	Desplazador_adelante AT %Q*: BOOL;
 	Alimentador_adelante AT %Q*: BOOL;
 	Eyector_succiona AT %Q*: BOOL;
+	Verificar: INT;
+	Rechazador: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[// Modo Automático
+IF NOT Selector_Modo_Manual THEN
+	
+	// Bloques Funcionales
+	Coordinador(
+
+		Ciclos := Ciclos,
+		Aceptados := Aceptados,
+		SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+		Ack := TRUE,
+        Execute := CondicionInicial AND (Ciclos > 0) AND Pulsador_Marcha,
+		PaleSituado := PaleSituado.Done,
+		Verificado := Verificado.Done,
+        Rechazado := Rechazado.Done,
+		BaseCargada := BaseCargada.Done,
+		PaleTransferido := PaleTransferido.Done
+        Ciclos := Ciclos
+		
+	);
+	
+	SituarPale(
+
+		SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := NOT Coordinador.SituaPale,
+        Execute := Coordinador.SituaPale,
+        Tcinta := Tcinta,
+        Presencia_pale := Presencia_pale,
+       	Codigo_pale_bit_0 := Codigo_pale_bit_0,
+        Codigo_pale_bit_1 := Codigo_pale_bit_1,
+        Codigo_pale_bit_2 := Codigo_pale_bit_2
+
+	);
+	
+	AlimentadorVerificadorDesplazador(
+
+		Tcheck := Tcheck,
+		SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+		Execute := VerificaBase,
+		
+		
+	);
+	
+	Rechazador(
+
+		SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+		Execute := VerificaBase,
+
+	);
+
+END_IF]]></ST>
     </Implementation>
     <LineIds Name="FB_Estacion">
       <LineId Id="9" Count="0" />
+      <LineId Id="203" Count="1" />
+      <LineId Id="207" Count="1" />
+      <LineId Id="212" Count="0" />
+      <LineId Id="210" Count="0" />
+      <LineId Id="213" Count="2" />
+      <LineId Id="217" Count="2" />
+      <LineId Id="227" Count="0" />
+      <LineId Id="224" Count="2" />
+      <LineId Id="216" Count="0" />
+      <LineId Id="211" Count="0" />
+      <LineId Id="209" Count="0" />
+      <LineId Id="228" Count="1" />
+      <LineId Id="234" Count="8" />
+      <LineId Id="231" Count="1" />
+      <LineId Id="230" Count="0" />
+      <LineId Id="243" Count="1" />
+      <LineId Id="247" Count="1" />
+      <LineId Id="250" Count="0" />
+      <LineId Id="252" Count="2" />
+      <LineId Id="251" Count="0" />
+      <LineId Id="245" Count="0" />
+      <LineId Id="255" Count="1" />
+      <LineId Id="261" Count="2" />
+      <LineId Id="259" Count="1" />
+      <LineId Id="257" Count="0" />
+      <LineId Id="206" Count="0" />
+      <LineId Id="205" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
