@@ -41,6 +41,7 @@ VAR_OUTPUT
 	Verificador_arriba AT %I*: BOOL;
 	Verificador_abajo AT %I*: BOOL;
 	Desplazador_detras AT %I*: BOOL;
+	Desplazador_delante AT %I*: BOOL;
 	Alimentador_detras AT %I*: BOOL;
 	
 	
@@ -96,7 +97,7 @@ IF NOT Selector_Modo_Manual THEN
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Ack := TRUE,
-        Execute := CondicionInicial AND (Ciclos > 0) AND Pulsador_Marcha,
+        Execute := CondicionInicial AND (CiclosSolicitados > 0) AND Pulsador_Marcha,
 		PaleSituado := SituarPale.Done,
 		Verificado := AlimentadorVerificadorDesplazador.Done,
         Rechazado := Rechazador.Done,
