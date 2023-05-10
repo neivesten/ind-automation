@@ -30,6 +30,9 @@ VAR_OUTPUT
 
 	//Salidas
 	Descargador_atras: BOOL;
+	Descargador_baja: BOOL;
+	Eyector_succiona: BOOL;
+	Descargador_adelante: BOOL;
 END_VAR
 VAR
 END_VAR]]></Declaration>

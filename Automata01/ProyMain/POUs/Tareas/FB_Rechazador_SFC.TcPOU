@@ -1052,6 +1052,11 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
+    <Action Name="Rechaza_exit" Id="{cabcc51b-a5d3-4663-a1a2-d554ea9f60dd}">
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Action>
     <ObjectProperties>
       <XmlArchive>
         <Data>
@@ -1147,5 +1152,8 @@ END_VAR
         </TypeList>
       </XmlArchive>
     </ObjectProperties>
+    <LineIds Name="FB_Rechazador_SFC.Rechaza_exit">
+      <LineId Id="1" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>
