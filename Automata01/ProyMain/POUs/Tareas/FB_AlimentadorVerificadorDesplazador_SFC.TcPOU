@@ -2635,6 +2635,11 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
+    <Action Name="notOK_exit" Id="{b0a78a57-d88c-46b7-a4ad-4a30e82ee872}">
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Action>
     <ObjectProperties>
       <XmlArchive>
         <Data>
@@ -2730,5 +2735,8 @@ END_VAR
         </TypeList>
       </XmlArchive>
     </ObjectProperties>
+    <LineIds Name="FB_AlimentadorVerificadorDesplazador_SFC.notOK_exit">
+      <LineId Id="1" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>

@@ -21,7 +21,8 @@ VAR_INPUT
 	Vacio_obtenido_vacuostato_descargador: BOOL;
 	Vertical_descargador_arriba: BOOL;
 	Horizontal_descargador_delante: BOOL;
-	Vertical_descargador_arriba: BOOL;
+	
+	
 	
 END_VAR
 VAR_OUTPUT

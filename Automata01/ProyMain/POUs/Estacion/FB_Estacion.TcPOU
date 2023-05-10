@@ -53,10 +53,10 @@ END_VAR
 VAR
     // Bloques funcionales
     Coordinador: FB_Coordinador_SFC;
+	AlimentadorVerificadorDesplazador: FB_AlimentadorVerificadorDesplazador_SFC;
     SituarPale: FB_SituarPale_SFC;
-    CargarBase: FB_CargarBase_SFC;
-    PrensarRodamiento: FB_PrensarRodamiento_SFC;
-    DescargarBase: FB_DescargarBase_SFC;
+    Descargador: FB_Descargador_SFC;
+    Rechazador: FB_Rechazador_SFC;
     TransferirPale: FB_TransferirPale_SFC;
     
     // Salidas comunes
@@ -80,8 +80,8 @@ VAR
 	Alimentador_adelante AT %Q*: BOOL;
 	Eyector_succiona AT %Q*: BOOL;
 	Verificar: INT;
-	Rechazador: INT;
-	Descargador: INT;
+	Rechazar: INT;
+	Descargar: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -114,9 +114,9 @@ IF NOT Selector_Modo_Manual THEN
         Execute := Coordinador.SituaPale,
         Tcinta := Tcinta,
         Presencia_pale := Presencia_pale,
-       	Codigo_pale_bit_0 := Codigo_pale_bit_0,
-        Codigo_pale_bit_1 := Codigo_pale_bit_1,
-        Codigo_pale_bit_2 := Codigo_pale_bit_2
+       	//Codigo_pale_bit_0 := Codigo_pale_bit_0,
+        //Codigo_pale_bit_1 := Codigo_pale_bit_1,
+        //Codigo_pale_bit_2 := Codigo_pale_bit_2
 
 	);
 	
@@ -126,7 +126,12 @@ IF NOT Selector_Modo_Manual THEN
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.VerificaBase,
-		
+		Alimentador_delante := Alimentador_delante,
+		Alimentador_detras := Alimentador_detras,
+		Verificador_arriba := Verificador_arriba ,
+		Verificador_abajo := Verificador_abajo,
+		Desplazador_delante := Desplazador_delante,
+		Desplazador_detras := Desplazador_detras, 
 		
 	);
 	
@@ -135,15 +140,21 @@ IF NOT Selector_Modo_Manual THEN
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.CargaBase,
-
-	);
+		Horizontal_descargador_detras := Horizontal_descargador_detras,
+		Vertical_descargador_abajo := Vertical_descargador_abajo,
+		Vacio_obtenido_vacuostato_descargador := Vacio_obtenido_vacuostato_descargador ,
+		Vertical_descargador_arriba := Vertical_descargador_arriba ,
+		Horizontal_descargador_delante := Horizontal_descargador_delante ,
 	
+	);	
+		
 	Rechazador(
 
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.VerificaBase,
-
+		Verificador_abajo := Verificador_abajo
+		
 	);
 	
 	TransferirPale(
@@ -176,16 +187,23 @@ END_IF]]></ST>
       <LineId Id="243" Count="1" />
       <LineId Id="247" Count="1" />
       <LineId Id="250" Count="0" />
-      <LineId Id="252" Count="2" />
+      <LineId Id="252" Count="1" />
+      <LineId Id="456" Count="4" />
+      <LineId Id="254" Count="0" />
       <LineId Id="251" Count="0" />
       <LineId Id="245" Count="0" />
       <LineId Id="345" Count="1" />
       <LineId Id="351" Count="2" />
-      <LineId Id="349" Count="1" />
-      <LineId Id="347" Count="0" />
-      <LineId Id="255" Count="1" />
+      <LineId Id="349" Count="0" />
+      <LineId Id="449" Count="3" />
+      <LineId Id="350" Count="0" />
+      <LineId Id="255" Count="0" />
+      <LineId Id="454" Count="1" />
+      <LineId Id="256" Count="0" />
       <LineId Id="261" Count="2" />
-      <LineId Id="259" Count="1" />
+      <LineId Id="259" Count="0" />
+      <LineId Id="447" Count="0" />
+      <LineId Id="260" Count="0" />
       <LineId Id="257" Count="0" />
       <LineId Id="356" Count="1" />
       <LineId Id="360" Count="0" />

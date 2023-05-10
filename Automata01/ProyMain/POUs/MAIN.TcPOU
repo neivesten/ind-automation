@@ -7,11 +7,11 @@ VAR
 	//Pulsador AT %I*: BOOL;
 	//Lampara AT %Q*: BOOL;
 	
-	test_pieza: FB_Bloque;
+	Estacion: FB_Estacion;
 
 END_VAR]]></Declaration>
     <Implementation>
-      <ST><![CDATA[test_pieza();]]></ST>
+      <ST><![CDATA[Estacion();]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="29" Count="0" />
