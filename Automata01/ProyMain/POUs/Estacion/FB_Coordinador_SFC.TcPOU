@@ -4,8 +4,8 @@
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Coordinador_SFC
 
 VAR_IN_OUT
-	Ciclos: UINT;
-	Aceptados: UINT;
+	CiclosPendientes: UINT;
+	CiclosAceptados: UINT;
 END_VAR
 VAR_INPUT
 	// SFC-Flags
@@ -25,7 +25,7 @@ VAR_INPUT
     
     // Parametros
     CondicionInicial: BOOL;
-    UnidadesSolicitadas: UINT;
+    CiclosSolicitados: UINT;
 END_VAR
 VAR_OUTPUT
 	// Indicadores de sincronizacion
@@ -3369,7 +3369,7 @@ END_VAR
       </XmlArchive>
     </ObjectProperties>
     <LineIds Name="FB_Coordinador_SFC.Initial_exit">
-      <LineId Id="3" Count="0" />
+      <LineId Id="1" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
