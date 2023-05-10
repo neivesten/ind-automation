@@ -39,6 +39,9 @@
     <Compile Include="POUs\Tareas\FB_CargarBase_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Tareas\FB_Descargadro_SFC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Tareas\FB_DescargarBase_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
@@ -46,6 +49,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Tareas\FB_SituarPale_SFC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\Tareas\FB_SituarPale_SFC_1.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Tareas\FB_TransferirPale_SFC.TcPOU">
