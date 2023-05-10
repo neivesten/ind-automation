@@ -2,7 +2,6 @@
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
   <POU Name="FB_Descargadro_SFC" Id="{f35099df-5230-41a2-ba70-222d8682b89d}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Descargadro_SFC
-FUNCTION_BLOCK FB_CargarBase_SFC
 VAR_INPUT
 	//nuestras_variables
 	pieza_ok: BOOL;	
@@ -23,14 +22,6 @@ VAR_INPUT
 	Horizontal_descargador_delante: BOOL;
 	Vertical_descargador_arriba: BOOL;
 	
-	
-	
-	
-	
-	
-	
-	
-	
 END_VAR
 VAR_OUTPUT
     // Indicadores de sincronizacion
@@ -39,14 +30,9 @@ VAR_OUTPUT
 
 	//Salidas
 	Descargador_atras: BOOL;
-	
-	
-	
-	
 END_VAR
 VAR
-END_VAR
-]]></Declaration>
+END_VAR]]></Declaration>
     <Implementation>
       <SFC>
         <XmlArchive>
