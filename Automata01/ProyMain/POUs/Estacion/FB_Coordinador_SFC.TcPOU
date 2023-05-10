@@ -3270,7 +3270,9 @@ END_VAR
     </Implementation>
     <Action Name="Initial_exit" Id="{8ec35d20-aecc-4d29-aefd-5a57190ef6fe}">
       <Implementation>
-        <ST><![CDATA[]]></ST>
+        <ST><![CDATA[IF (CiclosPendientes = 0) THEN
+	CiclosPendientes := CiclosSolicitados;
+END_IF]]></ST>
       </Implementation>
     </Action>
     <ObjectProperties>
@@ -3369,7 +3371,7 @@ END_VAR
       </XmlArchive>
     </ObjectProperties>
     <LineIds Name="FB_Coordinador_SFC.Initial_exit">
-      <LineId Id="1" Count="0" />
+      <LineId Id="1" Count="2" />
     </LineIds>
   </POU>
 </TcPlcObject>
