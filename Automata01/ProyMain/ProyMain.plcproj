@@ -35,6 +35,9 @@
     <Compile Include="POUs\MAIN.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Reloj\FB_Clock.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Tareas\FB_AlimentadorVerificadorDesplazador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
@@ -62,6 +65,7 @@
     <Folder Include="DUTs" />
     <Folder Include="GVLs" />
     <Folder Include="POUs\Estacion" />
+    <Folder Include="POUs\Reloj" />
     <Folder Include="POUs\Tareas" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />
