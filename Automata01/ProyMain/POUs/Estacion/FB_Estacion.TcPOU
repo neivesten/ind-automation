@@ -125,7 +125,7 @@ IF NOT Selector_Modo_Manual THEN
 		Tcheck := Tcheck,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := VerificaBase,
+		Execute := Coordinador.VerificaBase,
 		
 		
 	);
@@ -134,7 +134,7 @@ IF NOT Selector_Modo_Manual THEN
 
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := CargaBase,
+		Execute := Coordinador.CargaBase,
 
 	);
 	
@@ -142,7 +142,7 @@ IF NOT Selector_Modo_Manual THEN
 
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := VerificaBase,
+		Execute := Coordinador.VerificaBase,
 
 	);
 	
@@ -150,7 +150,7 @@ IF NOT Selector_Modo_Manual THEN
 
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := TransfierePale,
+		Execute := Coordinador.TransfierePale,
 
 	);
 
