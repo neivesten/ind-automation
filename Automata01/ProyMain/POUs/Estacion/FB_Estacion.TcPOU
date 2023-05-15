@@ -97,7 +97,7 @@ IF NOT Selector_Modo_Manual THEN
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Ack := TRUE,
-        Execute := CondicionInicial AND (CiclosSolicitados > 0) AND Pulsador_Marcha,
+        Execute := Pulsador_marcha AND (CiclosSolicitados > 0) AND Pulsador_Marcha,
 		PaleSituado := SituarPale.Done,
 		Verificado := AlimentadorVerificadorDesplazador.Done,
         Rechazado := Rechazador.Done,
