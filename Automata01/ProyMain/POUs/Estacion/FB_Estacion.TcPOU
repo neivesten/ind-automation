@@ -7,7 +7,6 @@ VAR_INPUT
     EstadoReinicia: BOOL;
     CiclosSolicitados: UINT := 1;
     
-    Pieza_ok: BOOL;
     Tcheck: TIME := T#1S;
     Treset: TIME := T#1S;
     Tdesplazador: TIME := T#1S;
@@ -18,6 +17,7 @@ VAR_OUTPUT
     CiclosPendientes: UINT;
     CiclosAceptados: UINT;
     PaleCodigo: BYTE;
+	pieza_ok: BOOL;
     
     // Entradas comunes
 	Base_en_alimentador AT %I*: BOOL;
@@ -103,7 +103,8 @@ IF NOT Selector_Modo_Manual THEN
         Rechazado := Rechazador.Done,
 		BaseCargada := Descargador.Done,
 		PaleTransferido := TransferirPale.Done,
-		Base_en_alimentador := Base_en_alimentador
+		Base_en_alimentador := Base_en_alimentador,
+		pieza_ok := pieza_ok
 		
 	);
 	
@@ -122,7 +123,8 @@ IF NOT Selector_Modo_Manual THEN
 	);
 	
 	AlimentadorVerificadorDesplazador(
-
+		
+		Ack := NOT Coordinador.VerificaBase,
 		Tcheck := Tcheck,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
@@ -137,7 +139,8 @@ IF NOT Selector_Modo_Manual THEN
 	);
 	
 	Descargador(
-
+		
+		Ack := NOT Coordinador.CargaBase,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.CargaBase,
@@ -150,7 +153,8 @@ IF NOT Selector_Modo_Manual THEN
 	);	
 		
 	Rechazador(
-
+		
+		Ack := NOT Coordinador.RechazaBase,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.VerificaBase,
@@ -159,7 +163,8 @@ IF NOT Selector_Modo_Manual THEN
 	);
 	
 	TransferirPale(
-
+	
+		Ack := NOT Coordinador.TransfierePale,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.TransfierePale,
@@ -168,13 +173,23 @@ IF NOT Selector_Modo_Manual THEN
 	
 //Acciones Comunes
 Lampara_falta_material := Coordinador.Lampara_falta_material;
+Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta OR TransferirPale.Activa_marcha_motor_cinta;
 
-//SituarPale
-Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta;
+//TranferirPale
+ Retenedor_pale_baja := TransferirPale.Retenedor_pale_baja;
+ Separador_pale_sube := TransferirPale.Separador_pale_sube;
 //AlimentadorVerificadorDesplazador
 Alimentador_adelante := AlimentadorVerificadorDesplazador.Alimentador_adelante;
 Verificador_baja := AlimentadorVerificadorDesplazador.Verificador_baja;
 Desplazador_adelante := AlimentadorVerificadorDesplazador.Desplazador_adelante;
+pieza_ok := AlimentadorVerificadorDesplazador.pieza_ok;
+//Descargador
+Eyector_succiona := Descargador.Eyector_succiona;
+Descargador_adelante := Descargador.Descargador_adelante;
+Descargador_atras := Descargador.Descargador_atras;
+Descargador_baja := Descargador.Descargador_baja;
+//Rechazador
+Rechazador_adelante := Rechazador.Rechazador_adelante;
 
 END_IF]]></ST>
     </Implementation>
@@ -189,6 +204,7 @@ END_IF]]></ST>
       <LineId Id="227" Count="0" />
       <LineId Id="224" Count="2" />
       <LineId Id="211" Count="0" />
+      <LineId Id="575" Count="0" />
       <LineId Id="549" Count="0" />
       <LineId Id="209" Count="0" />
       <LineId Id="228" Count="1" />
@@ -196,7 +212,9 @@ END_IF]]></ST>
       <LineId Id="231" Count="1" />
       <LineId Id="230" Count="0" />
       <LineId Id="243" Count="1" />
-      <LineId Id="247" Count="1" />
+      <LineId Id="247" Count="0" />
+      <LineId Id="568" Count="0" />
+      <LineId Id="248" Count="0" />
       <LineId Id="250" Count="0" />
       <LineId Id="252" Count="1" />
       <LineId Id="456" Count="4" />
@@ -204,30 +222,40 @@ END_IF]]></ST>
       <LineId Id="251" Count="0" />
       <LineId Id="245" Count="0" />
       <LineId Id="345" Count="1" />
-      <LineId Id="351" Count="2" />
+      <LineId Id="351" Count="0" />
+      <LineId Id="569" Count="0" />
+      <LineId Id="352" Count="1" />
       <LineId Id="349" Count="0" />
       <LineId Id="449" Count="3" />
       <LineId Id="350" Count="0" />
       <LineId Id="255" Count="0" />
       <LineId Id="454" Count="1" />
       <LineId Id="256" Count="0" />
-      <LineId Id="261" Count="2" />
+      <LineId Id="261" Count="0" />
+      <LineId Id="570" Count="0" />
+      <LineId Id="262" Count="1" />
       <LineId Id="259" Count="0" />
       <LineId Id="447" Count="0" />
       <LineId Id="260" Count="0" />
       <LineId Id="257" Count="0" />
       <LineId Id="356" Count="1" />
       <LineId Id="360" Count="0" />
+      <LineId Id="571" Count="0" />
       <LineId Id="363" Count="1" />
       <LineId Id="361" Count="1" />
       <LineId Id="359" Count="0" />
       <LineId Id="545" Count="2" />
+      <LineId Id="565" Count="0" />
       <LineId Id="553" Count="0" />
       <LineId Id="552" Count="0" />
       <LineId Id="554" Count="0" />
+      <LineId Id="567" Count="0" />
       <LineId Id="556" Count="0" />
       <LineId Id="551" Count="0" />
       <LineId Id="557" Count="1" />
+      <LineId Id="574" Count="0" />
+      <LineId Id="559" Count="5" />
+      <LineId Id="576" Count="0" />
       <LineId Id="206" Count="0" />
       <LineId Id="205" Count="0" />
     </LineIds>
