@@ -46,6 +46,8 @@ END_VAR
 VAR
 	// Bloques funcionales
     CLK: FB_Clock;
+	//Entradas
+	Base_en_Alimentador AT %I*: BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -330,6 +332,73 @@ END_VAR
                         </o>
                       </l2>
                       <v n="Id">10L</v>
+                      <v n="IdParent">9L</v>
+                    </o>
+                    <o t="SFCTransition">
+                      <n n="VariableName" />
+                      <n n="EmbeddedTransition" />
+                      <l2 n="EmbeddedTransitionProperties" />
+                      <l2 n="Attributes" cet="SFCAttribute">
+                        <o>
+                          <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                          <o n="Value" t="StringValue">
+                            <v n="Value">"Base_en_Alimentador"</v>
+                            <v n="DefaultValue">""</v>
+                          </o>
+                          <v n="Id">2468L</v>
+                          <v n="IdParent">2467L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                          <o n="Value" t="StringValue">
+                            <v n="Value">""</v>
+                            <v n="DefaultValue">""</v>
+                          </o>
+                          <v n="Id">2469L</v>
+                          <v n="IdParent">2467L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                          <o n="Value" t="BoolValue">
+                            <v n="Value">"FALSE"</v>
+                            <v n="DefaultValue">"FALSE"</v>
+                          </o>
+                          <v n="Id">2470L</v>
+                          <v n="IdParent">2467L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
+                          <o n="Value" t="EnumValue">
+                            <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
+                            <n n="BaseType" />
+                            <v n="Value">"0"</v>
+                            <v n="DefaultValue">"0"</v>
+                          </o>
+                          <v n="Id">2471L</v>
+                          <v n="IdParent">2467L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
+                          <o n="Value" t="BoolValue">
+                            <v n="Value">"FALSE"</v>
+                            <v n="DefaultValue">"FALSE"</v>
+                          </o>
+                          <v n="Id">2472L</v>
+                          <v n="IdParent">2467L</v>
+                        </o>
+                        <o>
+                          <v n="AttributeId">{8294df19-5962-4dee-a874-1051dabb0e3e}</v>
+                          <o n="Value" t="EnumValue">
+                            <v n="TemplateGuid">{6ecff51c-9b8f-4338-aab0-67c2b31b07e9}</v>
+                            <n n="BaseType" />
+                            <v n="Value">"0"</v>
+                            <v n="DefaultValue">"0"</v>
+                          </o>
+                          <v n="Id">2473L</v>
+                          <v n="IdParent">2467L</v>
+                        </o>
+                      </l2>
+                      <v n="Id">2467L</v>
                       <v n="IdParent">9L</v>
                     </o>
                     <o t="SFCTransition">
