@@ -711,7 +711,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"Inital"</v>
+                                        <v n="Value">"Initial"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">2565L</v>
