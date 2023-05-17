@@ -48,6 +48,8 @@ VAR
     CLK: FB_Clock;
 	//Entradas
 	Base_en_Alimentador AT %I*: BOOL;
+	UnidadesRealizadas: INT;
+	UnidadesPendientes: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -2383,7 +2385,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{a6b08bd8-b696-47e3-9cbf-7408b61c9ff8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
+                            <v n="Value">"Condicion_Transferencia_Pale"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">1970L</v>
@@ -3061,6 +3063,16 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
+    <Action Name="Condicion_Transferencia_Pale" Id="{fefd3369-313b-4628-bf03-5d5038d4deef}">
+      <Implementation>
+        <ST><![CDATA[// Al completar la transferencia del pale
+UnidadesRealizadas := UnidadesRealizadas + 1;
+
+IF (UnidadesPendientes > 0) THEN
+    UnidadesPendientes := UnidadesPendientes - 1;
+END_IF]]></ST>
+      </Implementation>
+    </Action>
     <Action Name="Initial_exit" Id="{8ec35d20-aecc-4d29-aefd-5a57190ef6fe}">
       <Implementation>
         <ST><![CDATA[IF (CiclosPendientes = 0) THEN
@@ -3163,6 +3175,10 @@ END_IF]]></ST>
         </TypeList>
       </XmlArchive>
     </ObjectProperties>
+    <LineIds Name="FB_Coordinador_SFC.Condicion_Transferencia_Pale">
+      <LineId Id="2" Count="4" />
+      <LineId Id="1" Count="0" />
+    </LineIds>
     <LineIds Name="FB_Coordinador_SFC.Initial_exit">
       <LineId Id="2" Count="1" />
       <LineId Id="1" Count="0" />

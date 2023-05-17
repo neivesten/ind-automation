@@ -29,10 +29,10 @@
     <Compile Include="POUs\Estacion\FB_Coordinador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="POUs\Estacion\FB_Estacion.TcPOU">
+    <Compile Include="POUs\Estacion\FB_Director.TcPOU">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="POUs\Estacion\POU.TcPOU">
+    <Compile Include="POUs\Estacion\FB_Estacion.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\MAIN.TcPOU">
