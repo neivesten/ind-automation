@@ -111,6 +111,71 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"13"</v>
+              <v n="TextDefault">"FMS-201"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"241"</v>
+              <v n="TextDefault">"FMS-201          "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"299"</v>
+              <v n="TextDefault">"FMS-201                                                 ALIMENTADORA DE BASES                                                                 VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"186"</v>
+              <v n="TextDefault">"FMS-201                                              ALIMENTADORA DE BASES                                                                 VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"798"</v>
+              <v n="TextDefault">"FMS-201                                              ALIMENTADORA DE BASES                                          VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"514"</v>
+              <v n="TextDefault">"FMS-201                                              ALIMENTADORA DE BASES                                      VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"526"</v>
+              <v n="TextDefault">"FMS-201                                              ALIMENTADORA DE BASES   VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"887"</v>
+              <v n="TextDefault">"FMS-201                                            ALIMENTADORA DE BASES                                                            VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"379"</v>
+              <v n="TextDefault">"FMS-201                                            ALIMENTADORA DE BASES                                                           VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"788"</v>
+              <v n="TextDefault">"FMS-201                                       ALIMENTADORA DE BASES                                                       VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"154"</v>
+              <v n="TextDefault">"FMS-201                                      ALIMENTADORA DE BASES                                                      VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"91"</v>
+              <v n="TextDefault">"FMS-201                   ALIMENTADORA DE BASES      "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"703"</v>
+              <v n="TextDefault">"FMS-201                   ALIMENTADORA DE BASES   VTL     "</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"750"</v>
               <v n="TextDefault">"Lámpara"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -118,6 +183,11 @@
             <o>
               <v n="TextID">"634"</v>
               <v n="TextDefault">"Material"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"861"</v>
+              <v n="TextDefault">"Panel"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
@@ -168,6 +238,11 @@
             <o>
               <v n="TextID">"560"</v>
               <v n="TextDefault">"Restantes"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"985"</v>
+              <v n="TextDefault">"Sdw"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
