@@ -176,6 +176,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"643"</v>
+              <v n="TextDefault">"Tarea"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"629"</v>
               <v n="TextDefault">"Vacío"</v>
               <l n="LanguageTexts" t="ArrayList" />
