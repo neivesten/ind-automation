@@ -20,6 +20,7 @@ VAR_OUTPUT
     PaleCodigo: BYTE;
     
     // Entradas comunes
+	Base_en_alimentador AT %I*: BOOL;
     Pulsador_parada_emergencia AT %I*: BOOL;
     Selector_modo_manual AT %I*: BOOL;
     Pulsador_marcha AT %I*: BOOL;
@@ -48,7 +49,6 @@ VAR_OUTPUT
 	//Terminal 7
 	Alimentador_delante AT %I*: BOOL;
 	Vacio_obtenido_vacuostato_descargador AT %I*: BOOL;
-	Base_en_Alimentador AT %I*: BOOL;
 
 END_VAR
 VAR
@@ -102,7 +102,8 @@ IF NOT Selector_Modo_Manual THEN
 		Verificado := AlimentadorVerificadorDesplazador.Done,
         Rechazado := Rechazador.Done,
 		BaseCargada := Descargador.Done,
-		PaleTransferido := TransferirPale.Done
+		PaleTransferido := TransferirPale.Done,
+		Base_en_alimentador := Base_en_alimentador
 		
 	);
 	
@@ -164,6 +165,9 @@ IF NOT Selector_Modo_Manual THEN
 		Execute := Coordinador.TransfierePale,
 
 	);
+	
+//Acciones
+Lampara_falta_material := Coordinador.Lampara_falta_material;
 
 END_IF]]></ST>
     </Implementation>
@@ -178,6 +182,7 @@ END_IF]]></ST>
       <LineId Id="227" Count="0" />
       <LineId Id="224" Count="2" />
       <LineId Id="211" Count="0" />
+      <LineId Id="549" Count="0" />
       <LineId Id="209" Count="0" />
       <LineId Id="228" Count="1" />
       <LineId Id="234" Count="8" />
@@ -209,6 +214,7 @@ END_IF]]></ST>
       <LineId Id="363" Count="1" />
       <LineId Id="361" Count="1" />
       <LineId Id="359" Count="0" />
+      <LineId Id="545" Count="2" />
       <LineId Id="206" Count="0" />
       <LineId Id="205" Count="0" />
     </LineIds>

@@ -15,14 +15,18 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{9BC9D4CF-DBCA-71B3-FFB3-41FDCC406FFE}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{CF4ED84F-A456-A608-436B-E4A488A551F9}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
 						<Name>PlcTask Inputs</Name>
 						<Var>
-							<Name>MAIN.Estacion.Pulsador_parada_emergencia</Name>
+							<Name>MAIN.Estacion.Base_en_alimentador</Name>
 							<Comment><![CDATA[ Entradas comunes]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Pulsador_parada_emergencia</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -107,15 +111,6 @@ Terminal 6]]></Comment>
 						</Var>
 						<Var>
 							<Name>MAIN.Estacion.Vacio_obtenido_vacuostato_descargador</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>MAIN.Estacion.Base_en_Alimentador</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>MAIN.Estacion.Coordinador.Base_en_Alimentador</Name>
-							<Comment><![CDATA[Entradas]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 					</Vars>
@@ -296,6 +291,13 @@ Terminal 6]]></Comment>
 								<Link VarA="MAIN.test_pieza.Eyector_succiona" TypeA="BOOL" InOutA="1" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 8^Eyector de vacío del descargador succiona" Size="1" RestoreInfo="ANotFound"/>
 								<Link VarA="MAIN.test_pieza.Rechazador_adelante" TypeA="BOOL" InOutA="1" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 4^Cilindro del rechazador adelante" Size="1" RestoreInfo="ANotFound"/>
 								<Link VarA="MAIN.test_pieza.Verificador_baja" TypeA="BOOL" InOutA="1" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 5^Cilindro del verificador baja" Size="1" RestoreInfo="ANotFound"/>
+							</OwnerB>
+						</OwnerA>
+					</UnrestoredVarLinks>
+					<UnrestoredVarLinks ImportTime="2023-05-17T20:18:51">
+						<OwnerA Name="InputDst" Prefix="TIPC^ProyMain^ProyMain Instance" Type="1">
+							<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+								<Link VarA="MAIN.Estacion.Base_en_Alimentador" TypeA="BOOL" InOutA="0" GuidA="{18071995-0000-0000-0000-000000000030}" VarB="Channel 3^Presencia de base en el alimentador" Size="1" RestoreInfo="ANotFound"/>
 							</OwnerB>
 						</OwnerA>
 					</UnrestoredVarLinks>
@@ -781,6 +783,9 @@ Terminal 6]]></Comment>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Codigo_pale_bit_2" VarB="Channel 1^Código de palé bit 2"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Detector_presion" VarB="Channel 2^Detector de presión"/>
 			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_falta_material" VarB="Channel 4^Lámpara de falta material"/>
+			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Desplazador_detras" VarB="Channel 7^Cilindro del desplazador detrás"/>
@@ -793,7 +798,7 @@ Terminal 6]]></Comment>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Alimentador_delante" VarB="Channel 1^Cilindro del alimentador delante"/>
-				<Link VarA="PlcTask Inputs^MAIN.Estacion.Base_en_Alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Base_en_alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Vacio_obtenido_vacuostato_descargador" VarB="Channel 2^Vacío obtenido en el vacuostado del descargador"/>
 			</OwnerB>
 		</OwnerA>
