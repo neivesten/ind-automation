@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{B628DDFA-6D7F-F7B7-F1EC-7AF29E8EA241}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{9BC9D4CF-DBCA-71B3-FFB3-41FDCC406FFE}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -111,6 +111,11 @@ Terminal 6]]></Comment>
 						</Var>
 						<Var>
 							<Name>MAIN.Estacion.Base_en_Alimentador</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Coordinador.Base_en_Alimentador</Name>
+							<Comment><![CDATA[Entradas]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 					</Vars>
@@ -761,5 +766,36 @@ Terminal 6]]></Comment>
 	</Project>
 	<Mappings>
 		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
+		<OwnerA Name="TIPC^ProyMain^ProyMain Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Codigo_pale_bit_0" VarB="Channel 7^Codigo de palé bit 0"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Codigo_pale_bit_1" VarB="Channel 8^Codigo de palé bit 1"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.EstacionConectada" VarB="Channel 5^Parte operativa conectada (armada)"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Presencia_pale" VarB="Channel 6^presencia de palé"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Pulsador_marcha" VarB="Channel 3^Pulsador de marcha"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Pulsador_parada_NC" VarB="Channel 4^Pulsador de parada [NC]"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Pulsador_parada_emergencia" VarB="Channel 1^Pulsador de parada de emergencia"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Selector_modo_manual" VarB="Channel 2^Selector de modo manual"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Codigo_pale_bit_2" VarB="Channel 1^Código de palé bit 2"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Detector_presion" VarB="Channel 2^Detector de presión"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Desplazador_detras" VarB="Channel 7^Cilindro del desplazador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Horizontal_descargador_delante" VarB="Channel 2^Cilindro horizontal del descargador delante (sobre el palé)"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Horizontal_descargador_detras" VarB="Channel 1^Cilindro horizontal del descargador detrás (sobre el punto de descarga)"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Verificador_arriba" VarB="Channel 5^Cilindro del verificador arriba"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Vertical_descargador_abajo" VarB="Channel 4^Cilindro vertical del descargador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Vertical_descargador_arriba" VarB="Channel 3^Cilindro vertical del descargador arriba"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Alimentador_delante" VarB="Channel 1^Cilindro del alimentador delante"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Base_en_Alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Vacio_obtenido_vacuostato_descargador" VarB="Channel 2^Vacío obtenido en el vacuostado del descargador"/>
+			</OwnerB>
+		</OwnerA>
 	</Mappings>
 </TcSmProject>
