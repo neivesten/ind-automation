@@ -97,7 +97,7 @@ IF NOT Selector_Modo_Manual THEN
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Ack := TRUE,
-        Execute := Pulsador_marcha AND (CiclosSolicitados > 0) AND Pulsador_Marcha,
+        Execute := Pulsador_marcha AND (CiclosSolicitados > 0),
 		PaleSituado := SituarPale.Done,
 		Verificado := AlimentadorVerificadorDesplazador.Done,
         Rechazado := Rechazador.Done,
@@ -166,8 +166,15 @@ IF NOT Selector_Modo_Manual THEN
 
 	);
 	
-//Acciones
+//Acciones Comunes
 Lampara_falta_material := Coordinador.Lampara_falta_material;
+
+//SituarPale
+Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta;
+//AlimentadorVerificadorDesplazador
+Alimentador_adelante := AlimentadorVerificadorDesplazador.Alimentador_adelante;
+Verificador_baja := AlimentadorVerificadorDesplazador.Verificador_baja;
+Desplazador_adelante := AlimentadorVerificadorDesplazador.Desplazador_adelante;
 
 END_IF]]></ST>
     </Implementation>
@@ -215,6 +222,12 @@ END_IF]]></ST>
       <LineId Id="361" Count="1" />
       <LineId Id="359" Count="0" />
       <LineId Id="545" Count="2" />
+      <LineId Id="553" Count="0" />
+      <LineId Id="552" Count="0" />
+      <LineId Id="554" Count="0" />
+      <LineId Id="556" Count="0" />
+      <LineId Id="551" Count="0" />
+      <LineId Id="557" Count="1" />
       <LineId Id="206" Count="0" />
       <LineId Id="205" Count="0" />
     </LineIds>

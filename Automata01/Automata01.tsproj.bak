@@ -784,7 +784,14 @@ Terminal 6]]></Comment>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Detector_presion" VarB="Channel 2^Detector de presión"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Activa_marcha_motor_cinta" VarB="Channel 5^Activa la marcha el motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Desconecta_parte_operativa" VarB="Channel 1^Desconecta parte operativa (desarma)"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Invierte_marcha_motor_cinta" VarB="Channel 6^Invierte la marcha del motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_alarma" VarB="Channel 2^Lámpara de alarma"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_falta_material" VarB="Channel 4^Lámpara de falta material"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_marcha" VarB="Channel 3^Lámpara de marcha"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Retenedor_pale_baja" VarB="Channel 7^Cilindro del retenedor de palés baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Separador_pale_sube" VarB="Channel 8^Cilindro del separador de palés sube"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>
@@ -798,7 +805,18 @@ Terminal 6]]></Comment>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Alimentador_delante" VarB="Channel 1^Cilindro del alimentador delante"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.Base_en_alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Vacio_obtenido_vacuostato_descargador" VarB="Channel 2^Vacío obtenido en el vacuostado del descargador"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Alimentador_adelante" VarB="Channel 7^Cilindro del alimentador adelante (hacia el punto de verificación)"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Descargador_adelante" VarB="Channel 1^Cilindro del descargador adelante (hacia el palé)"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Descargador_atras" VarB="Channel 2^Cilindro del descargador atrás (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Descargador_baja" VarB="Channel 3^Cilindro del descargador baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Desplazador_adelante" VarB="Channel 6^Cilindro del desplazador adelante (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Eyector_succiona" VarB="Channel 8^Eyector de vacío del descargador succiona"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Rechazador_adelante" VarB="Channel 4^Cilindro del rechazador adelante"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Verificador_baja" VarB="Channel 5^Cilindro del verificador baja"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>
