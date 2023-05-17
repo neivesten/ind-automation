@@ -9395,7 +9395,7 @@
               <o>
                 <v n="Id">3L</v>
                 <n n="Tag" />
-                <v n="Text">"	"</v>
+                <v n="Text">""</v>
               </o>
               <o>
                 <v n="Id">1L</v>
