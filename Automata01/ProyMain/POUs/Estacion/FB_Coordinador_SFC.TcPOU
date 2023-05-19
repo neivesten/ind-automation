@@ -1639,11 +1639,11 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"Rechazamos"</v>
+                            <v n="Value">"SRechazado"</v>
                             <v n="DefaultValue">""</v>
                           </o>
-                          <v n="Id">2686L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2825L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
@@ -1651,8 +1651,8 @@ END_VAR
                             <v n="Value">""</v>
                             <v n="DefaultValue">""</v>
                           </o>
-                          <v n="Id">2687L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2826L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
@@ -1660,8 +1660,8 @@ END_VAR
                             <v n="Value">"FALSE"</v>
                             <v n="DefaultValue">"FALSE"</v>
                           </o>
-                          <v n="Id">2688L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2827L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
@@ -1671,8 +1671,8 @@ END_VAR
                             <v n="Value">"0"</v>
                             <v n="DefaultValue">"0"</v>
                           </o>
-                          <v n="Id">2689L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2828L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{6844a48e-46c2-4cc8-a185-a478f3b99cc0}</v>
@@ -1680,8 +1680,8 @@ END_VAR
                             <v n="Value">"FALSE"</v>
                             <v n="DefaultValue">"FALSE"</v>
                           </o>
-                          <v n="Id">2690L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2829L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
@@ -1689,8 +1689,8 @@ END_VAR
                             <v n="Value">"FALSE"</v>
                             <v n="DefaultValue">"FALSE"</v>
                           </o>
-                          <v n="Id">2691L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2830L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{cacf1a68-236e-47c2-b7b1-1cf9199718cb}</v>
@@ -1698,8 +1698,8 @@ END_VAR
                             <v n="Value">""</v>
                             <v n="DefaultValue">""</v>
                           </o>
-                          <v n="Id">2692L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2831L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{b693554c-1b01-4a8d-afde-9e3a46f7465d}</v>
@@ -1707,8 +1707,8 @@ END_VAR
                             <v n="Value">""</v>
                             <v n="DefaultValue">""</v>
                           </o>
-                          <v n="Id">2693L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2832L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{700a583f-b4d4-43e4-8c14-629c7cd3bec8}</v>
@@ -1716,8 +1716,8 @@ END_VAR
                             <v n="Value">""</v>
                             <v n="DefaultValue">""</v>
                           </o>
-                          <v n="Id">2694L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2833L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{a6b08bd8-b696-47e3-9cbf-7408b61c9ff8}</v>
@@ -1725,8 +1725,8 @@ END_VAR
                             <v n="Value">""</v>
                             <v n="DefaultValue">""</v>
                           </o>
-                          <v n="Id">2695L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2834L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                         <o>
                           <v n="AttributeId">{a2621e18-7de3-4ea6-ae6d-89e9e0b7befd}</v>
@@ -1734,11 +1734,11 @@ END_VAR
                             <v n="Value">""</v>
                             <v n="DefaultValue">""</v>
                           </o>
-                          <v n="Id">2696L</v>
-                          <v n="IdParent">2685L</v>
+                          <v n="Id">2835L</v>
+                          <v n="IdParent">2824L</v>
                         </o>
                       </l2>
-                      <v n="Id">2685L</v>
+                      <v n="Id">2824L</v>
                       <v n="IdParent">9L</v>
                     </o>
                     <o t="SFCBranch">

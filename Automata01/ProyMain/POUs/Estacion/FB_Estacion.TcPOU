@@ -157,7 +157,7 @@ IF NOT Selector_Modo_Manual THEN
 		Ack := NOT Coordinador.RechazaBase,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := Coordinador.VerificaBase,
+		Execute := Coordinador.RechazaBase,
 		Verificador_abajo := Verificador_abajo
 		
 	);
