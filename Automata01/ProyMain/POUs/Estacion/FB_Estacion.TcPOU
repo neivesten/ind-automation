@@ -5,7 +5,7 @@
 VAR_INPUT
     EstadoPausa: BOOL;
     EstadoReinicia: BOOL;
-    CiclosSolicitados: UINT := 1;
+    CiclosSolicitados: UINT := 0;
     
     Tcheck: TIME := T#1S;
     Treset: TIME := T#1S;
@@ -95,12 +95,14 @@ IF NOT Selector_Modo_Manual THEN
 
 		CiclosPendientes := CiclosPendientes,
 		CiclosAceptados := CiclosAceptados,
+		CiclosSolicitados := CiclosSolicitados,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Ack := TRUE,
         Execute := Pulsador_marcha AND (CiclosSolicitados > 0),
 		PaleSituado := SituarPale.Done,
 		Verificado := AlimentadorVerificadorDesplazador.Done,
+		DescargadorReseteado := ResetDescargador.Done,
         Rechazado := Rechazador.Done,
 		BaseCargada := Descargador.Done,
 		PaleTransferido := TransferirPale.Done,
@@ -144,7 +146,7 @@ IF NOT Selector_Modo_Manual THEN
 		Ack := NOT Coordinador.ResetDescargador,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := Coordinador.CargaBase,
+		Execute := Coordinador.ResetDescargador,
 		Horizontal_descargador_detras := Horizontal_descargador_detras,
 		Vertical_descargador_arriba := Vertical_descargador_arriba
 	);
@@ -210,9 +212,12 @@ END_IF]]></ST>
       <LineId Id="207" Count="1" />
       <LineId Id="212" Count="0" />
       <LineId Id="210" Count="0" />
-      <LineId Id="213" Count="2" />
+      <LineId Id="213" Count="0" />
+      <LineId Id="674" Count="0" />
+      <LineId Id="214" Count="1" />
       <LineId Id="217" Count="2" />
       <LineId Id="227" Count="0" />
+      <LineId Id="673" Count="0" />
       <LineId Id="224" Count="2" />
       <LineId Id="211" Count="0" />
       <LineId Id="575" Count="0" />
