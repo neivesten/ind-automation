@@ -56,6 +56,7 @@ VAR
     Coordinador: FB_Coordinador_SFC;
 	AlimentadorVerificadorDesplazador: FB_AlimentadorVerificadorDesplazador_SFC;
     SituarPale: FB_SituarPale_SFC;
+	ResetDescargador: FB_ResetDescargador_SFC;
     Descargador: FB_Descargador_SFC;
     Rechazador: FB_Rechazador_SFC;
     TransferirPale: FB_TransferirPale_SFC;
@@ -138,6 +139,16 @@ IF NOT Selector_Modo_Manual THEN
 		
 	);
 	
+	ResetDescargador(
+
+		Ack := NOT Coordinador.ResetDescargador,
+		SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+		Execute := Coordinador.CargaBase,
+		Horizontal_descargador_detras := Horizontal_descargador_detras,
+		Vertical_descargador_arriba := Vertical_descargador_arriba
+	);
+	
 	Descargador(
 		
 		Ack := NOT Coordinador.CargaBase,
@@ -186,7 +197,7 @@ pieza_ok := AlimentadorVerificadorDesplazador.pieza_ok;
 //Descargador
 Eyector_succiona := Descargador.Eyector_succiona;
 Descargador_adelante := Descargador.Descargador_adelante;
-Descargador_atras := Descargador.Descargador_atras;
+Descargador_atras := Descargador.Descargador_atras OR ResetDescargador.Descargador_atras;
 Descargador_baja := Descargador.Descargador_baja;
 //Rechazador
 Rechazador_adelante := Rechazador.Rechazador_adelante;
@@ -221,6 +232,13 @@ END_IF]]></ST>
       <LineId Id="254" Count="0" />
       <LineId Id="251" Count="0" />
       <LineId Id="245" Count="0" />
+      <LineId Id="663" Count="1" />
+      <LineId Id="668" Count="0" />
+      <LineId Id="666" Count="0" />
+      <LineId Id="669" Count="1" />
+      <LineId Id="667" Count="0" />
+      <LineId Id="671" Count="1" />
+      <LineId Id="665" Count="0" />
       <LineId Id="345" Count="1" />
       <LineId Id="351" Count="0" />
       <LineId Id="569" Count="0" />

@@ -44,6 +44,9 @@
     <Compile Include="POUs\Tareas\FB_Rechazador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Tareas\FB_ResetDescargador_SFC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Tareas\FB_SituarPale_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
