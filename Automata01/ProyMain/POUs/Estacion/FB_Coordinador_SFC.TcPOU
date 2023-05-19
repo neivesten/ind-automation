@@ -348,7 +348,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"True"</v>
+                            <v n="Value">"Execute"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">3150L</v>
@@ -1591,7 +1591,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"Execute"</v>
+                            <v n="Value">"True"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">23L</v>
@@ -4844,7 +4844,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{a6b08bd8-b696-47e3-9cbf-7408b61c9ff8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
+                            <v n="Value">"S6_entry"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">1970L</v>
@@ -4853,7 +4853,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{a2621e18-7de3-4ea6-ae6d-89e9e0b7befd}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"S6_exit"</v>
+                            <v n="Value">""</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">1971L</v>
@@ -4877,7 +4877,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"(CiclosPendientes = 0)"</v>
+                                        <v n="Value">"(CiclosPendientes &lt; 1)"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">1973L</v>
@@ -4981,7 +4981,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"(CiclosPendientes &gt; 0)"</v>
+                                        <v n="Value">"(CiclosPendientes &gt; 1)"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">1993L</v>
@@ -5392,7 +5392,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"ContCiclo"</v>
+                            <v n="Value">"Initial"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">30L</v>
@@ -5749,7 +5749,22 @@ END_VAR
 END_IF]]></ST>
       </Implementation>
     </Action>
+    <Action Name="RestaCiclo_exit" Id="{47155b33-acef-45d4-b59d-a34aba610358}">
+      <Implementation>
+        <ST><![CDATA[CiclosPendientes := CiclosPendientes - 1;]]></ST>
+      </Implementation>
+    </Action>
+    <Action Name="S6_entry" Id="{00775444-6179-4080-b74f-2a18f1a30b4e}">
+      <Implementation>
+        <ST><![CDATA[CiclosPendientes := CiclosPendientes - 1;]]></ST>
+      </Implementation>
+    </Action>
     <Action Name="S6_exit" Id="{f66f2ba2-a7a2-42f7-9f3f-9ec19f9b2281}">
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Action>
+    <Action Name="S6_exit_0" Id="{ca9b024e-bccc-40d5-a49d-383255601687}">
       <Implementation>
         <ST><![CDATA[CiclosPendientes := CiclosPendientes - 1;]]></ST>
       </Implementation>
@@ -5853,7 +5868,16 @@ END_IF]]></ST>
       <LineId Id="2" Count="1" />
       <LineId Id="1" Count="0" />
     </LineIds>
+    <LineIds Name="FB_Coordinador_SFC.RestaCiclo_exit">
+      <LineId Id="1" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_Coordinador_SFC.S6_entry">
+      <LineId Id="1" Count="0" />
+    </LineIds>
     <LineIds Name="FB_Coordinador_SFC.S6_exit">
+      <LineId Id="1" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_Coordinador_SFC.S6_exit_0">
       <LineId Id="1" Count="0" />
     </LineIds>
   </POU>
