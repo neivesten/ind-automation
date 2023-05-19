@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{8D49F75C-42CB-3EA3-BBB9-2557D30B52FF}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{F8FC1B82-E16D-0B06-0DBD-BCA773B9BE6C}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -780,11 +780,13 @@ Terminal 6]]></Comment>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Activa_marcha_motor_cinta" VarB="Channel 5^Activa la marcha el motor de la cinta"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Desconecta_parte_operativa" VarB="Channel 1^Desconecta parte operativa (desarma)"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Invierte_marcha_motor_cinta" VarB="Channel 6^Invierte la marcha del motor de la cinta"/>
-				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_alarma" VarB="Channel 2^Lámpara de alarma"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_falta_material" VarB="Channel 4^Lámpara de falta material"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_marcha" VarB="Channel 3^Lámpara de marcha"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Retenedor_pale_baja" VarB="Channel 7^Cilindro del retenedor de palés baja"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Separador_pale_sube" VarB="Channel 8^Cilindro del separador de palés sube"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_alarma" VarB="Channel 1^Avisador sonoro"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>

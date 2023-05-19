@@ -54,6 +54,7 @@ END_VAR
 VAR
     // Bloques funcionales
     Coordinador: FB_Coordinador_SFC;
+	ChequeaMaterial: FB_CheckMaterial_SFC;
 	AlimentadorVerificadorDesplazador: FB_AlimentadorVerificadorDesplazador_SFC;
     SituarPale: FB_SituarPale_SFC;
 	ResetDescargador: FB_ResetDescargador_SFC;
@@ -81,9 +82,6 @@ VAR
 	Desplazador_adelante AT %Q*: BOOL;
 	Alimentador_adelante AT %Q*: BOOL;
 	Eyector_succiona AT %Q*: BOOL;
-	Verificar: INT;
-	Rechazar: INT;
-	Descargar: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -101,6 +99,7 @@ IF NOT Selector_Modo_Manual THEN
 		Ack := TRUE,
         Execute := Pulsador_marcha AND (CiclosSolicitados > 0),
 		PaleSituado := SituarPale.Done,
+		HayMaterial := ChequeaMaterial.Done,
 		Verificado := AlimentadorVerificadorDesplazador.Done,
 		DescargadorReseteado := ResetDescargador.Done,
         Rechazado := Rechazador.Done,
@@ -123,6 +122,14 @@ IF NOT Selector_Modo_Manual THEN
         //Codigo_pale_bit_1 := Codigo_pale_bit_1,
         //Codigo_pale_bit_2 := Codigo_pale_bit_2
 
+	);
+	
+	ChequeaMaterial(
+		Ack := NOT Coordinador.ChequeaMaterial,
+		SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+		Execute := Coordinador.ChequeaMaterial,
+		Base_en_Alimentador := Base_en_alimentador
 	);
 	
 	AlimentadorVerificadorDesplazador(
@@ -187,7 +194,9 @@ IF NOT Selector_Modo_Manual THEN
 //Acciones Comunes
 Lampara_falta_material := Coordinador.Lampara_falta_material;
 Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta OR TransferirPale.Activa_marcha_motor_cinta;
-
+//CheckMaterial
+Lampara_alarma := ChequeaMaterial.LamparaAlarma;
+Lampara_falta_material := ChequeaMaterial.Lampara_falta_material;
 //TranferirPale
  Retenedor_pale_baja := TransferirPale.Retenedor_pale_baja;
  Separador_pale_sube := TransferirPale.Separador_pale_sube;
@@ -216,6 +225,7 @@ END_IF]]></ST>
       <LineId Id="674" Count="0" />
       <LineId Id="214" Count="1" />
       <LineId Id="217" Count="2" />
+      <LineId Id="687" Count="0" />
       <LineId Id="227" Count="0" />
       <LineId Id="673" Count="0" />
       <LineId Id="224" Count="2" />
@@ -227,6 +237,12 @@ END_IF]]></ST>
       <LineId Id="234" Count="8" />
       <LineId Id="231" Count="1" />
       <LineId Id="230" Count="0" />
+      <LineId Id="678" Count="1" />
+      <LineId Id="682" Count="0" />
+      <LineId Id="685" Count="1" />
+      <LineId Id="684" Count="0" />
+      <LineId Id="689" Count="0" />
+      <LineId Id="680" Count="0" />
       <LineId Id="243" Count="1" />
       <LineId Id="247" Count="0" />
       <LineId Id="568" Count="0" />
@@ -269,7 +285,9 @@ END_IF]]></ST>
       <LineId Id="359" Count="0" />
       <LineId Id="545" Count="2" />
       <LineId Id="565" Count="0" />
+      <LineId Id="676" Count="0" />
       <LineId Id="553" Count="0" />
+      <LineId Id="688" Count="0" />
       <LineId Id="552" Count="0" />
       <LineId Id="554" Count="0" />
       <LineId Id="567" Count="0" />

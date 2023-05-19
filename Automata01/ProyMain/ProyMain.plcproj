@@ -38,6 +38,9 @@
     <Compile Include="POUs\Tareas\FB_AlimentadorVerificadorDesplazador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Tareas\FB_CheckMaterial_SFC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Tareas\FB_Descargador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
