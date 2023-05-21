@@ -13,6 +13,7 @@ VAR_INPUT
 	
 	//Entradas
 	Base_en_Alimentador: BOOL;
+	Pulsador_marcha: BOOL;
 END_VAR
 VAR_OUTPUT
 	// Indicadores de sincronizacion
@@ -152,7 +153,7 @@ END_VAR
                       <v n="IdParent">9L</v>
                     </o>
                     <o t="SFCTransition">
-                      <v n="VariableName">"Init__to__LampOFF"</v>
+                      <v n="VariableName">"Init__to__LampON"</v>
                       <n n="EmbeddedTransition" />
                       <l2 n="EmbeddedTransitionProperties" />
                       <l2 n="Attributes" cet="SFCAttribute">
@@ -160,189 +161,6 @@ END_VAR
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
                             <v n="Value">"Init.t &gt; TMat"</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3406L</v>
-                          <v n="IdParent">3405L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3407L</v>
-                          <v n="IdParent">3405L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
-                          <o n="Value" t="BoolValue">
-                            <v n="Value">"FALSE"</v>
-                            <v n="DefaultValue">"FALSE"</v>
-                          </o>
-                          <v n="Id">3408L</v>
-                          <v n="IdParent">3405L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
-                          <o n="Value" t="EnumValue">
-                            <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
-                            <n n="BaseType" />
-                            <v n="Value">"0"</v>
-                            <v n="DefaultValue">"0"</v>
-                          </o>
-                          <v n="Id">3409L</v>
-                          <v n="IdParent">3405L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
-                          <o n="Value" t="BoolValue">
-                            <v n="Value">"FALSE"</v>
-                            <v n="DefaultValue">"FALSE"</v>
-                          </o>
-                          <v n="Id">3410L</v>
-                          <v n="IdParent">3405L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{8294df19-5962-4dee-a874-1051dabb0e3e}</v>
-                          <o n="Value" t="EnumValue">
-                            <v n="TemplateGuid">{6ecff51c-9b8f-4338-aab0-67c2b31b07e9}</v>
-                            <n n="BaseType" />
-                            <v n="Value">"0"</v>
-                            <v n="DefaultValue">"0"</v>
-                          </o>
-                          <v n="Id">3411L</v>
-                          <v n="IdParent">3405L</v>
-                        </o>
-                      </l2>
-                      <v n="Id">3405L</v>
-                      <v n="IdParent">9L</v>
-                    </o>
-                    <o t="SFCStep">
-                      <n n="EmbeddedMainAction" />
-                      <n n="EmbeddedEntryAction" />
-                      <n n="EmbeddedExitAction" />
-                      <l2 n="EmbeddedMainActionProperties" />
-                      <l2 n="EmbeddedEntryActionProperties" />
-                      <l2 n="EmbeddedExitActionProperties" />
-                      <o n="ElementList" t="SFCElementList">
-                        <l2 n="InnerList" />
-                      </o>
-                      <l2 n="Attributes" cet="SFCAttribute">
-                        <o>
-                          <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">"LampOFF"</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3394L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3395L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
-                          <o n="Value" t="BoolValue">
-                            <v n="Value">"FALSE"</v>
-                            <v n="DefaultValue">"FALSE"</v>
-                          </o>
-                          <v n="Id">3396L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
-                          <o n="Value" t="EnumValue">
-                            <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
-                            <n n="BaseType" />
-                            <v n="Value">"0"</v>
-                            <v n="DefaultValue">"0"</v>
-                          </o>
-                          <v n="Id">3397L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{6844a48e-46c2-4cc8-a185-a478f3b99cc0}</v>
-                          <o n="Value" t="BoolValue">
-                            <v n="Value">"FALSE"</v>
-                            <v n="DefaultValue">"FALSE"</v>
-                          </o>
-                          <v n="Id">3398L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
-                          <o n="Value" t="BoolValue">
-                            <v n="Value">"FALSE"</v>
-                            <v n="DefaultValue">"FALSE"</v>
-                          </o>
-                          <v n="Id">3399L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{cacf1a68-236e-47c2-b7b1-1cf9199718cb}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3400L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{b693554c-1b01-4a8d-afde-9e3a46f7465d}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3401L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{700a583f-b4d4-43e4-8c14-629c7cd3bec8}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3402L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{a6b08bd8-b696-47e3-9cbf-7408b61c9ff8}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3403L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                        <o>
-                          <v n="AttributeId">{a2621e18-7de3-4ea6-ae6d-89e9e0b7befd}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
-                            <v n="DefaultValue">""</v>
-                          </o>
-                          <v n="Id">3404L</v>
-                          <v n="IdParent">3393L</v>
-                        </o>
-                      </l2>
-                      <v n="Id">3393L</v>
-                      <v n="IdParent">9L</v>
-                    </o>
-                    <o t="SFCTransition">
-                      <v n="VariableName">"LampOFF__to__LampON"</v>
-                      <n n="EmbeddedTransition" />
-                      <l2 n="EmbeddedTransitionProperties" />
-                      <l2 n="Attributes" cet="SFCAttribute">
-                        <o>
-                          <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
-                          <o n="Value" t="StringValue">
-                            <v n="Value">"LampOFF.t &gt; TMat"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">2527L</v>
@@ -631,7 +449,7 @@ END_VAR
                             <o n="ElementList" t="SFCElementList">
                               <l2 n="InnerList" cet="SFCTransition">
                                 <o>
-                                  <v n="VariableName">"Branch0__LampON__to__LampOFF"</v>
+                                  <v n="VariableName">"Branch0__LampON__to__Init"</v>
                                   <n n="EmbeddedTransition" />
                                   <l2 n="EmbeddedTransitionProperties" />
                                   <l2 n="Attributes" cet="SFCAttribute">
@@ -735,7 +553,7 @@ END_VAR
                             <o n="ElementList" t="SFCElementList">
                               <l2 n="InnerList">
                                 <o t="SFCTransition">
-                                  <v n="VariableName">"Branch1__LampON__to__Fin"</v>
+                                  <v n="VariableName">"Branch1__LampON__to__SafetyCheck"</v>
                                   <n n="EmbeddedTransition" />
                                   <l2 n="EmbeddedTransitionProperties" />
                                   <l2 n="Attributes" cet="SFCAttribute">
@@ -799,6 +617,189 @@ END_VAR
                                     </o>
                                   </l2>
                                   <v n="Id">3213L</v>
+                                  <v n="IdParent">3209L</v>
+                                </o>
+                                <o t="SFCStep">
+                                  <n n="EmbeddedMainAction" />
+                                  <n n="EmbeddedEntryAction" />
+                                  <n n="EmbeddedExitAction" />
+                                  <l2 n="EmbeddedMainActionProperties" />
+                                  <l2 n="EmbeddedEntryActionProperties" />
+                                  <l2 n="EmbeddedExitActionProperties" />
+                                  <o n="ElementList" t="SFCElementList">
+                                    <l2 n="InnerList" />
+                                  </o>
+                                  <l2 n="Attributes" cet="SFCAttribute">
+                                    <o>
+                                      <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">"SafetyCheck"</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3471L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">""</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3472L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                                      <o n="Value" t="BoolValue">
+                                        <v n="Value">"FALSE"</v>
+                                        <v n="DefaultValue">"FALSE"</v>
+                                      </o>
+                                      <v n="Id">3473L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
+                                      <o n="Value" t="EnumValue">
+                                        <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
+                                        <n n="BaseType" />
+                                        <v n="Value">"0"</v>
+                                        <v n="DefaultValue">"0"</v>
+                                      </o>
+                                      <v n="Id">3474L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{6844a48e-46c2-4cc8-a185-a478f3b99cc0}</v>
+                                      <o n="Value" t="BoolValue">
+                                        <v n="Value">"FALSE"</v>
+                                        <v n="DefaultValue">"FALSE"</v>
+                                      </o>
+                                      <v n="Id">3475L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
+                                      <o n="Value" t="BoolValue">
+                                        <v n="Value">"FALSE"</v>
+                                        <v n="DefaultValue">"FALSE"</v>
+                                      </o>
+                                      <v n="Id">3476L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{cacf1a68-236e-47c2-b7b1-1cf9199718cb}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">""</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3477L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{b693554c-1b01-4a8d-afde-9e3a46f7465d}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">""</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3478L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{700a583f-b4d4-43e4-8c14-629c7cd3bec8}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">""</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3479L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{a6b08bd8-b696-47e3-9cbf-7408b61c9ff8}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">""</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3480L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{a2621e18-7de3-4ea6-ae6d-89e9e0b7befd}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">""</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3481L</v>
+                                      <v n="IdParent">3470L</v>
+                                    </o>
+                                  </l2>
+                                  <v n="Id">3470L</v>
+                                  <v n="IdParent">3209L</v>
+                                </o>
+                                <o t="SFCTransition">
+                                  <v n="VariableName">"SafetyCheck__to__Fin"</v>
+                                  <n n="EmbeddedTransition" />
+                                  <l2 n="EmbeddedTransitionProperties" />
+                                  <l2 n="Attributes" cet="SFCAttribute">
+                                    <o>
+                                      <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">"Pulsador_marcha"</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3495L</v>
+                                      <v n="IdParent">3494L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                                      <o n="Value" t="StringValue">
+                                        <v n="Value">""</v>
+                                        <v n="DefaultValue">""</v>
+                                      </o>
+                                      <v n="Id">3496L</v>
+                                      <v n="IdParent">3494L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                                      <o n="Value" t="BoolValue">
+                                        <v n="Value">"FALSE"</v>
+                                        <v n="DefaultValue">"FALSE"</v>
+                                      </o>
+                                      <v n="Id">3497L</v>
+                                      <v n="IdParent">3494L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
+                                      <o n="Value" t="EnumValue">
+                                        <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
+                                        <n n="BaseType" />
+                                        <v n="Value">"0"</v>
+                                        <v n="DefaultValue">"0"</v>
+                                      </o>
+                                      <v n="Id">3498L</v>
+                                      <v n="IdParent">3494L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
+                                      <o n="Value" t="BoolValue">
+                                        <v n="Value">"FALSE"</v>
+                                        <v n="DefaultValue">"FALSE"</v>
+                                      </o>
+                                      <v n="Id">3499L</v>
+                                      <v n="IdParent">3494L</v>
+                                    </o>
+                                    <o>
+                                      <v n="AttributeId">{8294df19-5962-4dee-a874-1051dabb0e3e}</v>
+                                      <o n="Value" t="EnumValue">
+                                        <v n="TemplateGuid">{6ecff51c-9b8f-4338-aab0-67c2b31b07e9}</v>
+                                        <n n="BaseType" />
+                                        <v n="Value">"0"</v>
+                                        <v n="DefaultValue">"0"</v>
+                                      </o>
+                                      <v n="Id">3500L</v>
+                                      <v n="IdParent">3494L</v>
+                                    </o>
+                                  </l2>
+                                  <v n="Id">3494L</v>
                                   <v n="IdParent">3209L</v>
                                 </o>
                                 <o t="SFCStep">
@@ -1153,7 +1154,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"LampOFF"</v>
+                            <v n="Value">"Init"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">2565L</v>
@@ -1183,7 +1184,35 @@ END_VAR
                     </o>
                   </l2>
                 </o>
-                <l2 n="Attributes" />
+                <l2 n="Attributes" cet="SFCAttribute">
+                  <o>
+                    <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                    <o n="Value" t="StringValue">
+                      <v n="Value">""</v>
+                      <v n="DefaultValue">""</v>
+                    </o>
+                    <v n="Id">3442L</v>
+                    <v n="IdParent">9L</v>
+                  </o>
+                  <o>
+                    <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                    <o n="Value" t="StringValue">
+                      <v n="Value">""</v>
+                      <v n="DefaultValue">""</v>
+                    </o>
+                    <v n="Id">3443L</v>
+                    <v n="IdParent">9L</v>
+                  </o>
+                  <o>
+                    <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                    <o n="Value" t="BoolValue">
+                      <v n="Value">"FALSE"</v>
+                      <v n="DefaultValue">"FALSE"</v>
+                    </o>
+                    <v n="Id">3444L</v>
+                    <v n="IdParent">9L</v>
+                  </o>
+                </l2>
                 <v n="Id">9L</v>
                 <v n="IdParent">-1L</v>
               </o>

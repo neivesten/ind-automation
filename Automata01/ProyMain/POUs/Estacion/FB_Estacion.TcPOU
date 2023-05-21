@@ -130,6 +130,7 @@ IF NOT Selector_Modo_Manual THEN
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.ChequeaMaterial,
 		Base_en_Alimentador := Base_en_alimentador
+		Pulsador_marcha := Pulsador_marcha
 	);
 	
 	AlimentadorVerificadorDesplazador(
@@ -242,6 +243,7 @@ END_IF]]></ST>
       <LineId Id="685" Count="1" />
       <LineId Id="684" Count="0" />
       <LineId Id="689" Count="0" />
+      <LineId Id="772" Count="0" />
       <LineId Id="680" Count="0" />
       <LineId Id="243" Count="1" />
       <LineId Id="247" Count="0" />
