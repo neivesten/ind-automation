@@ -192,27 +192,37 @@ IF NOT Selector_Modo_Manual THEN
 
 	);
 	
-//Acciones Comunes
-Lampara_falta_material := Coordinador.Lampara_falta_material;
-Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta OR TransferirPale.Activa_marcha_motor_cinta;
-//CheckMaterial
-Lampara_alarma := ChequeaMaterial.LamparaAlarma;
-Lampara_falta_material := ChequeaMaterial.Lampara_falta_material;
-//TranferirPale
- Retenedor_pale_baja := TransferirPale.Retenedor_pale_baja;
- Separador_pale_sube := TransferirPale.Separador_pale_sube;
-//AlimentadorVerificadorDesplazador
-Alimentador_adelante := AlimentadorVerificadorDesplazador.Alimentador_adelante;
-Verificador_baja := AlimentadorVerificadorDesplazador.Verificador_baja;
-Desplazador_adelante := AlimentadorVerificadorDesplazador.Desplazador_adelante;
-pieza_ok := AlimentadorVerificadorDesplazador.pieza_ok;
-//Descargador
-Eyector_succiona := Descargador.Eyector_succiona;
-Descargador_adelante := Descargador.Descargador_adelante;
-Descargador_atras := Descargador.Descargador_atras OR ResetDescargador.Descargador_atras;
-Descargador_baja := Descargador.Descargador_baja;
-//Rechazador
-Rechazador_adelante := Rechazador.Rechazador_adelante;
+	//Acciones Comunes
+	Lampara_falta_material := Coordinador.Lampara_falta_material;
+	Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta OR TransferirPale.Activa_marcha_motor_cinta;
+	//CheckMaterial
+	Lampara_alarma := ChequeaMaterial.LamparaAlarma;
+	Lampara_falta_material := ChequeaMaterial.Lampara_falta_material;
+	//TranferirPale
+	 Retenedor_pale_baja := TransferirPale.Retenedor_pale_baja;
+	 Separador_pale_sube := TransferirPale.Separador_pale_sube;
+	//AlimentadorVerificadorDesplazador
+	Alimentador_adelante := AlimentadorVerificadorDesplazador.Alimentador_adelante;
+	Verificador_baja := AlimentadorVerificadorDesplazador.Verificador_baja;
+	Desplazador_adelante := AlimentadorVerificadorDesplazador.Desplazador_adelante;
+	pieza_ok := AlimentadorVerificadorDesplazador.pieza_ok;
+	//Descargador
+	Eyector_succiona := Descargador.Eyector_succiona;
+	Descargador_adelante := Descargador.Descargador_adelante;
+	Descargador_atras := Descargador.Descargador_atras OR ResetDescargador.Descargador_atras;
+	Descargador_baja := Descargador.Descargador_baja;
+	//Rechazador
+	Rechazador_adelante := Rechazador.Rechazador_adelante;
+	
+	IF NOT EstadoPausa THEN
+	
+		EstadoPausa := Pulsador_parada_NC;
+	
+	ELSE
+	
+		EstadoPausa := NOT Pulsador_marcha;
+	
+	END_IF
 
 END_IF]]></ST>
     </Implementation>
@@ -299,6 +309,16 @@ END_IF]]></ST>
       <LineId Id="574" Count="0" />
       <LineId Id="559" Count="5" />
       <LineId Id="576" Count="0" />
+      <LineId Id="856" Count="0" />
+      <LineId Id="855" Count="0" />
+      <LineId Id="862" Count="0" />
+      <LineId Id="861" Count="0" />
+      <LineId Id="859" Count="0" />
+      <LineId Id="864" Count="0" />
+      <LineId Id="863" Count="0" />
+      <LineId Id="866" Count="0" />
+      <LineId Id="865" Count="0" />
+      <LineId Id="860" Count="0" />
       <LineId Id="206" Count="0" />
       <LineId Id="205" Count="0" />
     </LineIds>
