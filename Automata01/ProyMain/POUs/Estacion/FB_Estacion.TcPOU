@@ -129,7 +129,7 @@ IF NOT Selector_Modo_Manual THEN
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.ChequeaMaterial,
-		Base_en_Alimentador := Base_en_alimentador
+		Base_en_Alimentador := Base_en_alimentador,
 		Pulsador_marcha := Pulsador_marcha
 	);
 	
