@@ -47,6 +47,12 @@
     <Compile Include="POUs\Tareas\FB_Descargador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\Tareas\FB_EstacionFinalizar_SFC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\Tareas\FB_EstacionPreparar_SFC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\Tareas\FB_Rechazador_SFC.TcPOU">
       <SubType>Code</SubType>
     </Compile>
