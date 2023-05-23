@@ -267,7 +267,26 @@ IF NOT Selector_Modo_Manual THEN
 	
 	END_IF
 
-END_IF]]></ST>
+END_IF
+
+// Parametros de Salida
+CondicionInicial := EstacionConectada AND Horizontal_descargador_detras AND Desplazador_detras AND Verificador_arriba AND Vertical_descargador_arriba AND Alimentador_detras;
+
+//al iniciar una tarea
+IF ((ModoAnterior = E_GEMMA.A1) AND (Director.Modo <> E_GEMMA.A1) AND (CiclosPendientes = 0)) THEN
+    CiclosPendientes := CiclosSolicitados;
+END_IF
+
+//IF (Director.Modo <> E_GEMMA.F4) THEN
+    //PaleCodigo := SituarPale.PaleCodigo;
+//ELSE 
+    //PaleCodigo.0 := Codigo_pale_bit_0;
+    //PaleCodigo.1 := Codigo_pale_bit_1;
+    //PaleCodigo.2 := Codigo_pale_bit_2;
+//END_IF
+
+// ACTULIZACION DE IMAGENES
+ModoAnterior := Director.Modo;]]></ST>
     </Implementation>
     <LineIds Name="FB_Estacion">
       <LineId Id="9" Count="0" />
@@ -371,6 +390,8 @@ END_IF]]></ST>
       <LineId Id="860" Count="0" />
       <LineId Id="206" Count="0" />
       <LineId Id="205" Count="0" />
+      <LineId Id="1079" Count="17" />
+      <LineId Id="1078" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
