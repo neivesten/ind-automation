@@ -17,6 +17,9 @@
     <LibraryReferences>{05dbcc83-8dfe-4a3b-adf3-f4fe0cdd4a1a}</LibraryReferences>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DUTs\E_GEMMA.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="GlobalTextList.TcGTLO">
       <SubType>Code</SubType>
     </Compile>
@@ -24,6 +27,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Estacion\FB_Coordinador_SFC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\Estacion\FB_Director.TcPOU">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\Estacion\FB_Estacion.TcPOU">

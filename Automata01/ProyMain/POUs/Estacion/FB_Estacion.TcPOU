@@ -52,7 +52,13 @@ VAR_OUTPUT
 
 END_VAR
 VAR
+	ModoAnterior: E_GEMMA;    
+
     // Bloques funcionales
+    CLK: FB_Clock;	
+
+    // Bloques funcionales
+	Director : FB_Director;
     Coordinador: FB_Coordinador_SFC;
 	ChequeaMaterial: FB_CheckMaterial_SFC;
 	AlimentadorVerificadorDesplazador: FB_AlimentadorVerificadorDesplazador_SFC;
@@ -88,6 +94,25 @@ END_VAR
       <ST><![CDATA[// Modo Automático
 IF NOT Selector_Modo_Manual THEN
 	
+	// Modo Automático
+	//IF NOT Selector_Modo_Manual THEN
+	CLK();
+
+    // Bloques Funcionales
+    Director(
+        CondicionInicial := CondicionInicial,
+        CondicionMarcha:= (CiclosSolicitados > 0) AND CondicionInicial,
+        Emergencia := Pulsador_parada_emergencia,
+        Finalizada := Finalizar.Done,
+        FinTarea := (CiclosPendientes = 0),
+        FinCiclo := Coordinador.Done,
+        Manual := Selector_modo_manual,
+        Marcha := Pulsador_marcha,
+        ParaCiclo := NOT Pulsador_parada_NC,
+        Preparada := Preparar.Done,
+        Reinicia := EstadoReinicia
+    );
+
 	// Bloques Funcionales
 	Coordinador(
 
@@ -105,7 +130,6 @@ IF NOT Selector_Modo_Manual THEN
         Rechazado := Rechazador.Done,
 		BaseCargada := Descargador.Done,
 		PaleTransferido := TransferirPale.Done,
-		Base_en_alimentador := Base_en_alimentador,
 		pieza_ok := pieza_ok
 		
 	);
@@ -229,6 +253,9 @@ END_IF]]></ST>
     <LineIds Name="FB_Estacion">
       <LineId Id="9" Count="0" />
       <LineId Id="203" Count="1" />
+      <LineId Id="951" Count="16" />
+      <LineId Id="950" Count="0" />
+      <LineId Id="949" Count="0" />
       <LineId Id="207" Count="1" />
       <LineId Id="212" Count="0" />
       <LineId Id="210" Count="0" />
@@ -240,7 +267,6 @@ END_IF]]></ST>
       <LineId Id="227" Count="0" />
       <LineId Id="673" Count="0" />
       <LineId Id="224" Count="2" />
-      <LineId Id="211" Count="0" />
       <LineId Id="575" Count="0" />
       <LineId Id="549" Count="0" />
       <LineId Id="209" Count="0" />

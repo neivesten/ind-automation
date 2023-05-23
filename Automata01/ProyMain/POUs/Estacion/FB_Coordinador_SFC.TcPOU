@@ -30,7 +30,6 @@ VAR_INPUT
     CiclosSolicitados: UINT;
 	
 	//Entradas
-	Base_en_Alimentador: BOOL;
 	pieza_ok: BOOL;
 END_VAR
 VAR_OUTPUT

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="E_GEMMA" Id="{9a640055-c2b2-489f-b38b-d0de04cc326d}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE E_GEMMA :
+(
+    // Modos de la Guia de Estudio de los Modos de Marcha y Parada
+    // [Modes du Guide d'Etude des Modes de Marche et d'Arrêt]
+    // [Modes of Study Guide of the Modes of Operating and Stopping]
+
+    // Procedimientos de parada [Les procédures d'arrets - Stop procedures]
+    A1, //  0: Parada en el estado inicial [Arrêt dans etat initial - Stopped in the initial state]
+    A2, //  1: Parada solicitada a final de ciclo [Arret demandé en fin de cycle - Requested end cycle stop]
+    A3, //  2: Parada solicitada en un estado determinado [Arret demande dans etat determine - Requested particular state stop]
+    A4, //  3: Parada obtenida [Arret obtenu - Obteined stop]
+    A5, //  4: Preparacion para la recuperacion del fallo [Preparation pour remise en route apres defaillance - Preparation for the recovery of the failure]
+    A6, //  5: Situando la PO en el estado inicial [Mise PO dans état initial - Set the PO in initial state]
+    A7, //  6: Situando la PO en un estado determinado [Mise PO dans état déterminé - Set the PO in a certain state]
+
+    // Procedimientos de funcionamiento [Les procédures de fonctionnement - Operating procedures]
+    F1, //  7: Produccion normal [Production normale - Normal operation]
+    F2, //  8: Secuencia de preparacion [Marche de preparation - Preparation sequence]
+    F3, //  9: Secuencia de finalizacion [Marche de cloture - Ending sequence]
+    F4, // 10: Verificacion en desorden [Marche de verification dans le desordre - Verification with no order]
+    F5, // 11: Verificacion en orden [Marche de verification dans l'ordre - Verification whit order]
+    F6, // 12: Secuencia de prueba [Marche de test - Test sequence]
+
+    // Procedimientos de fallo [Les procédures en défaillances - Failure procedures]
+    D1, // 13: Parada de emergencia [Arret d'urgence - Emergency stop]
+    D2, // 14: Diagnostico y/o tratamiento de los fallos [Diagnostic et/ou traitement de la défaillance - Diagnosis and/or treatment of failures]
+    D3  // 15: Produccion a pesar de los fallos [Production tout de même - Production despite the failures]
+);
+END_TYPE]]></Declaration>
+  </DUT>
+</TcPlcObject>
