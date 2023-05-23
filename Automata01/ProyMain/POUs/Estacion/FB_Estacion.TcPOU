@@ -216,7 +216,7 @@ IF NOT Selector_Modo_Manual THEN
 	
 	IF NOT EstadoPausa THEN
 	
-		EstadoPausa := Pulsador_parada_NC;
+		EstadoPausa := not Pulsador_parada_NC;
 	
 	ELSE
 	

@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{53F8AC17-18F3-A53D-AA7E-AD1D8B4A7883}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{BCA1BCBE-8AD9-0772-98F5-CE68362620BA}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -784,9 +784,6 @@ Terminal 6]]></Comment>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_marcha" VarB="Channel 3^Lámpara de marcha"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Retenedor_pale_baja" VarB="Channel 7^Cilindro del retenedor de palés baja"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.Separador_pale_sube" VarB="Channel 8^Cilindro del separador de palés sube"/>
-			</OwnerB>
-			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
-				<Link VarA="PlcTask Outputs^MAIN.Estacion.Lampara_alarma" VarB="Channel 1^Avisador sonoro"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>
