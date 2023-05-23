@@ -90,15 +90,13 @@ VAR
 	Desplazador_adelante AT %Q*: BOOL;
 	Alimentador_adelante AT %Q*: BOOL;
 	Eyector_succiona AT %Q*: BOOL;
+	SFCPause: BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[// Modo Automático
-IF NOT Selector_Modo_Manual THEN
-	
-	// Modo Automático
-	//IF NOT Selector_Modo_Manual THEN
-	CLK();
+//IF NOT Selector_Modo_Manual THEN
+CLK();
 
     // Bloques Funcionales
     Director(
@@ -202,7 +200,7 @@ IF NOT Selector_Modo_Manual THEN
 	
 	Descargador(
 		
-		Ack := (Director.Modo <> E_GEMMA.F3),
+		Ack := NOT Coordinador.CargaBase,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.CargaBase,
@@ -235,7 +233,6 @@ IF NOT Selector_Modo_Manual THEN
 	
 	//Acciones Comunes
 	// Parametros de Salida
-	CondicionInicial := Pulsador_Marcha AND EstacionConectada AND Horizontal_descargador_detras AND Desplazador_detras AND Verificador_arriba AND Vertical_descargador_arriba AND Alimentador_detras;
 	Lampara_falta_material := Coordinador.Lampara_falta_material;
 	Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta OR TransferirPale.Activa_marcha_motor_cinta;
 	//CheckMaterial
@@ -267,10 +264,10 @@ IF NOT Selector_Modo_Manual THEN
 	
 	END_IF
 
-END_IF
-
+END_IF	
+	
 // Parametros de Salida
-CondicionInicial := EstacionConectada AND Horizontal_descargador_detras AND Desplazador_detras AND Verificador_arriba AND Vertical_descargador_arriba AND Alimentador_detras;
+CondicionInicial := EstacionConectada AND Pulsador_marcha; //AND Desplazador_detras AND Verificador_arriba AND Vertical_descargador_arriba AND Alimentador_detras;
 
 //al iniciar una tarea
 IF ((ModoAnterior = E_GEMMA.A1) AND (Director.Modo <> E_GEMMA.A1) AND (CiclosPendientes = 0)) THEN
@@ -289,8 +286,6 @@ END_IF
 ModoAnterior := Director.Modo;]]></ST>
     </Implementation>
     <LineIds Name="FB_Estacion">
-      <LineId Id="9" Count="0" />
-      <LineId Id="203" Count="1" />
       <LineId Id="951" Count="16" />
       <LineId Id="950" Count="0" />
       <LineId Id="1056" Count="0" />
@@ -363,7 +358,7 @@ ModoAnterior := Director.Modo;]]></ST>
       <LineId Id="361" Count="1" />
       <LineId Id="359" Count="0" />
       <LineId Id="545" Count="1" />
-      <LineId Id="1076" Count="1" />
+      <LineId Id="1076" Count="0" />
       <LineId Id="547" Count="0" />
       <LineId Id="565" Count="0" />
       <LineId Id="676" Count="0" />
@@ -388,8 +383,8 @@ ModoAnterior := Director.Modo;]]></ST>
       <LineId Id="866" Count="0" />
       <LineId Id="865" Count="0" />
       <LineId Id="860" Count="0" />
-      <LineId Id="206" Count="0" />
-      <LineId Id="205" Count="0" />
+      <LineId Id="1189" Count="0" />
+      <LineId Id="1187" Count="0" />
       <LineId Id="1079" Count="17" />
       <LineId Id="1078" Count="0" />
     </LineIds>
