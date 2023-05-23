@@ -1258,7 +1258,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -1561,8 +1561,8 @@
                       <v n="Id">2812299069L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1</v>
-                          <v n="CanonicalName">"BasicElement-Fill-Color"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Black"</v>
                         </o>
                       </l>
                     </o>
@@ -1653,8 +1653,8 @@
                           <v n="ScriptIdentification">0</v>
                           <v n="DoubleFontSize" t="Double">0</v>
                           <o n="NamedColor" t="NamedStyleColor">
-                            <v n="Color">-16777216</v>
-                            <v n="CanonicalName">"Font-Default-Color"</v>
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"Element-Potentiometer-ScaleColor"</v>
                           </o>
                         </o>
                       </l>
@@ -1726,8 +1726,8 @@
                       <v n="Id">2812299069L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1</v>
-                          <v n="CanonicalName">"BasicElement-Fill-Color"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Font-Default-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -1818,8 +1818,8 @@
                           <v n="ScriptIdentification">0</v>
                           <v n="DoubleFontSize" t="Double">0</v>
                           <o n="NamedColor" t="NamedStyleColor">
-                            <v n="Color">-16777216</v>
-                            <v n="CanonicalName">"Font-Default-Color"</v>
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"Element-Potentiometer-ScaleColor"</v>
                           </o>
                         </o>
                       </l>
@@ -1891,8 +1891,8 @@
                       <v n="Id">2812299069L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1</v>
-                          <v n="CanonicalName">"BasicElement-Fill-Color"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Font-Default-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -1983,8 +1983,8 @@
                           <v n="ScriptIdentification">0</v>
                           <v n="DoubleFontSize" t="Double">0</v>
                           <o n="NamedColor" t="NamedStyleColor">
-                            <v n="Color">-16777216</v>
-                            <v n="CanonicalName">"Font-Default-Color"</v>
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"Element-Potentiometer-ScaleColor"</v>
                           </o>
                         </o>
                       </l>
@@ -2056,8 +2056,8 @@
                       <v n="Id">2812299069L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1</v>
-                          <v n="CanonicalName">"BasicElement-Fill-Color"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Font-Default-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -2148,8 +2148,8 @@
                           <v n="ScriptIdentification">0</v>
                           <v n="DoubleFontSize" t="Double">0</v>
                           <o n="NamedColor" t="NamedStyleColor">
-                            <v n="Color">-16777216</v>
-                            <v n="CanonicalName">"Font-Default-Color"</v>
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"Element-Potentiometer-ScaleColor"</v>
                           </o>
                         </o>
                       </l>
@@ -2761,7 +2761,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Descargador_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4287,7 +4287,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4663,7 +4663,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Rechazador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4851,7 +4851,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Verificador_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5039,7 +5039,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Desplazador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5151,20 +5151,6 @@
                     <v n="Name">"Tap"</v>
                     <v n="Description">"Configure the tapping of a Boolean variable"</v>
                   </o>
-                  <o>
-                    <n n="DescriptionTree" />
-                    <o n="VisualElemMemberList" t="VisualElemMemberList">
-                      <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
-                        <o>
-                          <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Descargador_baja"</v>
-                        </o>
-                      </l>
-                    </o>
-                    <v n="SignatureName">"Visu_ToggleInput"</v>
-                    <v n="Name">"Toggle"</v>
-                    <v n="Description">"Configure the toggling of a Boolean variable"</v>
-                  </o>
                 </a>
                 <l n="Elements" t="ArrayList" />
                 <n n="VisualElementDescription" />
@@ -5241,7 +5227,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Alimentador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5429,7 +5415,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Eyector_succiona"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5602,7 +5588,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5775,7 +5761,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5948,7 +5934,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6121,7 +6107,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6294,7 +6280,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6482,7 +6468,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Descargador_atras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6670,7 +6656,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Horizontal_descargador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6858,7 +6844,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Horizontal_descargador_delante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7046,7 +7032,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Vertical_descargador_arriba"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7234,7 +7220,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Vertical_descargador_abajo"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7407,7 +7393,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7615,7 +7601,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Verificador_arriba"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7803,7 +7789,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Desplazador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7991,7 +7977,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Alimentador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8164,7 +8150,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8354,7 +8340,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8559,7 +8545,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Verificador_abajo"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8732,7 +8718,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8937,7 +8923,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Alimentador_delante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9125,7 +9111,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9298,7 +9284,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9491,7 +9477,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9684,7 +9670,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9877,7 +9863,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10070,7 +10056,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10263,7 +10249,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10471,7 +10457,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10662,7 +10648,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
+                      <v n="Value">"MAIN.test_pieza.Lampara_falta_material"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10850,7 +10836,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Presencia_pale"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11038,7 +11024,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11226,7 +11212,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11602,7 +11588,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Invierte_marcha_motor_cinta"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11710,9 +11696,9 @@
                         </o>
                       </l>
                     </o>
-                    <v n="SignatureName">"Visu_TapInput"</v>
-                    <v n="Name">"Tap"</v>
-                    <v n="Description">"Configure the tapping of a Boolean variable"</v>
+                    <v n="SignatureName">"Visu_ToggleInput"</v>
+                    <v n="Name">"Toggle"</v>
+                    <v n="Description">"Configure the toggling of a Boolean variable"</v>
                   </o>
                 </a>
                 <l n="Elements" t="ArrayList" />
@@ -11790,7 +11776,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Retenedor_pale_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11898,9 +11884,9 @@
                         </o>
                       </l>
                     </o>
-                    <v n="SignatureName">"Visu_TapInput"</v>
-                    <v n="Name">"Tap"</v>
-                    <v n="Description">"Configure the tapping of a Boolean variable"</v>
+                    <v n="SignatureName">"Visu_ToggleInput"</v>
+                    <v n="Name">"Toggle"</v>
+                    <v n="Description">"Configure the toggling of a Boolean variable"</v>
                   </o>
                 </a>
                 <l n="Elements" t="ArrayList" />
@@ -11978,7 +11964,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Separador_pale_sube"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12166,7 +12152,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12354,7 +12340,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12542,7 +12528,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Separador_pale_sube"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12601,7 +12587,7 @@
                     </o>
                     <o>
                       <v n="Id">390574330L</v>
-                      <v n="Value">"Parada"</v>
+                      <v n="Value">"Parad"</v>
                     </o>
                     <o>
                       <v n="Id">1375557818L</v>
@@ -12620,7 +12606,7 @@
                     </o>
                     <o>
                       <v n="Id">823443203L</v>
-                      <v n="Value">"463"</v>
+                      <v n="Value">"702"</v>
                     </o>
                   </l>
                 </o>
@@ -12733,7 +12719,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
+                      <v n="Value">"MAIN.test_pieza.Lampara_alarma"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12924,7 +12910,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
+                      <v n="Value">"MAIN.test_pieza.Lampara_marcha"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -13018,6 +13004,194 @@
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
                 <v n="VisualElementId">305</v>
+                <l n="UserManagementAccessRights" t="ArrayList" />
+              </o>
+              <o>
+                <a n="ConfiguredComplexInputs" cet="ComplexInput">
+                  <o>
+                    <n n="DescriptionTree" />
+                    <o n="VisualElemMemberList" t="VisualElemMemberList">
+                      <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
+                        <o>
+                          <v n="Id">1186196937L</v>
+                          <v n="Value">"MAIN.test_pieza.Detector_presion"</v>
+                        </o>
+                      </l>
+                    </o>
+                    <v n="SignatureName">"Visu_ToggleInput"</v>
+                    <v n="Name">"Toggle"</v>
+                    <v n="Description">"Configure the toggling of a Boolean variable"</v>
+                  </o>
+                </a>
+                <l n="Elements" t="ArrayList" />
+                <n n="VisualElementDescription" />
+                <o n="VisualElemMemberList" t="VisualElemMemberList">
+                  <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
+                    <o>
+                      <v n="Id">571893170L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">494569607L</v>
+                      <l n="Value" t="ArrayList" cet="NamedStyleColor">
+                        <o>
+                          <v n="Color">-2830136</v>
+                          <v n="CanonicalName">"Lightgray"</v>
+                        </o>
+                      </l>
+                    </o>
+                    <o>
+                      <v n="Id">2812299069L</v>
+                      <l n="Value" t="ArrayList" cet="NamedStyleColor">
+                        <o>
+                          <v n="Color">-2830136</v>
+                          <v n="CanonicalName">"Lightgray"</v>
+                        </o>
+                      </l>
+                    </o>
+                    <o>
+                      <v n="Id">135947015L</v>
+                      <l n="Value" t="ArrayList" cet="NamedStyleColor">
+                        <o>
+                          <v n="Color">-16711936</v>
+                          <v n="CanonicalName">"Element-Bar-GraphColor"</v>
+                        </o>
+                      </l>
+                    </o>
+                    <o>
+                      <v n="Id">493260384L</v>
+                      <l n="Value" t="ArrayList" cet="UInt32">
+                        <v>4291493837</v>
+                      </l>
+                    </o>
+                    <o>
+                      <v n="Id">2340015797L</v>
+                      <v n="Value">"HCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2565699834L</v>
+                      <v n="Value">"VCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">4134387352L</v>
+                      <v n="Value">"NONE"</v>
+                    </o>
+                    <o>
+                      <v n="Id">1603690730L</v>
+                      <v n="Value">"Arial"</v>
+                    </o>
+                    <o>
+                      <v n="Id">4253639993L</v>
+                      <v n="Value" t="Int16">12</v>
+                    </o>
+                    <o>
+                      <v n="Id">2729990903L</v>
+                      <v n="Value">0U</v>
+                    </o>
+                    <o>
+                      <v n="Id">1213979116L</v>
+                      <v n="Value">0U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3488306084L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">1999528970L</v>
+                      <v n="Value">"MAIN.test_pieza.Detector_presion"</v>
+                    </o>
+                    <o>
+                      <v n="Id">3719097617L</v>
+                      <v n="Value">0</v>
+                    </o>
+                    <o>
+                      <v n="Id">1649127785L</v>
+                      <v n="Value">223</v>
+                    </o>
+                    <o>
+                      <v n="Id">357335551L</v>
+                      <v n="Value">508</v>
+                    </o>
+                    <o>
+                      <v n="Id">2422045748L</v>
+                      <v n="Value">67</v>
+                    </o>
+                    <o>
+                      <v n="Id">2134141914L</v>
+                      <v n="Value">37</v>
+                    </o>
+                    <o>
+                      <v n="Id">3729828405L</v>
+                      <l n="Value" t="ArrayList" cet="NamedStyleFont">
+                        <o>
+                          <v n="FontStyle">0</v>
+                          <v n="AdditionalFontStyle" t="UInt16">0</v>
+                          <v n="ExplicitColor">-16777216</v>
+                          <v n="CanonicalName">"Font-Heading"</v>
+                          <v n="FontName">"Arial"</v>
+                          <v n="FontSize">20</v>
+                          <v n="ScriptIdentification">0</v>
+                          <v n="DoubleFontSize" t="Double">0</v>
+                          <o n="NamedColor" t="NamedStyleColor">
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"White"</v>
+                          </o>
+                        </o>
+                      </l>
+                    </o>
+                    <o>
+                      <v n="Id">550940142L</v>
+                      <v n="Value">256</v>
+                    </o>
+                    <o>
+                      <v n="Id">1473355128L</v>
+                      <v n="Value">526</v>
+                    </o>
+                    <o>
+                      <v n="Id">2678395525L</v>
+                      <v n="Value">1U</v>
+                    </o>
+                    <o>
+                      <v n="Id">564465120L</v>
+                      <v n="Value">"VISU_ST_ROUNDRECT"</v>
+                    </o>
+                    <o>
+                      <v n="Id">390574330L</v>
+                      <v n="Value">"Presion"</v>
+                    </o>
+                    <o>
+                      <v n="Id">1375557818L</v>
+                      <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">2073431371L</v>
+                      <o n="Value" t="FontSizeObject">
+                        <v n="Expression">""</v>
+                        <v n="Unit">"pt"</v>
+                      </o>
+                    </o>
+                    <o>
+                      <v n="Id">823443203L</v>
+                      <v n="Value">"562"</v>
+                    </o>
+                  </l>
+                </o>
+                <v n="VisualElementName">"Rounded Rectangle"</v>
+                <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
+                <v n="VisualElementIsRectangle">true</v>
+                <v n="VisualElementIdentifier">"GenElemInst_336"</v>
+                <n n="VisualElementOfflinePaintCommands" />
+                <n n="VisualElementFrameInformation" />
+                <d n="VisualElementInputActions" t="Hashtable" />
+                <v n="VisualElementIdentification">{56cd35d8-496c-49c8-8b55-a66125cd5cfc}</v>
+                <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
+                <a n="LMGuids" et="Guid" />
+                <d n="SubElements" t="Hashtable" />
+                <v n="VisualElementId">310</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
             </l>
@@ -13173,7 +13347,7 @@
             </o>
             <v n="DialogDut">{fb6d3ee8-59d7-45c5-948c-52ba534bd934}</v>
           </o>
-          <v n="LastUsedIdForIdentifier">332</v>
+          <v n="LastUsedIdForIdentifier">336</v>
           <o n="TextDocument" t="TextDocument">
             <a n="TextLines" cet="TextLine">
               <o>
