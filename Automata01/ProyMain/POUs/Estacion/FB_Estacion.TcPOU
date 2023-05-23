@@ -67,6 +67,8 @@ VAR
     Descargador: FB_Descargador_SFC;
     Rechazador: FB_Rechazador_SFC;
     TransferirPale: FB_TransferirPale_SFC;
+	Finalizar: FB_EstacionFinalizar_SFC;
+	Preparar: FB_EstacionPreparar_SFC;
     
     // Salidas comunes
     Desconecta_parte_operativa AT %Q*: BOOL;
@@ -112,6 +114,21 @@ IF NOT Selector_Modo_Manual THEN
         Preparada := Preparar.Done,
         Reinicia := EstadoReinicia
     );
+	
+	IF (Director.Modo <> E_GEMMA.F4) THEN
+
+    SituarPale( //SituarPale
+        SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := NOT Coordinador.SituaPale,
+        Execute := Coordinador.SituaPale,
+        Tcinta := Tcinta,
+        Presencia_pale := Presencia_pale,
+           //Codigo_pale_bit_0 := Codigo_pale_bit_0,
+        //Codigo_pale_bit_1 := Codigo_pale_bit_1,
+        //Codigo_pale_bit_2 := Codigo_pale_bit_2
+
+    );
 
 	// Bloques Funcionales
 	Coordinador(
@@ -122,7 +139,7 @@ IF NOT Selector_Modo_Manual THEN
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Ack := TRUE,
-        Execute := Pulsador_marcha AND (CiclosSolicitados > 0),
+        Execute := CondicionInicial AND (CiclosSolicitados > 0),
 		PaleSituado := SituarPale.Done,
 		HayMaterial := ChequeaMaterial.Done,
 		Verificado := AlimentadorVerificadorDesplazador.Done,
@@ -159,11 +176,11 @@ IF NOT Selector_Modo_Manual THEN
 	
 	AlimentadorVerificadorDesplazador(
 		
-		Ack := NOT Coordinador.VerificaBase,
-		Tcheck := Tcheck,
+		Ack := (Director.Modo <> E_GEMMA.F2),
+        Tcheck := Tcheck,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := Coordinador.VerificaBase,
+		Execute := (Director.Modo = E_GEMMA.F2),
 		Alimentador_delante := Alimentador_delante,
 		Alimentador_detras := Alimentador_detras,
 		Verificador_arriba := Verificador_arriba ,
@@ -175,17 +192,17 @@ IF NOT Selector_Modo_Manual THEN
 	
 	ResetDescargador(
 
-		Ack := NOT Coordinador.ResetDescargador,
+		Ack := (Director.Modo <> E_GEMMA.F3),
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := Coordinador.ResetDescargador,
+		Execute := (Director.Modo = E_GEMMA.F3),
 		Horizontal_descargador_detras := Horizontal_descargador_detras,
 		Vertical_descargador_arriba := Vertical_descargador_arriba
 	);
 	
 	Descargador(
 		
-		Ack := NOT Coordinador.CargaBase,
+		Ack := (Director.Modo <> E_GEMMA.F3),
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Execute := Coordinador.CargaBase,
@@ -217,11 +234,13 @@ IF NOT Selector_Modo_Manual THEN
 	);
 	
 	//Acciones Comunes
+	// Parametros de Salida
+	CondicionInicial := Pulsador_Marcha AND EstacionConectada AND Horizontal_descargador_detras AND Desplazador_detras AND Verificador_arriba AND Vertical_descargador_arriba AND Alimentador_detras;
 	Lampara_falta_material := Coordinador.Lampara_falta_material;
 	Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta OR TransferirPale.Activa_marcha_motor_cinta;
 	//CheckMaterial
-	Lampara_alarma := ChequeaMaterial.LamparaAlarma;
-	Lampara_falta_material := ChequeaMaterial.Lampara_falta_material;
+	//Lampara_alarma := ChequeaMaterial.LamparaAlarma;
+	//Lampara_falta_material := ChequeaMaterial.Lampara_falta_material;
 	//TranferirPale
 	 Retenedor_pale_baja := TransferirPale.Retenedor_pale_baja;
 	 Separador_pale_sube := TransferirPale.Separador_pale_sube;
@@ -255,6 +274,9 @@ END_IF]]></ST>
       <LineId Id="203" Count="1" />
       <LineId Id="951" Count="16" />
       <LineId Id="950" Count="0" />
+      <LineId Id="1056" Count="0" />
+      <LineId Id="1058" Count="12" />
+      <LineId Id="1057" Count="0" />
       <LineId Id="949" Count="0" />
       <LineId Id="207" Count="1" />
       <LineId Id="212" Count="0" />
@@ -284,7 +306,7 @@ END_IF]]></ST>
       <LineId Id="243" Count="1" />
       <LineId Id="247" Count="0" />
       <LineId Id="568" Count="0" />
-      <LineId Id="248" Count="0" />
+      <LineId Id="1074" Count="0" />
       <LineId Id="250" Count="0" />
       <LineId Id="252" Count="1" />
       <LineId Id="456" Count="4" />
@@ -293,7 +315,7 @@ END_IF]]></ST>
       <LineId Id="245" Count="0" />
       <LineId Id="663" Count="1" />
       <LineId Id="668" Count="0" />
-      <LineId Id="666" Count="0" />
+      <LineId Id="1075" Count="0" />
       <LineId Id="669" Count="1" />
       <LineId Id="667" Count="0" />
       <LineId Id="671" Count="1" />
@@ -321,7 +343,9 @@ END_IF]]></ST>
       <LineId Id="363" Count="1" />
       <LineId Id="361" Count="1" />
       <LineId Id="359" Count="0" />
-      <LineId Id="545" Count="2" />
+      <LineId Id="545" Count="1" />
+      <LineId Id="1076" Count="1" />
+      <LineId Id="547" Count="0" />
       <LineId Id="565" Count="0" />
       <LineId Id="676" Count="0" />
       <LineId Id="553" Count="0" />
