@@ -103,13 +103,13 @@ CLK();
         CondicionInicial := CondicionInicial,
         CondicionMarcha:= (CiclosSolicitados > 0) AND CondicionInicial,
         Emergencia := Pulsador_parada_emergencia,
-        Finalizada := Finalizar.Done,
+        Finalizada := TransferirPale.Done,
         FinTarea := (CiclosPendientes = 0),
         FinCiclo := Coordinador.Done,
         Manual := Selector_modo_manual,
         Marcha := Pulsador_marcha,
         ParaCiclo := NOT Pulsador_parada_NC,
-        Preparada := Preparar.Done,
+        Preparada := SituarPale.Done,
         Reinicia := EstadoReinicia
     );
 	
@@ -174,11 +174,11 @@ CLK();
 	
 	AlimentadorVerificadorDesplazador(
 		
-		Ack := (Director.Modo <> E_GEMMA.F2),
+		Ack := (Director.Modo <> E_GEMMA.F1),
         Tcheck := Tcheck,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := (Director.Modo = E_GEMMA.F2),
+		Execute := (Director.Modo = E_GEMMA.F1),
 		Alimentador_delante := Alimentador_delante,
 		Alimentador_detras := Alimentador_detras,
 		Verificador_arriba := Verificador_arriba ,
@@ -190,10 +190,10 @@ CLK();
 	
 	ResetDescargador(
 
-		Ack := (Director.Modo <> E_GEMMA.F3),
+		Ack := (Director.Modo <> E_GEMMA.F2 AND Director.Modo <> E_GEMMA.F3),
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := (Director.Modo = E_GEMMA.F3),
+		Execute := (Director.Modo <> E_GEMMA.F2 AND Director.Modo <> E_GEMMA.F3),
 		Horizontal_descargador_detras := Horizontal_descargador_detras,
 		Vertical_descargador_arriba := Vertical_descargador_arriba
 	);
