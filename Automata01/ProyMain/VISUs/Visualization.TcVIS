@@ -2339,6 +2339,10 @@
                       <v n="Id">823443203L</v>
                       <v n="Value">"307"</v>
                     </o>
+                    <o>
+                      <v n="Id">2477733581L</v>
+                      <v n="Value">"MAIN.test_pieza.Restantes"</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Textfield"</v>
@@ -2496,6 +2500,10 @@
                       <v n="Id">823443203L</v>
                       <v n="Value">"307"</v>
                     </o>
+                    <o>
+                      <v n="Id">2477733581L</v>
+                      <v n="Value">"MAIN.test_pieza.Aceptados"</v>
+                    </o>
                   </l>
                 </o>
                 <v n="VisualElementName">"Textfield"</v>
@@ -2652,6 +2660,10 @@
                     <o>
                       <v n="Id">823443203L</v>
                       <v n="Value">"307"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2477733581L</v>
+                      <v n="Value">"MAIN.test_pieza.Rechazados"</v>
                     </o>
                   </l>
                 </o>
