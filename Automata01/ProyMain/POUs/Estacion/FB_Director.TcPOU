@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_Director" Id="{0b4a92da-4c26-4385-aea5-45cbefc41e8d}" SpecialFunc="None">
+  <POU Name="FB_Director" Id="{a0b28f22-28e2-4cf3-9f2c-04d2f6c7c409}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Director
 VAR_INPUT
     CondicionInicial: BOOL; // Condiciones materiales necesarias para iniciar la produccion
@@ -103,11 +103,10 @@ END_VAR]]></Declaration>
     Parada := (Modo >= E_GEMMA.A1) AND (Modo <= E_GEMMA.A7);
     Produccion := (Modo = E_GEMMA.A2) OR (Modo = E_GEMMA.A3) OR (Modo = E_GEMMA.F1) 
         OR (Modo = E_GEMMA.F2) OR (Modo = E_GEMMA.F3) OR (Modo = E_GEMMA.F5)
-        OR (Modo = E_GEMMA.F6) OR (Modo = E_GEMMA.D3); 
-]]></ST>
+        OR (Modo = E_GEMMA.F6) OR (Modo = E_GEMMA.D3);]]></ST>
     </Implementation>
     <LineIds Name="FB_Director">
-      <LineId Id="117" Count="79" />
+      <LineId Id="31" Count="78" />
       <LineId Id="9" Count="0" />
     </LineIds>
   </POU>

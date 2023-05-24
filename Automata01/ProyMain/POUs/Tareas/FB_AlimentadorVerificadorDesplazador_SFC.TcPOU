@@ -34,6 +34,8 @@ VAR_OUTPUT
 	Alimentador_adelante: BOOL;
 	Verificador_baja: BOOL;
 	Desplazador_adelante: BOOL;
+	
+	pieza_ok : BOOL;
 
 END_VAR
 VAR
@@ -2637,12 +2639,12 @@ END_VAR
     </Implementation>
     <Action Name="notOK_exit" Id="{b0a78a57-d88c-46b7-a4ad-4a30e82ee872}">
       <Implementation>
-        <ST><![CDATA[]]></ST>
+        <ST><![CDATA[pieza_ok := FALSE;]]></ST>
       </Implementation>
     </Action>
     <Action Name="OK_exit" Id="{3392bf54-4745-4a11-aa31-cca47c5cf578}">
       <Implementation>
-        <ST><![CDATA[]]></ST>
+        <ST><![CDATA[pieza_ok := TRUE;]]></ST>
       </Implementation>
     </Action>
     <ObjectProperties>
@@ -2678,8 +2680,8 @@ END_VAR
               </o>
               <v>Pause</v>
               <o>
-                <v n="Use">false</v>
-                <v n="Declare">true</v>
+                <v n="Use">true</v>
+                <v n="Declare">false</v>
               </o>
               <v>Error</v>
               <o>
@@ -2728,7 +2730,7 @@ END_VAR
               </o>
             </d2>
             <v n="CalcActiveTransOnly">false</v>
-            <v n="UseDefaults">true</v>
+            <v n="UseDefaults">false</v>
           </o>
         </Data>
         <TypeList>

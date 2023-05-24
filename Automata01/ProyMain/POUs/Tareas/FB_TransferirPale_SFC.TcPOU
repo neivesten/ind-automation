@@ -865,7 +865,61 @@ END_VAR
                       <l2 n="EmbeddedEntryActionProperties" />
                       <l2 n="EmbeddedExitActionProperties" />
                       <o n="ElementList" t="SFCElementList">
-                        <l2 n="InnerList" />
+                        <l2 n="InnerList" cet="SFCActionAssociation">
+                          <o>
+                            <l2 n="Attributes" cet="SFCAttribute">
+                              <o>
+                                <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">"Done"</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">1705L</v>
+                                <v n="IdParent">1704L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">""</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">1706L</v>
+                                <v n="IdParent">1704L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                                <o n="Value" t="BoolValue">
+                                  <v n="Value">"FALSE"</v>
+                                  <v n="DefaultValue">"FALSE"</v>
+                                </o>
+                                <v n="Id">1707L</v>
+                                <v n="IdParent">1704L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
+                                <o n="Value" t="EnumValue">
+                                  <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
+                                  <n n="BaseType" />
+                                  <v n="Value">"0"</v>
+                                  <v n="DefaultValue">"0"</v>
+                                </o>
+                                <v n="Id">1708L</v>
+                                <v n="IdParent">1704L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{e174fc0d-80b0-4a9e-a530-ca239c249a50}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">"N"</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">1709L</v>
+                                <v n="IdParent">1704L</v>
+                              </o>
+                            </l2>
+                            <v n="Id">1704L</v>
+                            <v n="IdParent">1608L</v>
+                          </o>
+                        </l2>
                       </o>
                       <l2 n="Attributes" cet="SFCAttribute">
                         <o>
@@ -1427,8 +1481,8 @@ END_VAR
               </o>
               <v>Pause</v>
               <o>
-                <v n="Use">false</v>
-                <v n="Declare">true</v>
+                <v n="Use">true</v>
+                <v n="Declare">false</v>
               </o>
               <v>Error</v>
               <o>
@@ -1477,7 +1531,7 @@ END_VAR
               </o>
             </d2>
             <v n="CalcActiveTransOnly">false</v>
-            <v n="UseDefaults">true</v>
+            <v n="UseDefaults">false</v>
           </o>
         </Data>
         <TypeList>
