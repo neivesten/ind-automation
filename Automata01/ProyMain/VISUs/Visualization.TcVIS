@@ -2761,7 +2761,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Descargador_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4663,7 +4663,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Rechazador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4851,7 +4851,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Verificador_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7046,7 +7046,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Vertical_descargador_arriba"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7234,7 +7234,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Vertical_descargador_abajo"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7615,7 +7615,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Verificador_arriba"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
