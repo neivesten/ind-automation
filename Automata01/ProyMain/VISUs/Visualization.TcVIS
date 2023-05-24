@@ -96,11 +96,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">74</v>
+                      <v n="Value">94</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">71</v>
+                      <v n="Value">91</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -131,11 +131,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">521</v>
+                      <v n="Value">541</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">374</v>
+                      <v n="Value">394</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -162,15 +162,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_214"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_334"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{039054d6-3508-4a40-8dee-2575adf996ef}</v>
+                <v n="VisualElementIdentification">{992fe020-9e9b-47ca-a757-6809bca286b8}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">204</v>
+                <v n="VisualElementId">308</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -261,11 +261,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">741</v>
+                      <v n="Value">761</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">134</v>
+                      <v n="Value">154</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -296,11 +296,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">948</v>
+                      <v n="Value">968</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">156</v>
+                      <v n="Value">176</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -323,15 +323,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_75"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_336"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{ebec3f7e-6062-4a69-b6bf-e6ce500407cd}</v>
+                <v n="VisualElementIdentification">{7841d8a3-4979-4540-9d65-c05d21cd0527}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">78</v>
+                <v n="VisualElementId">310</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -422,11 +422,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">313</v>
+                      <v n="Value">333</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">134</v>
+                      <v n="Value">154</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -457,11 +457,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">520</v>
+                      <v n="Value">540</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">156</v>
+                      <v n="Value">176</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -484,15 +484,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_77"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_338"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{8155f6e3-4677-455c-8fb7-0ceab1c567f5}</v>
+                <v n="VisualElementIdentification">{67e24b4e-c337-4c5c-b05e-ee4bc03b42d2}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">80</v>
+                <v n="VisualElementId">312</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -583,11 +583,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">313</v>
+                      <v n="Value">333</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">89</v>
+                      <v n="Value">109</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -618,11 +618,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">520</v>
+                      <v n="Value">540</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">111</v>
+                      <v n="Value">131</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -649,15 +649,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_79"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_340"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{dff3f7d1-7605-4114-a154-b5e3e301a217}</v>
+                <v n="VisualElementIdentification">{0898b749-b47a-4bff-99a5-1e2ff58b601a}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">82</v>
+                <v n="VisualElementId">314</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -712,11 +712,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">313</v>
+                      <v n="Value">333</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">91</v>
+                      <v n="Value">111</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -778,15 +778,15 @@
                 <v n="VisualElementName">"Label"</v>
                 <v n="VisualElementTypeName">"VisuFbLabel"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_87"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_342"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{bc3992c6-885f-4f8f-8d56-4aaee9e65483}</v>
+                <v n="VisualElementIdentification">{e9b12ea8-3e01-47c2-a666-044d57db35c1}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">90</v>
+                <v n="VisualElementId">316</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -877,11 +877,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">741</v>
+                      <v n="Value">761</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">89</v>
+                      <v n="Value">109</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -912,11 +912,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">948</v>
+                      <v n="Value">968</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">111</v>
+                      <v n="Value">131</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -939,15 +939,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_91"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_344"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{2be684c1-2479-4970-bd07-c975e49896cc}</v>
+                <v n="VisualElementIdentification">{2c947663-4eb7-4bc2-9bae-21b2c2043d19}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">94</v>
+                <v n="VisualElementId">318</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -1002,11 +1002,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">791</v>
+                      <v n="Value">811</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">94</v>
+                      <v n="Value">114</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -1068,15 +1068,15 @@
                 <v n="VisualElementName">"Label"</v>
                 <v n="VisualElementTypeName">"VisuFbLabel"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_93"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_346"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{3d65a220-32b6-4d60-9bf6-11ed6ae9e2bb}</v>
+                <v n="VisualElementIdentification">{0b5c7862-df56-4efd-be6b-41f97020e787}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">96</v>
+                <v n="VisualElementId">320</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -1107,11 +1107,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">761</v>
+                      <v n="Value">781</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">359</v>
+                      <v n="Value">379</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -1170,15 +1170,15 @@
                 <v n="VisualElementName">"Progressbar"</v>
                 <v n="VisualElementTypeName">"VisuFbProgressBar"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_101"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_348"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{b90befbd-ba6c-495b-9056-cc0ad06e865b}</v>
+                <v n="VisualElementIdentification">{3ae7c305-77c7-4ac3-9e98-fc4703d1eece}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">104</v>
+                <v n="VisualElementId">322</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -1266,11 +1266,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">326</v>
+                      <v n="Value">346</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">154</v>
+                      <v n="Value">174</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -1301,11 +1301,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">404</v>
+                      <v n="Value">424</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">174</v>
+                      <v n="Value">194</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -1343,15 +1343,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_119"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_350"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{f59ba60f-c435-4d13-93b0-d21653e595d2}</v>
+                <v n="VisualElementIdentification">{b98526cb-0ed9-4921-a294-5b34d3db9390}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">122</v>
+                <v n="VisualElementId">324</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -1442,11 +1442,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">893</v>
+                      <v n="Value">913</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">160</v>
+                      <v n="Value">180</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -1508,7 +1508,7 @@
                 <v n="VisualElementName">"Textfield"</v>
                 <v n="VisualElementTypeName">"VisuFbElemTextfield"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_141"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_352"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" ckt="String" cvt="InputBoxInputAction[]">
@@ -1531,11 +1531,11 @@
                     </o>
                   </a>
                 </d>
-                <v n="VisualElementIdentification">{569e899b-d68e-483e-b22f-178de30b9c0b}</v>
+                <v n="VisualElementIdentification">{ded96e83-b14a-4579-9147-29d9d0d83a13}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">145</v>
+                <v n="VisualElementId">326</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -1561,8 +1561,8 @@
                       <v n="Id">2812299069L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1</v>
-                          <v n="CanonicalName">"BasicElement-Fill-Color"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Font-Default-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -1626,11 +1626,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">761</v>
+                      <v n="Value">781</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">159</v>
+                      <v n="Value">179</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -1653,19 +1653,19 @@
                           <v n="ScriptIdentification">0</v>
                           <v n="DoubleFontSize" t="Double">0</v>
                           <o n="NamedColor" t="NamedStyleColor">
-                            <v n="Color">-16777216</v>
-                            <v n="CanonicalName">"Font-Default-Color"</v>
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"Element-Potentiometer-ScaleColor"</v>
                           </o>
                         </o>
                       </l>
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">828</v>
+                      <v n="Value">848</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">177</v>
+                      <v n="Value">197</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -1692,15 +1692,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_143"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_354"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{4e436892-e005-4af5-8bc3-812433059b09}</v>
+                <v n="VisualElementIdentification">{3280b092-5a69-4111-b6b7-87db8ab0016d}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">147</v>
+                <v n="VisualElementId">328</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -1726,8 +1726,8 @@
                       <v n="Id">2812299069L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1</v>
-                          <v n="CanonicalName">"BasicElement-Fill-Color"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Font-Default-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -1791,11 +1791,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">761</v>
+                      <v n="Value">781</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">206</v>
+                      <v n="Value">226</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -1818,19 +1818,19 @@
                           <v n="ScriptIdentification">0</v>
                           <v n="DoubleFontSize" t="Double">0</v>
                           <o n="NamedColor" t="NamedStyleColor">
-                            <v n="Color">-16777216</v>
-                            <v n="CanonicalName">"Font-Default-Color"</v>
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"Element-Potentiometer-ScaleColor"</v>
                           </o>
                         </o>
                       </l>
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">827</v>
+                      <v n="Value">847</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">224</v>
+                      <v n="Value">244</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -1857,15 +1857,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_145"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_356"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{dcae1cdd-7167-4169-b595-41c683bb02ff}</v>
+                <v n="VisualElementIdentification">{3db9b9c2-cc12-4e73-bca0-a85f55be093b}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">149</v>
+                <v n="VisualElementId">330</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -1891,8 +1891,8 @@
                       <v n="Id">2812299069L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1</v>
-                          <v n="CanonicalName">"BasicElement-Fill-Color"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Font-Default-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -1956,11 +1956,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">761</v>
+                      <v n="Value">781</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">255</v>
+                      <v n="Value">275</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -1983,19 +1983,19 @@
                           <v n="ScriptIdentification">0</v>
                           <v n="DoubleFontSize" t="Double">0</v>
                           <o n="NamedColor" t="NamedStyleColor">
-                            <v n="Color">-16777216</v>
-                            <v n="CanonicalName">"Font-Default-Color"</v>
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"Element-Potentiometer-ScaleColor"</v>
                           </o>
                         </o>
                       </l>
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">827</v>
+                      <v n="Value">847</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">273</v>
+                      <v n="Value">293</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -2022,15 +2022,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_147"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_358"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{fa8e6d0e-48f8-43d9-9573-e5d0e07fe9f8}</v>
+                <v n="VisualElementIdentification">{8a7db1d3-b32c-4de1-98bc-2ccac8465aae}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">151</v>
+                <v n="VisualElementId">332</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -2056,8 +2056,8 @@
                       <v n="Id">2812299069L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1</v>
-                          <v n="CanonicalName">"BasicElement-Fill-Color"</v>
+                          <v n="Color">-16777216</v>
+                          <v n="CanonicalName">"Font-Default-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -2121,11 +2121,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">761</v>
+                      <v n="Value">781</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">305</v>
+                      <v n="Value">325</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -2148,19 +2148,19 @@
                           <v n="ScriptIdentification">0</v>
                           <v n="DoubleFontSize" t="Double">0</v>
                           <o n="NamedColor" t="NamedStyleColor">
-                            <v n="Color">-16777216</v>
-                            <v n="CanonicalName">"Font-Default-Color"</v>
+                            <v n="Color">-1</v>
+                            <v n="CanonicalName">"Element-Potentiometer-ScaleColor"</v>
                           </o>
                         </o>
                       </l>
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">828</v>
+                      <v n="Value">848</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">323</v>
+                      <v n="Value">343</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -2187,15 +2187,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_149"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_360"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{20eb453d-4cdb-49a8-80f2-8cafdd92a5ae}</v>
+                <v n="VisualElementIdentification">{2d59d539-3083-402b-8af5-5138c80a367d}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">153</v>
+                <v n="VisualElementId">334</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -2286,11 +2286,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">893</v>
+                      <v n="Value">913</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">207</v>
+                      <v n="Value">227</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -2344,15 +2344,15 @@
                 <v n="VisualElementName">"Textfield"</v>
                 <v n="VisualElementTypeName">"VisuFbElemTextfield"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_151"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_362"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{93662a19-3f00-4cf1-b503-bdc27da6ea61}</v>
+                <v n="VisualElementIdentification">{b92d59ae-f6bf-4282-b46e-b66dbc0c2677}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">155</v>
+                <v n="VisualElementId">336</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -2443,11 +2443,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">891</v>
+                      <v n="Value">911</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">255</v>
+                      <v n="Value">275</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -2501,15 +2501,15 @@
                 <v n="VisualElementName">"Textfield"</v>
                 <v n="VisualElementTypeName">"VisuFbElemTextfield"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_153"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_364"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{7d78dc00-55ac-456d-be44-489dba323857}</v>
+                <v n="VisualElementIdentification">{f1a94279-208e-4113-a191-82b1cc355b05}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">157</v>
+                <v n="VisualElementId">338</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -2600,11 +2600,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">891</v>
+                      <v n="Value">911</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">305</v>
+                      <v n="Value">325</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -2658,15 +2658,15 @@
                 <v n="VisualElementName">"Textfield"</v>
                 <v n="VisualElementTypeName">"VisuFbElemTextfield"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_155"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_366"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{5262390b-b941-45ef-920e-a41eac8516e6}</v>
+                <v n="VisualElementIdentification">{52e3725c-f36b-4031-869d-c7bcddf398b2}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">159</v>
+                <v n="VisualElementId">340</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -2761,7 +2761,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Descargador_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -2769,11 +2769,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">542</v>
+                      <v n="Value">562</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">203</v>
+                      <v n="Value">223</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -2804,11 +2804,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">562</v>
+                      <v n="Value">582</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">223</v>
+                      <v n="Value">243</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -2846,15 +2846,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_165"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_368"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{83a861d2-6f19-4701-975d-986dcb653e14}</v>
+                <v n="VisualElementIdentification">{bcc6d189-18f2-46c4-a198-483727214890}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">170</v>
+                <v n="VisualElementId">342</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -2945,11 +2945,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">741</v>
+                      <v n="Value">761</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">467</v>
+                      <v n="Value">487</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -2980,11 +2980,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">948</v>
+                      <v n="Value">968</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">489</v>
+                      <v n="Value">509</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -3007,15 +3007,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_175"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_370"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{0aaf2602-d843-470e-a20d-2250c66d3119}</v>
+                <v n="VisualElementIdentification">{c12b94b9-eb41-46c6-8a4d-dc647937f8f3}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">182</v>
+                <v n="VisualElementId">344</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -3106,11 +3106,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">741</v>
+                      <v n="Value">761</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">422</v>
+                      <v n="Value">442</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -3141,11 +3141,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">948</v>
+                      <v n="Value">968</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">444</v>
+                      <v n="Value">464</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -3168,15 +3168,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_177"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_372"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{b88c2862-9d2e-49d3-ae0c-455c4552f5d0}</v>
+                <v n="VisualElementIdentification">{6671886a-d0e6-4f74-beb5-23177926b9aa}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">184</v>
+                <v n="VisualElementId">346</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -3231,11 +3231,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">791</v>
+                      <v n="Value">811</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">427</v>
+                      <v n="Value">447</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -3297,15 +3297,15 @@
                 <v n="VisualElementName">"Label"</v>
                 <v n="VisualElementTypeName">"VisuFbLabel"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_179"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_374"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{8b1a1b08-ab17-4fb4-8cfc-ec3db37f2cee}</v>
+                <v n="VisualElementIdentification">{5fbe3a4a-24ee-4569-961f-0a721d0ee585}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">186</v>
+                <v n="VisualElementId">348</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -3396,11 +3396,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">84</v>
+                      <v n="Value">104</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">90</v>
+                      <v n="Value">110</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -3431,11 +3431,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">291</v>
+                      <v n="Value">311</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">112</v>
+                      <v n="Value">132</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -3458,15 +3458,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_199"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_376"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{dc365827-92a2-4878-864b-decbf70f2ade}</v>
+                <v n="VisualElementIdentification">{54d84e2b-f7b9-4c9e-8aec-47f8a9deba01}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">189</v>
+                <v n="VisualElementId">350</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -3557,11 +3557,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">84</v>
+                      <v n="Value">104</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">354</v>
+                      <v n="Value">374</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -3592,11 +3592,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">291</v>
+                      <v n="Value">311</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">376</v>
+                      <v n="Value">396</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -3619,15 +3619,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_205"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_378"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{5949f7ee-aa83-4ef8-9686-fe55288b352a}</v>
+                <v n="VisualElementIdentification">{accc19ea-49c8-449a-b012-8ca4487f1b56}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">195</v>
+                <v n="VisualElementId">352</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -3718,11 +3718,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">84</v>
+                      <v n="Value">104</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">309</v>
+                      <v n="Value">329</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -3753,11 +3753,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">291</v>
+                      <v n="Value">311</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">331</v>
+                      <v n="Value">351</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -3780,15 +3780,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_207"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_380"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{b395329e-c16d-47f5-99ce-fe30b7a40821}</v>
+                <v n="VisualElementIdentification">{264a80db-f795-4318-9011-9ba039b397c1}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">197</v>
+                <v n="VisualElementId">354</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -3843,11 +3843,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">134</v>
+                      <v n="Value">154</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">314</v>
+                      <v n="Value">334</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -3909,15 +3909,15 @@
                 <v n="VisualElementName">"Label"</v>
                 <v n="VisualElementTypeName">"VisuFbLabel"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_209"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_382"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{f7013b78-c16f-4e22-ace2-bb3385f54910}</v>
+                <v n="VisualElementIdentification">{14f6c735-c24c-48e9-b979-d734afa47ba8}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">199</v>
+                <v n="VisualElementId">356</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -4008,11 +4008,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">74</v>
+                      <v n="Value">94</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">30</v>
+                      <v n="Value">50</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -4043,11 +4043,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">521</v>
+                      <v n="Value">541</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">50</v>
+                      <v n="Value">70</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -4070,15 +4070,15 @@
                 <v n="VisualElementName">"Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_216"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_384"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{04a7665f-0a57-4437-8183-eb9c40ec89e9}</v>
+                <v n="VisualElementIdentification">{1caa1b69-f003-4b61-9477-fe5d6799c598}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">206</v>
+                <v n="VisualElementId">358</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -4133,11 +4133,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">74</v>
+                      <v n="Value">94</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">31</v>
+                      <v n="Value">51</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -4199,15 +4199,15 @@
                 <v n="VisualElementName">"Label"</v>
                 <v n="VisualElementTypeName">"VisuFbLabel"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_222"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_386"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{4b48fb30-4a1f-456d-843a-958108d3631c}</v>
+                <v n="VisualElementIdentification">{2ddf390c-064f-4c19-b5b0-da6619e3c6e1}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">212</v>
+                <v n="VisualElementId">360</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -4295,11 +4295,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">326</v>
+                      <v n="Value">346</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">203</v>
+                      <v n="Value">223</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -4330,11 +4330,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">404</v>
+                      <v n="Value">424</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">223</v>
+                      <v n="Value">243</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -4372,15 +4372,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_224"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_388"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{60ad71db-7afc-4bc2-aae8-e86ace6b3e77}</v>
+                <v n="VisualElementIdentification">{e2489d77-e14e-43ad-bfb1-1738a601d5ac}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">215</v>
+                <v n="VisualElementId">362</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -4483,11 +4483,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">542</v>
+                      <v n="Value">562</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">154</v>
+                      <v n="Value">174</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -4518,11 +4518,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">562</v>
+                      <v n="Value">582</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">174</v>
+                      <v n="Value">194</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -4560,15 +4560,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_226"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_390"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{8738a3e4-000f-42cd-a22e-f480b4fdda54}</v>
+                <v n="VisualElementIdentification">{41d190a7-ec54-4ee5-a3d2-d5a9cd671c0d}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">217</v>
+                <v n="VisualElementId">364</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -4663,7 +4663,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Rechazador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4671,11 +4671,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">542</v>
+                      <v n="Value">562</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">252</v>
+                      <v n="Value">272</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -4706,11 +4706,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">562</v>
+                      <v n="Value">582</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">272</v>
+                      <v n="Value">292</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -4748,15 +4748,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_228"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_392"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{707f0668-ff64-47de-a0be-d18a8eecc2e5}</v>
+                <v n="VisualElementIdentification">{004a88b8-e147-4ff5-9183-ef5af1082f5f}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">219</v>
+                <v n="VisualElementId">366</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -4851,7 +4851,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Verificador_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4859,11 +4859,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">542</v>
+                      <v n="Value">562</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">301</v>
+                      <v n="Value">321</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -4894,11 +4894,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">562</v>
+                      <v n="Value">582</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">321</v>
+                      <v n="Value">341</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -4936,15 +4936,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_230"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_394"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{2768e90e-fe53-4f9e-9591-d9ff679f847d}</v>
+                <v n="VisualElementIdentification">{96d2957b-279b-4fe4-be57-daaf97926a60}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">221</v>
+                <v n="VisualElementId">368</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -5039,7 +5039,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Desplazador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5047,11 +5047,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">542</v>
+                      <v n="Value">562</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">350</v>
+                      <v n="Value">370</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -5082,11 +5082,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">562</v>
+                      <v n="Value">582</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">370</v>
+                      <v n="Value">390</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -5124,15 +5124,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_232"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_396"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{eabb5e5b-f220-4520-afc1-981a27df4d45}</v>
+                <v n="VisualElementIdentification">{a35b10d9-0b50-4bc3-a586-d596077f8dfd}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">223</v>
+                <v n="VisualElementId">370</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -5241,7 +5241,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Alimentador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5249,11 +5249,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">542</v>
+                      <v n="Value">562</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">399</v>
+                      <v n="Value">419</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -5284,11 +5284,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">562</v>
+                      <v n="Value">582</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">419</v>
+                      <v n="Value">439</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -5326,15 +5326,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_234"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_398"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{99344367-821a-423e-80f0-283a338c9ce2}</v>
+                <v n="VisualElementIdentification">{4c9580a1-1203-4048-805a-df0428edad5a}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">225</v>
+                <v n="VisualElementId">372</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -5429,7 +5429,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Eyector_succiona"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5437,11 +5437,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">542</v>
+                      <v n="Value">562</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">447</v>
+                      <v n="Value">467</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -5472,11 +5472,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">562</v>
+                      <v n="Value">582</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">467</v>
+                      <v n="Value">487</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -5514,15 +5514,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_236"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_400"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{f25cc40e-a651-47b0-bd7e-a1ceacba7962}</v>
+                <v n="VisualElementIdentification">{7df84180-5af4-4beb-9e26-15988bdb9c5a}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">227</v>
+                <v n="VisualElementId">374</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -5610,11 +5610,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">326</v>
+                      <v n="Value">346</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">251</v>
+                      <v n="Value">271</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -5645,11 +5645,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">404</v>
+                      <v n="Value">424</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">271</v>
+                      <v n="Value">291</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -5687,15 +5687,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_238"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_402"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{79dfc615-fcea-47d4-9983-72904773f33b}</v>
+                <v n="VisualElementIdentification">{14b411b9-fb6f-4c72-9784-3bf6f33a9a4f}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">229</v>
+                <v n="VisualElementId">376</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -5783,11 +5783,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">326</v>
+                      <v n="Value">346</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">300</v>
+                      <v n="Value">320</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -5818,11 +5818,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">404</v>
+                      <v n="Value">424</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">320</v>
+                      <v n="Value">340</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -5860,15 +5860,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_240"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_404"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{bcc81f2a-a7e3-43cc-b35d-915dd59e8343}</v>
+                <v n="VisualElementIdentification">{6e8ed81c-7c75-4316-ac41-036030a4f08d}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">231</v>
+                <v n="VisualElementId">378</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -5956,11 +5956,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">325</v>
+                      <v n="Value">345</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">350</v>
+                      <v n="Value">370</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -5991,11 +5991,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">403</v>
+                      <v n="Value">423</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">370</v>
+                      <v n="Value">390</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -6033,15 +6033,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_242"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_406"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{b09d2635-d6c3-446f-9fb2-808e7f5b51b3}</v>
+                <v n="VisualElementIdentification">{8521e8a7-2346-45b6-9160-8b4799063b7b}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">233</v>
+                <v n="VisualElementId">380</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -6129,11 +6129,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">325</v>
+                      <v n="Value">345</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">399</v>
+                      <v n="Value">419</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -6164,11 +6164,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">403</v>
+                      <v n="Value">423</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">419</v>
+                      <v n="Value">439</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -6206,15 +6206,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_244"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_408"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{5037bec7-9563-4870-a89a-8f93cb68bb64}</v>
+                <v n="VisualElementIdentification">{d6f564f8-9511-44f3-8d8a-b48670be41be}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">235</v>
+                <v n="VisualElementId">382</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -6302,11 +6302,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">325</v>
+                      <v n="Value">345</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">447</v>
+                      <v n="Value">467</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -6337,11 +6337,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">403</v>
+                      <v n="Value">423</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">467</v>
+                      <v n="Value">487</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -6379,15 +6379,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_246"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_410"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{286b4b4e-89c9-4c53-a1b3-452f8fd2161c}</v>
+                <v n="VisualElementIdentification">{ed1fe126-5c2a-4880-a2ea-f9741e11960e}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">237</v>
+                <v n="VisualElementId">384</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -6482,7 +6482,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Descargador_atras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6490,11 +6490,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">491</v>
+                      <v n="Value">511</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">154</v>
+                      <v n="Value">174</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -6525,11 +6525,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">511</v>
+                      <v n="Value">531</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">174</v>
+                      <v n="Value">194</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -6567,15 +6567,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_248"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_412"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{d808517a-36dc-41a8-8ccc-e31efdd1c879}</v>
+                <v n="VisualElementIdentification">{716afffb-a0e9-4186-ae41-743d13bbb6bf}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">239</v>
+                <v n="VisualElementId">386</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -6670,7 +6670,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Horizontal_descargador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6678,11 +6678,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">593</v>
+                      <v n="Value">613</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">154</v>
+                      <v n="Value">174</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -6713,11 +6713,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">613</v>
+                      <v n="Value">633</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">174</v>
+                      <v n="Value">194</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -6755,15 +6755,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_250"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_414"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{bdfe76ad-3b41-4d17-8ff9-b4f9f3f966ea}</v>
+                <v n="VisualElementIdentification">{4ed42236-476f-4bff-92df-baf86ea4c218}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">241</v>
+                <v n="VisualElementId">388</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -6858,7 +6858,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Horizontal_descargador_delante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6866,11 +6866,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">644</v>
+                      <v n="Value">664</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">154</v>
+                      <v n="Value">174</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -6901,11 +6901,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">664</v>
+                      <v n="Value">684</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">174</v>
+                      <v n="Value">194</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -6943,15 +6943,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_252"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_416"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{e160b77a-54fe-477d-9596-ce6902123451}</v>
+                <v n="VisualElementIdentification">{ebe1b3de-9966-4db8-80a4-b457b71997f6}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">243</v>
+                <v n="VisualElementId">390</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -7046,7 +7046,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Vertical_descargador_arriba"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7054,11 +7054,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">593</v>
+                      <v n="Value">613</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">203</v>
+                      <v n="Value">223</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -7089,11 +7089,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">613</v>
+                      <v n="Value">633</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">223</v>
+                      <v n="Value">243</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -7131,15 +7131,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_254"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_418"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{6c762ece-8afd-487d-a864-6071513008db}</v>
+                <v n="VisualElementIdentification">{57759d7c-71fd-41ad-8ec1-df488c984178}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">245</v>
+                <v n="VisualElementId">392</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -7234,7 +7234,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Vertical_descargador_abajo"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7242,11 +7242,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">644</v>
+                      <v n="Value">664</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">203</v>
+                      <v n="Value">223</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -7277,11 +7277,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">664</v>
+                      <v n="Value">684</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">223</v>
+                      <v n="Value">243</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -7319,15 +7319,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_256"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_420"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{380c5957-6935-43ae-81b9-d1a6bc44251d}</v>
+                <v n="VisualElementIdentification">{60460dfe-20fa-47b4-8cd4-a35e0d42621a}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">247</v>
+                <v n="VisualElementId">394</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -7407,7 +7407,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7415,11 +7415,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">593</v>
+                      <v n="Value">613</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">252</v>
+                      <v n="Value">272</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -7450,11 +7450,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">613</v>
+                      <v n="Value">633</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">272</v>
+                      <v n="Value">292</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -7512,15 +7512,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_258"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_422"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{cc717ec8-3b9e-4495-a54f-3fdb88cae0f9}</v>
+                <v n="VisualElementIdentification">{f2f90f74-e7fe-43c1-8304-b2bb0aa1bc6b}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">249</v>
+                <v n="VisualElementId">396</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -7615,7 +7615,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Verificador_arriba"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7623,11 +7623,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">593</v>
+                      <v n="Value">613</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">301</v>
+                      <v n="Value">321</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -7658,11 +7658,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">613</v>
+                      <v n="Value">633</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">321</v>
+                      <v n="Value">341</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -7700,15 +7700,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_260"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_424"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{8836f00c-cc67-4987-89d5-390607fba060}</v>
+                <v n="VisualElementIdentification">{343aa6be-1fce-44ee-9f22-bc6010ce8980}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">251</v>
+                <v n="VisualElementId">398</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -7803,7 +7803,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Desplazador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7811,11 +7811,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">593</v>
+                      <v n="Value">613</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">350</v>
+                      <v n="Value">370</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -7846,11 +7846,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">613</v>
+                      <v n="Value">633</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">370</v>
+                      <v n="Value">390</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -7888,15 +7888,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_262"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_426"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{0cf19493-10c4-4fde-81ba-1d3e35b6ca54}</v>
+                <v n="VisualElementIdentification">{5150c2e5-4780-4142-8e30-6326d7cb291c}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">253</v>
+                <v n="VisualElementId">400</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -7991,7 +7991,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Alimentador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7999,11 +7999,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">593</v>
+                      <v n="Value">613</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">399</v>
+                      <v n="Value">419</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -8034,11 +8034,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">613</v>
+                      <v n="Value">633</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">419</v>
+                      <v n="Value">439</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -8076,15 +8076,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_264"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_428"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{c6786983-9532-42ec-b26c-d67aefdf3350}</v>
+                <v n="VisualElementIdentification">{02d9303c-998c-48bb-80b9-a21cac4c8dc6}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">255</v>
+                <v n="VisualElementId">402</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -8164,7 +8164,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8172,11 +8172,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">593</v>
+                      <v n="Value">613</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">447</v>
+                      <v n="Value">467</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -8207,11 +8207,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">613</v>
+                      <v n="Value">633</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">467</v>
+                      <v n="Value">487</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -8266,15 +8266,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_266"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_430"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{ca75aeea-55cc-4005-b9f8-796d0f8cfc9a}</v>
+                <v n="VisualElementIdentification">{7daeec7c-63e7-467e-be98-eadbc4445eb3}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">257</v>
+                <v n="VisualElementId">404</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -8354,7 +8354,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8362,11 +8362,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">644</v>
+                      <v n="Value">664</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">252</v>
+                      <v n="Value">272</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -8397,11 +8397,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">664</v>
+                      <v n="Value">684</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">272</v>
+                      <v n="Value">292</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -8456,15 +8456,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_268"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_432"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{be6c43c0-bbd8-4b00-a618-83eba6179d71}</v>
+                <v n="VisualElementIdentification">{91e26b15-2880-4890-8f6a-0171399c9eb3}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">259</v>
+                <v n="VisualElementId">406</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -8559,7 +8559,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Verificador_abajo"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8567,11 +8567,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">644</v>
+                      <v n="Value">664</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">301</v>
+                      <v n="Value">321</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -8602,11 +8602,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">664</v>
+                      <v n="Value">684</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">321</v>
+                      <v n="Value">341</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -8644,15 +8644,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_270"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_434"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{983cb357-4a32-44cc-a81c-b98563bf39cc}</v>
+                <v n="VisualElementIdentification">{28a9c725-b097-4a48-8fd7-2dedfdd84f3d}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">261</v>
+                <v n="VisualElementId">408</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -8732,7 +8732,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8740,11 +8740,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">644</v>
+                      <v n="Value">664</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">350</v>
+                      <v n="Value">370</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -8775,11 +8775,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">664</v>
+                      <v n="Value">684</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">370</v>
+                      <v n="Value">390</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -8834,15 +8834,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_272"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_436"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{62ec7ad0-cb77-45b9-b5df-94d06aaa40de}</v>
+                <v n="VisualElementIdentification">{f22c46a4-25a3-4776-a541-b0e7b8d5fd6a}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">263</v>
+                <v n="VisualElementId">410</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -8937,7 +8937,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Alimentador_delante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8945,11 +8945,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">644</v>
+                      <v n="Value">664</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">399</v>
+                      <v n="Value">419</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -8980,11 +8980,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">664</v>
+                      <v n="Value">684</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">419</v>
+                      <v n="Value">439</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -9022,15 +9022,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_274"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_438"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{09be22f0-11ea-4f90-b3d5-ae8ee2ec7a03}</v>
+                <v n="VisualElementIdentification">{634d7449-48e1-4523-b6a7-fe59b35cf356}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">265</v>
+                <v n="VisualElementId">412</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -9125,7 +9125,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9133,11 +9133,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">644</v>
+                      <v n="Value">664</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">447</v>
+                      <v n="Value">467</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -9168,11 +9168,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">664</v>
+                      <v n="Value">684</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">467</v>
+                      <v n="Value">487</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -9210,15 +9210,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_276"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_440"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{ddfd048f-2cad-4126-8ad6-6180bfda119d}</v>
+                <v n="VisualElementIdentification">{69d4c7ee-7390-46f7-a536-02a746a34f35}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">267</v>
+                <v n="VisualElementId">414</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -9298,7 +9298,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9306,11 +9306,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">491</v>
+                      <v n="Value">511</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">203</v>
+                      <v n="Value">223</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -9341,11 +9341,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">511</v>
+                      <v n="Value">531</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">223</v>
+                      <v n="Value">243</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -9403,15 +9403,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_278"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_442"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{6205f081-4e90-4370-8bc8-5ba98df3a57f}</v>
+                <v n="VisualElementIdentification">{205499f1-f766-4c36-822f-2967fff8c0ea}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">269</v>
+                <v n="VisualElementId">416</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -9491,7 +9491,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9499,11 +9499,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">491</v>
+                      <v n="Value">511</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">252</v>
+                      <v n="Value">272</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -9534,11 +9534,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">511</v>
+                      <v n="Value">531</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">272</v>
+                      <v n="Value">292</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -9596,15 +9596,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_280"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_444"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{5d163148-f496-4960-baa6-f742128b8f12}</v>
+                <v n="VisualElementIdentification">{2d1eb200-fc6a-447e-bf87-50f29e4212d0}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">271</v>
+                <v n="VisualElementId">418</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -9684,7 +9684,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9692,11 +9692,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">491</v>
+                      <v n="Value">511</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">301</v>
+                      <v n="Value">321</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -9727,11 +9727,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">511</v>
+                      <v n="Value">531</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">321</v>
+                      <v n="Value">341</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -9789,15 +9789,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_282"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_446"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{2cb609f9-dc41-47ef-b2ea-f0457e0cadae}</v>
+                <v n="VisualElementIdentification">{6bbb7621-acc7-4596-b316-7d834185b1fd}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">273</v>
+                <v n="VisualElementId">420</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -9877,7 +9877,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9885,11 +9885,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">491</v>
+                      <v n="Value">511</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">350</v>
+                      <v n="Value">370</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -9920,11 +9920,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">511</v>
+                      <v n="Value">531</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">370</v>
+                      <v n="Value">390</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -9982,15 +9982,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_284"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_448"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{22f12f0a-e16a-4c01-8133-3ce2e9175b80}</v>
+                <v n="VisualElementIdentification">{fe9d06b8-7f72-48dc-ad60-c0f5d78c5cd6}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">275</v>
+                <v n="VisualElementId">422</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -10070,7 +10070,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10078,11 +10078,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">491</v>
+                      <v n="Value">511</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">399</v>
+                      <v n="Value">419</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -10113,11 +10113,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">511</v>
+                      <v n="Value">531</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">419</v>
+                      <v n="Value">439</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -10175,15 +10175,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_286"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_450"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{cc074d21-da7a-4b6d-94a8-43ade4215850}</v>
+                <v n="VisualElementIdentification">{beb1c80c-b7dd-4925-9ecd-1d954a8758fc}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">277</v>
+                <v n="VisualElementId">424</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -10263,7 +10263,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10271,11 +10271,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">491</v>
+                      <v n="Value">511</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">447</v>
+                      <v n="Value">467</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -10306,11 +10306,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">511</v>
+                      <v n="Value">531</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">467</v>
+                      <v n="Value">487</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -10368,15 +10368,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_288"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_452"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{314a7f0f-3da8-4e2d-b59b-fe607830f451}</v>
+                <v n="VisualElementIdentification">{d9b3cabb-3c5a-47c9-a4a5-29778e35a989}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">279</v>
+                <v n="VisualElementId">426</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -10471,7 +10471,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10479,11 +10479,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">633</v>
+                      <v n="Value">653</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">616</v>
+                      <v n="Value">636</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -10514,11 +10514,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">675</v>
+                      <v n="Value">695</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">636</v>
+                      <v n="Value">656</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -10556,15 +10556,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_290"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_454"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{976fe71e-6c0a-40e8-924d-c0ed0eeaedf5}</v>
+                <v n="VisualElementIdentification">{bb13eae0-4b09-45c6-9a24-030b0d802c8a}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">281</v>
+                <v n="VisualElementId">428</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -10662,7 +10662,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
+                      <v n="Value">"MAIN.test_pieza.Lampara_falta_material"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10670,11 +10670,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">94</v>
+                      <v n="Value">114</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">458</v>
+                      <v n="Value">478</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -10705,11 +10705,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">127</v>
+                      <v n="Value">147</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">476</v>
+                      <v n="Value">496</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -10747,15 +10747,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_97"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_456"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{f4854d83-5709-4735-8078-9a643406de4c}</v>
+                <v n="VisualElementIdentification">{9e988a69-fa2f-4e79-8e0d-44b49142eadf}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">100</v>
+                <v n="VisualElementId">430</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -10850,7 +10850,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.test_pieza.Presencia_pale"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10858,11 +10858,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">751</v>
+                      <v n="Value">771</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">477</v>
+                      <v n="Value">497</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -10893,11 +10893,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">767</v>
+                      <v n="Value">787</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">493</v>
+                      <v n="Value">513</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -10935,15 +10935,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_292"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_458"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{441bcf38-22d1-4c11-9f1a-baa77162639f}</v>
+                <v n="VisualElementIdentification">{76d14145-0d40-46db-9400-f9484b2ed3af}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">283</v>
+                <v n="VisualElementId">432</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -11046,11 +11046,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">901</v>
+                      <v n="Value">921</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">517</v>
+                      <v n="Value">537</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -11081,11 +11081,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">923</v>
+                      <v n="Value">943</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">535</v>
+                      <v n="Value">555</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -11123,15 +11123,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_123"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_460"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{2e81370b-c3b3-4745-b09b-98abe5636d9a}</v>
+                <v n="VisualElementIdentification">{fdba5fed-2a44-4c28-abad-c90087b7902d}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">126</v>
+                <v n="VisualElementId">434</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -11226,7 +11226,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Invierte_marcha_motor_cinta"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11234,11 +11234,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">851</v>
+                      <v n="Value">871</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">517</v>
+                      <v n="Value">537</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -11269,11 +11269,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">873</v>
+                      <v n="Value">893</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">535</v>
+                      <v n="Value">555</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -11311,34 +11311,19 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_294"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_462"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{701e1de0-5776-4ddb-bddc-ee13dcc8004c}</v>
+                <v n="VisualElementIdentification">{a5b83b67-b83b-47c8-b09d-93334af65642}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">285</v>
+                <v n="VisualElementId">436</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
-                <a n="ConfiguredComplexInputs" cet="ComplexInput">
-                  <o>
-                    <n n="DescriptionTree" />
-                    <o n="VisualElemMemberList" t="VisualElemMemberList">
-                      <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
-                        <o>
-                          <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
-                        </o>
-                      </l>
-                    </o>
-                    <v n="SignatureName">"Visu_TapInput"</v>
-                    <v n="Name">"Tap"</v>
-                    <v n="Description">"Configure the tapping of a Boolean variable"</v>
-                  </o>
-                </a>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
                 <l n="Elements" t="ArrayList" />
                 <n n="VisualElementDescription" />
                 <o n="VisualElemMemberList" t="VisualElemMemberList">
@@ -11422,11 +11407,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">751</v>
+                      <v n="Value">771</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">517</v>
+                      <v n="Value">537</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -11457,11 +11442,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">773</v>
+                      <v n="Value">793</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">535</v>
+                      <v n="Value">555</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -11499,34 +11484,19 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_296"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_464"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{d31f32e9-9a9d-460b-835b-93c1b028e481}</v>
+                <v n="VisualElementIdentification">{3d0b905f-fb3b-407d-887d-898755ec22c2}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">287</v>
+                <v n="VisualElementId">438</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
-                <a n="ConfiguredComplexInputs" cet="ComplexInput">
-                  <o>
-                    <n n="DescriptionTree" />
-                    <o n="VisualElemMemberList" t="VisualElemMemberList">
-                      <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
-                        <o>
-                          <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
-                        </o>
-                      </l>
-                    </o>
-                    <v n="SignatureName">"Visu_TapInput"</v>
-                    <v n="Name">"Tap"</v>
-                    <v n="Description">"Configure the tapping of a Boolean variable"</v>
-                  </o>
-                </a>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
                 <l n="Elements" t="ArrayList" />
                 <n n="VisualElementDescription" />
                 <o n="VisualElemMemberList" t="VisualElemMemberList">
@@ -11602,7 +11572,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Invierte_marcha_motor_cinta"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11610,11 +11580,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">801</v>
+                      <v n="Value">821</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">517</v>
+                      <v n="Value">537</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -11645,11 +11615,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">823</v>
+                      <v n="Value">843</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">535</v>
+                      <v n="Value">555</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -11687,15 +11657,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_298"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_466"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{a67dc206-899b-4b9e-b385-6a37a0bbfd11}</v>
+                <v n="VisualElementIdentification">{e6419c18-65aa-43f0-b6c7-fa63db5b8e71}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">289</v>
+                <v n="VisualElementId">440</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -11790,7 +11760,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Retenedor_pale_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11798,11 +11768,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">801</v>
+                      <v n="Value">821</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">564</v>
+                      <v n="Value">584</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -11833,11 +11803,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">823</v>
+                      <v n="Value">843</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">582</v>
+                      <v n="Value">602</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -11875,15 +11845,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_300"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_468"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{831f2ade-59f7-448d-8f78-1197988838f3}</v>
+                <v n="VisualElementIdentification">{ea214eee-1423-48ff-8883-fad4cd6e8e21}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">291</v>
+                <v n="VisualElementId">442</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -11978,7 +11948,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Separador_pale_sube"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11986,11 +11956,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">801</v>
+                      <v n="Value">821</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">611</v>
+                      <v n="Value">631</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -12021,11 +11991,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">823</v>
+                      <v n="Value">843</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">629</v>
+                      <v n="Value">649</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -12063,15 +12033,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_302"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_470"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{aa9d420a-8ede-4292-a0d2-dcb4ceb0cdf6}</v>
+                <v n="VisualElementIdentification">{29abdd0f-4764-461f-8cb6-56e5583792ed}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">293</v>
+                <v n="VisualElementId">444</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -12166,7 +12136,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Pulsador_parada_emergencia"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12174,11 +12144,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">223</v>
+                      <v n="Value">243</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">364</v>
+                      <v n="Value">384</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -12209,11 +12179,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">256</v>
+                      <v n="Value">276</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">382</v>
+                      <v n="Value">402</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -12251,15 +12221,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_304"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_472"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{83158ceb-5f06-49a7-950c-eaa9a01f5ac9}</v>
+                <v n="VisualElementIdentification">{a7ac9ad8-33c8-4c5d-80f0-e48feed61cd6}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">295</v>
+                <v n="VisualElementId">446</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -12354,7 +12324,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Pulsador_marcha"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12362,11 +12332,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">223</v>
+                      <v n="Value">243</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">412</v>
+                      <v n="Value">432</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -12397,11 +12367,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">256</v>
+                      <v n="Value">276</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">430</v>
+                      <v n="Value">450</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -12439,15 +12409,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_306"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_474"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{6fe1fda1-d33f-4dab-96e4-fb622f5690dc}</v>
+                <v n="VisualElementIdentification">{c2f817f8-0350-442e-b3e2-433c03fc8840}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">297</v>
+                <v n="VisualElementId">448</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -12542,7 +12512,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.test_pieza.Pulsador_parada_NC"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12550,11 +12520,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">223</v>
+                      <v n="Value">243</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">460</v>
+                      <v n="Value">480</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -12585,11 +12555,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">256</v>
+                      <v n="Value">276</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">478</v>
+                      <v n="Value">498</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -12627,15 +12597,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_308"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_476"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{55d42bd5-9e60-478d-8d02-25eb77aebd26}</v>
+                <v n="VisualElementIdentification">{4d90dbbd-3d8a-4ca0-9390-8547b36b823b}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">299</v>
+                <v n="VisualElementId">450</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -12733,7 +12703,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
+                      <v n="Value">"MAIN.test_pieza.Lampara_alarma"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12741,11 +12711,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">94</v>
+                      <v n="Value">114</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">411</v>
+                      <v n="Value">431</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -12776,11 +12746,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">127</v>
+                      <v n="Value">147</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">429</v>
+                      <v n="Value">449</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -12818,15 +12788,15 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_312"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_478"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{09a1b185-5df4-4fa7-a0ae-07518971d83b}</v>
+                <v n="VisualElementIdentification">{6d637685-0c37-46db-81f0-1257396b4ae0}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">303</v>
+                <v n="VisualElementId">452</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
@@ -12924,7 +12894,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
+                      <v n="Value">"MAIN.test_pieza.Lampara_marcha"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12932,11 +12902,11 @@
                     </o>
                     <o>
                       <v n="Id">1649127785L</v>
-                      <v n="Value">94</v>
+                      <v n="Value">114</v>
                     </o>
                     <o>
                       <v n="Id">357335551L</v>
-                      <v n="Value">364</v>
+                      <v n="Value">384</v>
                     </o>
                     <o>
                       <v n="Id">2422045748L</v>
@@ -12967,11 +12937,11 @@
                     </o>
                     <o>
                       <v n="Id">550940142L</v>
-                      <v n="Value">127</v>
+                      <v n="Value">147</v>
                     </o>
                     <o>
                       <v n="Id">1473355128L</v>
-                      <v n="Value">382</v>
+                      <v n="Value">402</v>
                     </o>
                     <o>
                       <v n="Id">2678395525L</v>
@@ -13009,15 +12979,382 @@
                 <v n="VisualElementName">"Rounded Rectangle"</v>
                 <v n="VisualElementTypeName">"VisuFbElemSimple"</v>
                 <v n="VisualElementIsRectangle">true</v>
-                <v n="VisualElementIdentifier">"GenElemInst_314"</v>
+                <v n="VisualElementIdentifier">"GenElemInst_480"</v>
                 <n n="VisualElementOfflinePaintCommands" />
                 <n n="VisualElementFrameInformation" />
                 <d n="VisualElementInputActions" t="Hashtable" />
-                <v n="VisualElementIdentification">{1187719a-ed6c-4e15-be22-6679be1fc0d3}</v>
+                <v n="VisualElementIdentification">{ba248e26-3453-4c48-830f-cf912a53860a}</v>
                 <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
                 <a n="LMGuids" et="Guid" />
                 <d n="SubElements" t="Hashtable" />
-                <v n="VisualElementId">305</v>
+                <v n="VisualElementId">454</v>
+                <l n="UserManagementAccessRights" t="ArrayList" />
+              </o>
+              <o>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
+                <l n="Elements" t="ArrayList" />
+                <n n="VisualElementDescription" />
+                <o n="VisualElemMemberList" t="VisualElemMemberList">
+                  <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
+                    <o>
+                      <v n="Id">571893170L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2341735680L</v>
+                      <l n="Value" t="ArrayList" cet="NamedStyleColor">
+                        <o>
+                          <v n="Color">-2830136</v>
+                          <v n="CanonicalName">"Element-Frame-Color"</v>
+                        </o>
+                      </l>
+                    </o>
+                    <o>
+                      <v n="Id">438423234L</v>
+                      <l n="Value" t="ArrayList" cet="NamedStyleColor">
+                        <o>
+                          <v n="Color">-65536</v>
+                          <v n="CanonicalName">"Element-Alarm-Frame-Color"</v>
+                        </o>
+                      </l>
+                    </o>
+                    <o>
+                      <v n="Id">2678395525L</v>
+                      <v n="Value" t="Int16">1</v>
+                    </o>
+                    <o>
+                      <v n="Id">2340015797L</v>
+                      <v n="Value">"HCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2565699834L</v>
+                      <v n="Value">"VCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">4134387352L</v>
+                      <v n="Value">"NONE"</v>
+                    </o>
+                    <o>
+                      <v n="Id">1603690730L</v>
+                      <v n="Value">"Arial"</v>
+                    </o>
+                    <o>
+                      <v n="Id">4253639993L</v>
+                      <v n="Value" t="Int16">12</v>
+                    </o>
+                    <o>
+                      <v n="Id">2729990903L</v>
+                      <v n="Value">0U</v>
+                    </o>
+                    <o>
+                      <v n="Id">1213979116L</v>
+                      <v n="Value">0U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3488306084L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">1999528970L</v>
+                      <v n="Value">"&lt;toggle/tap variable&gt;"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2812299069L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">494569607L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3719097617L</v>
+                      <v n="Value">0</v>
+                    </o>
+                    <o>
+                      <v n="Id">1649127785L</v>
+                      <v n="Value">117</v>
+                    </o>
+                    <o>
+                      <v n="Id">357335551L</v>
+                      <v n="Value">116</v>
+                    </o>
+                    <o>
+                      <v n="Id">2422045748L</v>
+                      <v n="Value">190</v>
+                    </o>
+                    <o>
+                      <v n="Id">2134141914L</v>
+                      <v n="Value">190</v>
+                    </o>
+                    <o>
+                      <v n="Id">1651471674L</v>
+                      <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">3549563837L</v>
+                      <v n="Value">"ANISOTROPIC"</v>
+                    </o>
+                    <o>
+                      <v n="Id">3729828405L</v>
+                      <l n="Value" t="ArrayList" cet="NamedStyleFont">
+                        <o>
+                          <v n="FontStyle">0</v>
+                          <v n="AdditionalFontStyle" t="UInt16">0</v>
+                          <v n="ExplicitColor">-16777216</v>
+                          <v n="CanonicalName">"Font-Standard"</v>
+                          <v n="FontName">"Arial"</v>
+                          <v n="FontSize">12</v>
+                          <v n="ScriptIdentification">0</v>
+                          <v n="DoubleFontSize" t="Double">0</v>
+                          <o n="NamedColor" t="NamedStyleColor">
+                            <v n="Color">-16777216</v>
+                            <v n="CanonicalName">"Font-Default-Color"</v>
+                          </o>
+                        </o>
+                      </l>
+                    </o>
+                    <o>
+                      <v n="Id">550940142L</v>
+                      <v n="Value">-343</v>
+                    </o>
+                    <o>
+                      <v n="Id">1473355128L</v>
+                      <v n="Value">-308</v>
+                    </o>
+                    <o>
+                      <v n="Id">493260384L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">135947015L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3332245745L</v>
+                      <v n="Value">"ImagePool.Base Sola"</v>
+                    </o>
+                    <o>
+                      <v n="Id">390574330L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">true</v>
+                    </o>
+                  </l>
+                </o>
+                <v n="VisualElementName">"Image"</v>
+                <v n="VisualElementTypeName">"VisuFbElemImage"</v>
+                <v n="VisualElementIsRectangle">true</v>
+                <v n="VisualElementIdentifier">"GenElemInst_482"</v>
+                <n n="VisualElementOfflinePaintCommands" />
+                <n n="VisualElementFrameInformation" />
+                <d n="VisualElementInputActions" t="Hashtable" />
+                <v n="VisualElementIdentification">{bbb26112-3e0a-4151-b0ce-d4700c2a3623}</v>
+                <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
+                <a n="LMGuids" et="Guid" />
+                <d n="SubElements" t="Hashtable" />
+                <v n="VisualElementId">456</v>
+                <l n="UserManagementAccessRights" t="ArrayList" />
+              </o>
+              <o>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
+                <l n="Elements" t="ArrayList" />
+                <n n="VisualElementDescription" />
+                <o n="VisualElemMemberList" t="VisualElemMemberList">
+                  <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
+                    <o>
+                      <v n="Id">2812299069L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">494569607L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3719097617L</v>
+                      <v n="Value">0</v>
+                    </o>
+                    <o>
+                      <v n="Id">1649127785L</v>
+                      <v n="Value">152</v>
+                    </o>
+                    <o>
+                      <v n="Id">357335551L</v>
+                      <v n="Value">540</v>
+                    </o>
+                    <o>
+                      <v n="Id">2422045748L</v>
+                      <v n="Value">115</v>
+                    </o>
+                    <o>
+                      <v n="Id">2134141914L</v>
+                      <v n="Value">111</v>
+                    </o>
+                    <o>
+                      <v n="Id">4062784938L</v>
+                      <v n="Value">"Element-Lamp-Lamp1-Yellow"</v>
+                    </o>
+                    <o>
+                      <v n="Id">493260384L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">135947015L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2678395525L</v>
+                      <v n="Value">1U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2340015797L</v>
+                      <v n="Value">"HCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2565699834L</v>
+                      <v n="Value">"VCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">296037572L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">390574330L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">571893170L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">743958181L</v>
+                      <v n="Value">"MAIN.test_pieza.Lampara_falta_material"</v>
+                    </o>
+                    <o>
+                      <v n="Id">1357176423L</v>
+                      <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
+                  </l>
+                </o>
+                <v n="VisualElementName">"Lamp1"</v>
+                <v n="VisualElementTypeName">"VisuFbElemLamp"</v>
+                <v n="VisualElementIsRectangle">true</v>
+                <v n="VisualElementIdentifier">"GenElemInst_484"</v>
+                <n n="VisualElementOfflinePaintCommands" />
+                <n n="VisualElementFrameInformation" />
+                <d n="VisualElementInputActions" t="Hashtable" />
+                <v n="VisualElementIdentification">{50942ae8-17ad-46ca-9911-beaa325e9f47}</v>
+                <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
+                <a n="LMGuids" et="Guid" />
+                <d n="SubElements" t="Hashtable" />
+                <v n="VisualElementId">458</v>
+                <l n="UserManagementAccessRights" t="ArrayList" />
+              </o>
+              <o>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
+                <l n="Elements" t="ArrayList" />
+                <n n="VisualElementDescription" />
+                <o n="VisualElemMemberList" t="VisualElemMemberList">
+                  <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
+                    <o>
+                      <v n="Id">1931512087L</v>
+                      <v n="Value">"TOGGLE"</v>
+                    </o>
+                    <o>
+                      <v n="Id">300685745L</v>
+                      <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">2812299069L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">494569607L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">3719097617L</v>
+                      <v n="Value">0</v>
+                    </o>
+                    <o>
+                      <v n="Id">1649127785L</v>
+                      <v n="Value">345</v>
+                    </o>
+                    <o>
+                      <v n="Id">357335551L</v>
+                      <v n="Value">518</v>
+                    </o>
+                    <o>
+                      <v n="Id">2422045748L</v>
+                      <v n="Value">156</v>
+                    </o>
+                    <o>
+                      <v n="Id">2134141914L</v>
+                      <v n="Value">156</v>
+                    </o>
+                    <o>
+                      <v n="Id">493260384L</v>
+                      <v n="Value">4294967295U</v>
+                    </o>
+                    <o>
+                      <v n="Id">135947015L</v>
+                      <v n="Value">4278190080U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2678395525L</v>
+                      <v n="Value">1U</v>
+                    </o>
+                    <o>
+                      <v n="Id">2340015797L</v>
+                      <v n="Value">"HCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2565699834L</v>
+                      <v n="Value">"VCENTER"</v>
+                    </o>
+                    <o>
+                      <v n="Id">296037572L</v>
+                      <v n="Value">"ImagePool.Base OK"</v>
+                    </o>
+                    <o>
+                      <v n="Id">390574330L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">571893170L</v>
+                      <v n="Value">""</v>
+                    </o>
+                    <o>
+                      <v n="Id">427565733L</v>
+                      <v n="Value">"ImagePool.Base No OK"</v>
+                    </o>
+                    <o>
+                      <v n="Id">743958181L</v>
+                      <v n="Value">"MAIN.test_pieza.pieza_ok"</v>
+                    </o>
+                    <o>
+                      <v n="Id">2597686782L</v>
+                      <v n="Value">false</v>
+                    </o>
+                  </l>
+                </o>
+                <v n="VisualElementName">"ImageSwitcher"</v>
+                <v n="VisualElementTypeName">"VisuFbImageSwitcher"</v>
+                <v n="VisualElementIsRectangle">true</v>
+                <v n="VisualElementIdentifier">"GenElemInst_486"</v>
+                <n n="VisualElementOfflinePaintCommands" />
+                <n n="VisualElementFrameInformation" />
+                <d n="VisualElementInputActions" t="Hashtable" />
+                <v n="VisualElementIdentification">{156a5d91-d630-4002-a5a2-0710b3102540}</v>
+                <v n="VisualElementOwningObjectGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
+                <a n="LMGuids" et="Guid" />
+                <d n="SubElements" t="Hashtable" />
+                <v n="VisualElementId">460</v>
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
             </l>
@@ -13173,7 +13510,7 @@
             </o>
             <v n="DialogDut">{fb6d3ee8-59d7-45c5-948c-52ba534bd934}</v>
           </o>
-          <v n="LastUsedIdForIdentifier">332</v>
+          <v n="LastUsedIdForIdentifier">486</v>
           <o n="TextDocument" t="TextDocument">
             <a n="TextLines" cet="TextLine">
               <o>
@@ -13210,13 +13547,13 @@
             <d2 n="Size" ckt="Int32" cvt="VisualObjectSize">
               <v>0</v>
               <o>
-                <v n="Width">968</v>
-                <v n="Height">677</v>
+                <v n="Width">988</v>
+                <v n="Height">697</v>
               </o>
               <v>1</v>
               <o>
-                <v n="Width">969</v>
-                <v n="Height">678</v>
+                <v n="Width">989</v>
+                <v n="Height">698</v>
               </o>
             </d2>
             <v n="Version">1</v>
