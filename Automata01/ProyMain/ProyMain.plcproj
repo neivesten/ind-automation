@@ -117,6 +117,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="VISUs\Foto\Base No OK.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="VISUs\Foto\Base OK.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="VISUs\Foto\Base Sola.png">
       <SubType>Content</SubType>
     </Content>
