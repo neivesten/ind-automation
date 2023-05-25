@@ -16,13 +16,7 @@ VAR_INPUT
     Execute: BOOL;
 	
 	//Entradas
-   	Presencia_pale: BOOL;
-	Vertical_descargador_abajo: BOOL;
-	Vacio_obtenido_vacuostato_descargador: BOOL;
-	Vertical_descargador_arriba: BOOL;
-	Horizontal_descargador_delante: BOOL;
-	
-	
+   	Presencia_pale: BOOL;	
 	
 END_VAR
 VAR_OUTPUT
