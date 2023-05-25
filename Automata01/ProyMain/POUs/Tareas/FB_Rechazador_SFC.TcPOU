@@ -6,7 +6,7 @@ VAR_INPUT
 	
 	//Tiempo
 	Tcheck: TIME := T#1S;	
-
+	
 	// SFC-Flags
 	SFCPause: BOOL;
 	SFCReset: BOOL;

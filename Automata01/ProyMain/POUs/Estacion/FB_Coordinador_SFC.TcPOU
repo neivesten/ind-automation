@@ -6,6 +6,7 @@
 VAR_IN_OUT
 	CiclosPendientes: UINT;
 	CiclosAceptados: UINT;
+	CiclosRechazados: UINT;
 END_VAR
 VAR_INPUT
 	// SFC-Flags
@@ -2036,7 +2037,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{a6b08bd8-b696-47e3-9cbf-7408b61c9ff8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
+                                        <v n="Value">"Ciclos_Rechazados"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">2734L</v>
@@ -3861,10 +3862,22 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
+    <Action Name="Ciclos_Rechazados" Id="{4a9c93b3-0b2f-4b32-a5e4-04f9450851b9}">
+      <Implementation>
+        <ST><![CDATA[CiclosRechazados := CiclosRechazados + 1;]]></ST>
+      </Implementation>
+    </Action>
+    <Action Name="CiclosRechazados" Id="{246001ad-31c3-4e39-9f4c-350e747dfcd9}">
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Action>
     <Action Name="Initial_exit" Id="{8ec35d20-aecc-4d29-aefd-5a57190ef6fe}">
       <Implementation>
         <ST><![CDATA[IF (CiclosPendientes = 0) THEN
 	CiclosPendientes := CiclosSolicitados;
+	CiclosRechazados := 0;
+	CiclosAceptados := 0;
 END_IF]]></ST>
       </Implementation>
     </Action>
@@ -3875,7 +3888,8 @@ END_IF]]></ST>
     </Action>
     <Action Name="S6_entry" Id="{00775444-6179-4080-b74f-2a18f1a30b4e}">
       <Implementation>
-        <ST><![CDATA[CiclosPendientes := CiclosPendientes - 1;]]></ST>
+        <ST><![CDATA[CiclosPendientes := CiclosPendientes - 1;
+CiclosAceptados := CiclosAceptados + 1;]]></ST>
       </Implementation>
     </Action>
     <Action Name="S6_exit" Id="{f66f2ba2-a7a2-42f7-9f3f-9ec19f9b2281}">
@@ -3983,15 +3997,21 @@ END_IF]]></ST>
         </TypeList>
       </XmlArchive>
     </ObjectProperties>
+    <LineIds Name="FB_Coordinador_SFC.Ciclos_Rechazados">
+      <LineId Id="1" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_Coordinador_SFC.CiclosRechazados">
+      <LineId Id="1" Count="0" />
+    </LineIds>
     <LineIds Name="FB_Coordinador_SFC.Initial_exit">
-      <LineId Id="2" Count="1" />
+      <LineId Id="2" Count="3" />
       <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Coordinador_SFC.RestaCiclo_exit">
       <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Coordinador_SFC.S6_entry">
-      <LineId Id="1" Count="0" />
+      <LineId Id="1" Count="1" />
     </LineIds>
     <LineIds Name="FB_Coordinador_SFC.S6_exit">
       <LineId Id="1" Count="0" />

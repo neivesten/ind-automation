@@ -6,6 +6,7 @@ VAR_INPUT
     EstadoPausa: BOOL;
     EstadoReinicia: BOOL;
     CiclosSolicitados: UINT := 0;
+	CiclosRechazados: UINT := 0;
     
     Tcheck: TIME := T#1S;
     Treset: TIME := T#1S;
@@ -90,7 +91,7 @@ IF NOT Selector_Modo_Manual THEN
 	
 	// Bloques Funcionales
 	Coordinador(
-
+		CiclosRechazados := CiclosRechazados,
 		CiclosPendientes := CiclosPendientes,
 		CiclosAceptados := CiclosAceptados,
 		CiclosSolicitados := CiclosSolicitados,
