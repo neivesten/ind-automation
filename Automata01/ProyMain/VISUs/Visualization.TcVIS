@@ -13538,12 +13538,12 @@
                       </o>
                     </o>
                     <o>
-                      <v n="Id">823443203L</v>
-                      <v n="Value">"708"</v>
-                    </o>
-                    <o>
                       <v n="Id">2477733581L</v>
                       <v n="Value">"MAIN.Estacion.EstadoPausa"</v>
+                    </o>
+                    <o>
+                      <v n="Id">823443203L</v>
+                      <v n="Value">"708"</v>
                     </o>
                   </l>
                 </o>
@@ -13730,12 +13730,12 @@
                       </o>
                     </o>
                     <o>
-                      <v n="Id">823443203L</v>
-                      <v n="Value">"614"</v>
-                    </o>
-                    <o>
                       <v n="Id">2477733581L</v>
                       <v n="Value">"MAIN.Estacion.EstadoReinicia"</v>
+                    </o>
+                    <o>
+                      <v n="Id">823443203L</v>
+                      <v n="Value">"614"</v>
                     </o>
                   </l>
                 </o>
