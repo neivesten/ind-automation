@@ -109,7 +109,7 @@ CLK();
         Manual := Selector_modo_manual,
         Marcha := Pulsador_marcha,
         ParaCiclo := NOT Pulsador_parada_NC,
-        Preparada := SituarPale.Done,
+        Preparada := Preparar.Done,
         Reinicia := EstadoReinicia
     );
 	
