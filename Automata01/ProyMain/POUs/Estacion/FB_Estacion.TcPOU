@@ -103,7 +103,7 @@ CLK();
         CondicionInicial := CondicionInicial,
         CondicionMarcha:= (CiclosSolicitados > 0) AND CondicionInicial,
         Emergencia := Pulsador_parada_emergencia,
-        Finalizada := TransferirPale.Done,
+        Finalizada := Finalizar.Done,
         FinTarea := (CiclosPendientes = 0),
         FinCiclo := Coordinador.Done,
         Manual := Selector_modo_manual,
@@ -149,6 +149,30 @@ CLK();
 		
 	);
 	
+	Preparar(
+		
+		SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := (Director.Modo <> E_GEMMA.F2),
+        Execute := (Director.Modo = E_GEMMA.F2),
+		Horizontal_descargador_detras := Horizontal_descargador_detras,
+		Vertical_descargador_arriba := Vertical_descargador_arriba,
+		Presencia_pale := Presencia_pale
+	
+	);
+	
+	Finalizar(
+		
+		SFCPause := NOT EstadoReinicia AND EstadoPausa,
+        SFCReset := EstadoReinicia,
+        Ack := (Director.Modo <> E_GEMMA.F3),
+        Execute := (Director.Modo = E_GEMMA.F3),
+		Horizontal_descargador_detras := Horizontal_descargador_detras,
+		Vertical_descargador_arriba := Vertical_descargador_arriba,
+		Presencia_pale := Presencia_pale
+	
+	);
+	
 	SituarPale(
 
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
@@ -174,11 +198,11 @@ CLK();
 	
 	AlimentadorVerificadorDesplazador(
 		
-		Ack := (Director.Modo <> E_GEMMA.F1),
+		Ack := NOT Coordinador.VerificaBase,
         Tcheck := Tcheck,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := (Director.Modo = E_GEMMA.F1),
+		Execute := Coordinador.VerificaBase,
 		Alimentador_delante := Alimentador_delante,
 		Alimentador_detras := Alimentador_detras,
 		Verificador_arriba := Verificador_arriba ,
@@ -190,10 +214,10 @@ CLK();
 	
 	ResetDescargador(
 
-		Ack := (Director.Modo <> E_GEMMA.F2 AND Director.Modo <> E_GEMMA.F3),
+		Ack := NOT Coordinador.ResetDescargador,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
-		Execute := (Director.Modo <> E_GEMMA.F2 AND Director.Modo <> E_GEMMA.F3),
+		Execute := Coordinador.ResetDescargador,
 		Horizontal_descargador_detras := Horizontal_descargador_detras,
 		Vertical_descargador_arriba := Vertical_descargador_arriba
 	);
@@ -267,7 +291,7 @@ CLK();
 END_IF	
 	
 // Parametros de Salida
-CondicionInicial := EstacionConectada AND Pulsador_marcha; //AND Desplazador_detras AND Verificador_arriba AND Vertical_descargador_arriba AND Alimentador_detras;
+CondicionInicial := EstacionConectada; //AND Desplazador_detras AND Verificador_arriba AND Vertical_descargador_arriba AND Alimentador_detras;
 
 //al iniciar una tarea
 IF ((ModoAnterior = E_GEMMA.A1) AND (Director.Modo <> E_GEMMA.A1) AND (CiclosPendientes = 0)) THEN
@@ -306,7 +330,20 @@ ModoAnterior := Director.Modo;]]></ST>
       <LineId Id="575" Count="0" />
       <LineId Id="549" Count="0" />
       <LineId Id="209" Count="0" />
-      <LineId Id="228" Count="1" />
+      <LineId Id="228" Count="0" />
+      <LineId Id="1281" Count="0" />
+      <LineId Id="1284" Count="0" />
+      <LineId Id="1287" Count="2" />
+      <LineId Id="1286" Count="0" />
+      <LineId Id="1292" Count="1" />
+      <LineId Id="1291" Count="0" />
+      <LineId Id="1285" Count="0" />
+      <LineId Id="1283" Count="0" />
+      <LineId Id="1294" Count="0" />
+      <LineId Id="1296" Count="9" />
+      <LineId Id="1295" Count="0" />
+      <LineId Id="1282" Count="0" />
+      <LineId Id="229" Count="0" />
       <LineId Id="234" Count="8" />
       <LineId Id="231" Count="1" />
       <LineId Id="230" Count="0" />

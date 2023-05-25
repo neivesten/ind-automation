@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
   <POU Name="FB_EstacionFinalizar_SFC" Id="{7d52686f-5ee1-4fd2-a4fc-8e4959fbab9b}" SpecialFunc="None">
-    <Declaration><![CDATA[FUNCTION_BLOCK FB_EstacionPreparar_SFC
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_EstacionFinalizar_SFC
 VAR_INPUT
 	//nuestras_variables
 	Tcinta: TIME := T#0.5S;	
