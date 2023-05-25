@@ -1515,7 +1515,7 @@
                   <v>OnMouseDown</v>
                   <a cet="InputBoxInputAction">
                     <o>
-                      <v n="InputBoxVariable">"MAIN.test_pieza.Ciclos"</v>
+                      <v n="InputBoxVariable">"MAIN.Estacion.CiclosSolicitados"</v>
                       <v n="InputType">"VisuDialogs.Numpad"</v>
                       <v n="InputBoxMin">"1"</v>
                       <v n="InputBoxMax">"10"</v>
@@ -13377,7 +13377,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador"</v>
+                          <v n="Value">"MAIN.Estacion.EstadoPausa"</v>
                         </o>
                       </l>
                     </o>
@@ -13569,7 +13569,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador"</v>
+                          <v n="Value">"MAIN.Estacion.EstadoReinicia"</v>
                         </o>
                       </l>
                     </o>
