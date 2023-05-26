@@ -842,4 +842,11 @@ Lampara AT %Q*: BOOL;]]></Comment>
 			</Device>
 		</Io>
 	</Project>
+	<Mappings>
+		<OwnerA Name="TIPC^Manual^Manual Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_alarma" VarB="Channel 1^Avisador sonoro"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
 </TcSmProject>
