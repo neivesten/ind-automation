@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <Visu Name="Visualization" Id="{fae898df-4a7b-4b14-b77f-db45c2a8e89b}">
+  <Visu Name="Visualization" Id="{d064ae99-b9a1-47bf-8163-5ceaadee03a3}">
     <XmlArchive>
       <Data>
         <o xml:space="preserve" t="VisualObject">
@@ -2336,12 +2336,12 @@
                       <v n="Value">false</v>
                     </o>
                     <o>
-                      <v n="Id">823443203L</v>
-                      <v n="Value">"307"</v>
-                    </o>
-                    <o>
                       <v n="Id">2477733581L</v>
                       <v n="Value">"MAIN.test_pieza.Restantes"</v>
+                    </o>
+                    <o>
+                      <v n="Id">823443203L</v>
+                      <v n="Value">"307"</v>
                     </o>
                   </l>
                 </o>
@@ -2497,12 +2497,12 @@
                       <v n="Value">false</v>
                     </o>
                     <o>
-                      <v n="Id">823443203L</v>
-                      <v n="Value">"307"</v>
-                    </o>
-                    <o>
                       <v n="Id">2477733581L</v>
                       <v n="Value">"MAIN.test_pieza.Aceptados"</v>
+                    </o>
+                    <o>
+                      <v n="Id">823443203L</v>
+                      <v n="Value">"307"</v>
                     </o>
                   </l>
                 </o>
@@ -2658,12 +2658,12 @@
                       <v n="Value">false</v>
                     </o>
                     <o>
-                      <v n="Id">823443203L</v>
-                      <v n="Value">"307"</v>
-                    </o>
-                    <o>
                       <v n="Id">2477733581L</v>
                       <v n="Value">"MAIN.test_pieza.Rechazados"</v>
+                    </o>
+                    <o>
+                      <v n="Id">823443203L</v>
+                      <v n="Value">"307"</v>
                     </o>
                   </l>
                 </o>
@@ -13461,7 +13461,7 @@
                 <v>c38dfc22-7b5e-4ffe-8817-51f66c66af7d</v>
               </d>
               <v n="FbName">"NotImportant"</v>
-              <v n="FbGuid">{fae898df-4a7b-4b14-b77f-db45c2a8e89b}</v>
+              <v n="FbGuid">{d064ae99-b9a1-47bf-8163-5ceaadee03a3}</v>
             </o>
             <v n="GeneratedGlobalVisuVarsGuid">{b077cdb0-cd29-41cd-a963-4feca6641372}</v>
             <v n="GeneratedGlobalTheVisuVarlistGuid">{a065a587-aaec-4862-8655-8528b81297d1}</v>

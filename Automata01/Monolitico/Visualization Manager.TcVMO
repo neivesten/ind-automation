@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <VisuManager Name="Visualization Manager" Id="{65e677fd-56ad-439b-b612-329db7157825}">
+  <VisuManager Name="Visualization Manager" Id="{ba04bbc8-8e37-4e1c-af8c-da0098403c24}">
     <XmlArchive>
       <Data>
         <o xml:space="preserve" t="VisualManagerObject">

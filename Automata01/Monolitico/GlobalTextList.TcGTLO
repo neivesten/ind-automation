@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <GlobalTextList Name="GlobalTextList" Id="{d8d30042-cba3-4642-9f37-5fac0b63bdb0}">
+  <GlobalTextList Name="GlobalTextList" Id="{cdcea6f0-1445-4605-a4ad-fb95c965431a}">
     <XmlArchive>
       <Data>
         <o xml:space="preserve" t="GlobalTextListObject">
