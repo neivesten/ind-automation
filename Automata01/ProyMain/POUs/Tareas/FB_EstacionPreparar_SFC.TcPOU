@@ -3,8 +3,6 @@
   <POU Name="FB_EstacionPreparar_SFC" Id="{b9eefe85-04a0-4d68-be74-7a048e2344ce}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_EstacionPreparar_SFC
 VAR_INPUT
-	//nuestras_variables
-	Tcinta: TIME := T#0.5S;	
 
     // SFC-Flags
     SFCPause: BOOL;
