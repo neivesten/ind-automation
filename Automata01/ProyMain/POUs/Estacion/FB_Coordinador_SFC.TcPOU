@@ -6,6 +6,7 @@
 VAR_IN_OUT
 	CiclosPendientes: UINT;
 	CiclosAceptados: UINT;
+	CiclosRechazados: UINT;
 END_VAR
 VAR_INPUT
 	// SFC-Flags
@@ -2044,7 +2045,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{a2621e18-7de3-4ea6-ae6d-89e9e0b7befd}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
+                                        <v n="Value">"rechazando_exit"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">2735L</v>
@@ -3864,7 +3865,14 @@ END_VAR
       <Implementation>
         <ST><![CDATA[IF (CiclosPendientes = 0) THEN
 	CiclosPendientes := CiclosSolicitados;
+	CiclosAceptados := 0;
+	CiclosRechazados := 0;
 END_IF]]></ST>
+      </Implementation>
+    </Action>
+    <Action Name="rechazando_exit" Id="{20112e4e-9b76-4848-91ef-c2548ed62c55}">
+      <Implementation>
+        <ST><![CDATA[CiclosRechazados := CiclosRechazados + 1;]]></ST>
       </Implementation>
     </Action>
     <Action Name="RestaCiclo_exit" Id="{47155b33-acef-45d4-b59d-a34aba610358}">
@@ -3874,7 +3882,8 @@ END_IF]]></ST>
     </Action>
     <Action Name="S6_entry" Id="{00775444-6179-4080-b74f-2a18f1a30b4e}">
       <Implementation>
-        <ST><![CDATA[CiclosPendientes := CiclosPendientes - 1;]]></ST>
+        <ST><![CDATA[CiclosPendientes := CiclosPendientes - 1;
+CiclosAceptados := CiclosAceptados + 1;]]></ST>
       </Implementation>
     </Action>
     <Action Name="S6_exit" Id="{f66f2ba2-a7a2-42f7-9f3f-9ec19f9b2281}">
@@ -3983,14 +3992,17 @@ END_IF]]></ST>
       </XmlArchive>
     </ObjectProperties>
     <LineIds Name="FB_Coordinador_SFC.Initial_exit">
-      <LineId Id="2" Count="1" />
+      <LineId Id="2" Count="3" />
+      <LineId Id="1" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_Coordinador_SFC.rechazando_exit">
       <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Coordinador_SFC.RestaCiclo_exit">
       <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Coordinador_SFC.S6_entry">
-      <LineId Id="1" Count="0" />
+      <LineId Id="1" Count="1" />
     </LineIds>
     <LineIds Name="FB_Coordinador_SFC.S6_exit">
       <LineId Id="1" Count="0" />

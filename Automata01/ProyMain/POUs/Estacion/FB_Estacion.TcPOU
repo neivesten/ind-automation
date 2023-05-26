@@ -16,6 +16,7 @@ VAR_OUTPUT
     CondicionInicial: BOOL := TRUE;
     CiclosPendientes: UINT;
     CiclosAceptados: UINT;
+	CiclosRechazados: UINT;
     PaleCodigo: BYTE;
 	pieza_ok: BOOL;
     
