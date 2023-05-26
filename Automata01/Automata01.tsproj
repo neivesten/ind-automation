@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{C464CEBC-4C13-4DFF-BB17-C9C017C23340}" Name="ProyMain" PrjFilePath="ProyMain\ProyMain.plcproj" TmcFilePath="ProyMain\ProyMain.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{59DD1729-492B-D463-4010-1422EC089A5A}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain\ProyMain.tmc" TmcHash="{CA6E1688-7411-8C2A-2968-41855288AE48}">
 					<Name>ProyMain Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -56,14 +56,17 @@
 						</Var>
 						<Var>
 							<Name>MAIN.Estacion.Codigo_pale_bit_0</Name>
+							<Comment><![CDATA[no lo usamos]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
 							<Name>MAIN.Estacion.Codigo_pale_bit_1</Name>
+							<Comment><![CDATA[no lo usamos]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
 							<Name>MAIN.Estacion.Codigo_pale_bit_2</Name>
+							<Comment><![CDATA[no lo usamos]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
