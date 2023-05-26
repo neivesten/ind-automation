@@ -139,7 +139,7 @@ CLK();
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Ack := TRUE,
-        Execute := CondicionInicial AND (CiclosSolicitados > 0),
+        Execute := (Director.Modo = E_GEMMA.F1),
 		PaleSituado := SituarPale.Done,
 		HayMaterial := ChequeaMaterial.Done,
 		Verificado := AlimentadorVerificadorDesplazador.Done,
@@ -259,11 +259,11 @@ CLK();
 	
 	//Acciones Comunes
 	// Parametros de Salida
-	Lampara_falta_material := Coordinador.Lampara_falta_material;
-	Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta OR TransferirPale.Activa_marcha_motor_cinta;
-	//CheckMaterial
-	//Lampara_alarma := ChequeaMaterial.LamparaAlarma;
 	//Lampara_falta_material := ChequeaMaterial.Lampara_falta_material;
+	Activa_marcha_motor_cinta := SituarPale.Activa_marcha_motor_cinta OR TransferirPale.Activa_marcha_motor_cinta OR Preparar.Activa_marcha_motor_cinta OR Finalizar.Activa_marcha_motor_cinta;
+	//CheckMaterial
+	Lampara_alarma := ChequeaMaterial.LamparaAlarma;
+	Lampara_falta_material := ChequeaMaterial.Lampara_falta_material;
 	//TranferirPale
 	 Retenedor_pale_baja := TransferirPale.Retenedor_pale_baja;
 	 Separador_pale_sube := TransferirPale.Separador_pale_sube;
