@@ -30,9 +30,9 @@ VAR_OUTPUT
     Detector_presion AT %I*: BOOL := TRUE;
 
     Presencia_pale AT %I*: BOOL;
-    Codigo_pale_bit_0 AT %I*: BOOL;
-    Codigo_pale_bit_1 AT %I*: BOOL;
-    Codigo_pale_bit_2 AT %I*: BOOL;
+    Codigo_pale_bit_0 AT %I*: BOOL; //no lo usamos
+    Codigo_pale_bit_1 AT %I*: BOOL; //no lo usamos
+    Codigo_pale_bit_2 AT %I*: BOOL; //no lo usamos
 
     // Entradas espeficicas
     //Terminal 6

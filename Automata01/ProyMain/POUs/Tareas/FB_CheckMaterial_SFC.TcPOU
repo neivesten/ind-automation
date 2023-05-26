@@ -8,7 +8,7 @@ VAR_INPUT
     SFCReset: BOOL;
     
     // Indicadores de sincronizacion
-    Ack: BOOL := TRUE;
+    Ack: BOOL := TRUE; 
     Execute: BOOL;
 	
 	//Entradas
