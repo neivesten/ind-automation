@@ -2949,8 +2949,8 @@ END_VAR]]></Declaration>
               </o>
               <v>Reset</v>
               <o>
-                <v n="Use">false</v>
-                <v n="Declare">true</v>
+                <v n="Use">true</v>
+                <v n="Declare">false</v>
               </o>
               <v>QuitError</v>
               <o>
