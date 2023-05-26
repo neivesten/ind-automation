@@ -15,7 +15,7 @@ VAR_INPUT
     
     // Indicadores de sincronizacion
     Ack: BOOL := TRUE; //evita que la tarea se realice dos veces
-    Execute: BOOL;
+    Execute: BOOL; 
     
     // Parametros de sincronizacion
     PaleSituado: BOOL;
