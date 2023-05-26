@@ -393,6 +393,376 @@ Lampara AT %Q*: BOOL;]]></Comment>
 					</TaskPouOids>
 				</Instance>
 			</Project>
+			<Project GUID="{CF8C7909-A523-48FB-AD9B-A3AD73CD9286}" Name="Gemma" PrjFilePath="Gemma\Gemma.plcproj" TmcFilePath="Gemma\Gemma.tmc" ReloadTmc="true" AmsPort="853" FileArchiveSettings="#x000e" SymbolicMapping="true">
+				<Instance Id="#x08502080" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain_1\ProyMain_1.tmc" TmcHash="{9DDE08F6-04FF-0310-1E5F-0911141CBF72}">
+					<Name>Gemma Instance</Name>
+					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Vars VarGrpType="1">
+						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>MAIN.Estacion.Base_en_alimentador</Name>
+							<Comment><![CDATA[ Entradas comunes]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Pulsador_parada_emergencia</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Selector_modo_manual</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Pulsador_marcha</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Pulsador_parada_NC</Name>
+							<Comment><![CDATA[ Contacto normalmente cerrado]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.EstacionConectada</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Detector_presion</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Presencia_pale</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Codigo_pale_bit_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Codigo_pale_bit_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Codigo_pale_bit_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Horizontal_descargador_detras</Name>
+							<Comment><![CDATA[ Entradas espeficicas
+Terminal 6]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Horizontal_descargador_delante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Vertical_descargador_arriba</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Vertical_descargador_abajo</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Verificador_arriba</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Verificador_abajo</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Desplazador_detras</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Desplazador_delante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Alimentador_detras</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Alimentador_delante</Name>
+							<Comment><![CDATA[Terminal 7]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Vacio_obtenido_vacuostato_descargador</Name>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
+					<Vars VarGrpType="2" AreaNo="1">
+						<Name>PlcTask Outputs</Name>
+						<Var>
+							<Name>MAIN.Estacion.Desconecta_parte_operativa</Name>
+							<Comment><![CDATA[ Salidas comunes]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Lampara_falta_material</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Lampara_marcha</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Lampara_alarma</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Activa_marcha_motor_cinta</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Invierte_marcha_motor_cinta</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Retenedor_pale_baja</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Separador_pale_sube</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Descargador_adelante</Name>
+							<Comment><![CDATA[Terminal 8]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Descargador_atras</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Descargador_baja</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Rechazador_adelante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Verificador_baja</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Desplazador_adelante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Alimentador_adelante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Eyector_succiona</Name>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
+					<Contexts>
+						<Context>
+							<Id NeedCalleeCall="true">0</Id>
+							<Name>PlcTask</Name>
+							<ManualConfig>
+								<OTCID>#x02010030</OTCID>
+							</ManualConfig>
+							<Priority>20</Priority>
+							<CycleTime>10000000</CycleTime>
+						</Context>
+					</Contexts>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x08502081"/>
+					</TaskPouOids>
+				</Instance>
+			</Project>
+			<Project GUID="{AAE53775-0067-4983-9DEF-D17C30A42A0A}" Name="Estructurado" PrjFilePath="Estructurado\Estructurado.plcproj" TmcFilePath="Estructurado\Estructurado.tmc" ReloadTmc="true" AmsPort="854" FileArchiveSettings="#x000e" SymbolicMapping="true">
+				<Instance Id="#x085020c0" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ProyMain_1\ProyMain_1.tmc" TmcHash="{59DD1729-492B-D463-4010-1422EC089A5A}">
+					<Name>Estructurado Instance</Name>
+					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+					<Vars VarGrpType="1">
+						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>MAIN.Estacion.Base_en_alimentador</Name>
+							<Comment><![CDATA[ Entradas comunes]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Pulsador_parada_emergencia</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Selector_modo_manual</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Pulsador_marcha</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Pulsador_parada_NC</Name>
+							<Comment><![CDATA[ Contacto normalmente cerrado]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.EstacionConectada</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Detector_presion</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Presencia_pale</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Codigo_pale_bit_0</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Codigo_pale_bit_1</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Codigo_pale_bit_2</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Horizontal_descargador_detras</Name>
+							<Comment><![CDATA[ Entradas espeficicas
+Terminal 6]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Horizontal_descargador_delante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Vertical_descargador_arriba</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Vertical_descargador_abajo</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Verificador_arriba</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Verificador_abajo</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Desplazador_detras</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Desplazador_delante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Alimentador_detras</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Alimentador_delante</Name>
+							<Comment><![CDATA[Terminal 7]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Vacio_obtenido_vacuostato_descargador</Name>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
+					<Vars VarGrpType="2" AreaNo="1">
+						<Name>PlcTask Outputs</Name>
+						<Var>
+							<Name>MAIN.Estacion.Desconecta_parte_operativa</Name>
+							<Comment><![CDATA[ Salidas comunes]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Lampara_falta_material</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Lampara_marcha</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Lampara_alarma</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Activa_marcha_motor_cinta</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Invierte_marcha_motor_cinta</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Retenedor_pale_baja</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Separador_pale_sube</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Descargador_adelante</Name>
+							<Comment><![CDATA[Terminal 8]]></Comment>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Descargador_atras</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Descargador_baja</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Rechazador_adelante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Verificador_baja</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Desplazador_adelante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Alimentador_adelante</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
+							<Name>MAIN.Estacion.Eyector_succiona</Name>
+							<Type>BOOL</Type>
+						</Var>
+					</Vars>
+					<Contexts>
+						<Context>
+							<Id NeedCalleeCall="true">0</Id>
+							<Name>PlcTask</Name>
+							<ManualConfig>
+								<OTCID>#x02010030</OTCID>
+							</ManualConfig>
+							<Priority>20</Priority>
+							<CycleTime>10000000</CycleTime>
+						</Context>
+					</Contexts>
+					<TaskPouOids>
+						<TaskPouOid Prio="20" OTCID="#x085020c1"/>
+					</TaskPouOids>
+				</Instance>
+			</Project>
 		</Plc>
 		<Io>
 			<Device Id="1" DevType="111" DevFlags="#x0003" AmsPort="28673" AmsNetId="192.168.74.1.2.1" RemoteName="Device 1 (EtherCAT)" InfoImageId="2">
@@ -843,9 +1213,113 @@ Lampara AT %Q*: BOOL;]]></Comment>
 		</Io>
 	</Project>
 	<Mappings>
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
 		<OwnerA Name="TIPC^Manual^Manual Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_0" VarB="Channel 7^Codigo de palé bit 0"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_1" VarB="Channel 8^Codigo de palé bit 1"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Parte_operativa_conectada" VarB="Channel 5^Parte operativa conectada (armada)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Presencia_pale" VarB="Channel 6^presencia de palé"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_marcha" VarB="Channel 3^Pulsador de marcha"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_NC" VarB="Channel 4^Pulsador de parada [NC]"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_emergencia" VarB="Channel 1^Pulsador de parada de emergencia"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Selector_modo_manual" VarB="Channel 2^Selector de modo manual"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_2" VarB="Channel 1^Código de palé bit 2"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Detector_presion" VarB="Channel 2^Detector de presión"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Activa_marcha_motor_cinta" VarB="Channel 5^Activa la marcha el motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Avisador_sonoro" VarB="Channel 2^Lámpara de alarma"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desconecta_parte_operativa" VarB="Channel 1^Desconecta parte operativa (desarma)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Invierte_marcha_motor_cinta" VarB="Channel 6^Invierte la marcha del motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_falta_material" VarB="Channel 4^Lámpara de falta material"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_marcha" VarB="Channel 3^Lámpara de marcha"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Retenedor_pale_baja" VarB="Channel 7^Cilindro del retenedor de palés baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Separador_pale_sube" VarB="Channel 8^Cilindro del separador de palés sube"/>
+			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
 				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_alarma" VarB="Channel 1^Avisador sonoro"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Desplazador_detras" VarB="Channel 7^Cilindro del desplazador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Horizontal_descargador_delante" VarB="Channel 2^Cilindro horizontal del descargador delante (sobre el palé)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Horizontal_descargador_detras" VarB="Channel 1^Cilindro horizontal del descargador detrás (sobre el punto de descarga)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_arriba" VarB="Channel 5^Cilindro del verificador arriba"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vertical_descargador_abajo" VarB="Channel 4^Cilindro vertical del descargador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vertical_descargador_arriba" VarB="Channel 3^Cilindro vertical del descargador arriba"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Alimentador_delante" VarB="Channel 1^Cilindro del alimentador delante"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Base_en_Alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador" VarB="Channel 2^Vacío obtenido en el vacuostado del descargador"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Alimentador_adelante" VarB="Channel 7^Cilindro del alimentador adelante (hacia el punto de verificación)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_adelante" VarB="Channel 1^Cilindro del descargador adelante (hacia el palé)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_atras" VarB="Channel 2^Cilindro del descargador atrás (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_baja" VarB="Channel 3^Cilindro del descargador baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desplazador_adelante" VarB="Channel 6^Cilindro del desplazador adelante (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Eyector_succiona" VarB="Channel 8^Eyector de vacío del descargador succiona"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Rechazador_adelante" VarB="Channel 4^Cilindro del rechazador adelante"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Verificador_baja" VarB="Channel 5^Cilindro del verificador baja"/>
+			</OwnerB>
+		</OwnerA>
+		<OwnerA Name="TIPC^Monolitico^Monolitico Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Selector_modo_manual" VarB="Channel 2^Selector de modo manual"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_0" VarB="Channel 7^Codigo de palé bit 0"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_1" VarB="Channel 8^Codigo de palé bit 1"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Parte_operativa_conectada" VarB="Channel 5^Parte operativa conectada (armada)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Presencia_pale" VarB="Channel 6^presencia de palé"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_marcha" VarB="Channel 3^Pulsador de marcha"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_NC" VarB="Channel 4^Pulsador de parada [NC]"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_emergencia" VarB="Channel 1^Pulsador de parada de emergencia"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_2" VarB="Channel 1^Código de palé bit 2"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Detector_presion" VarB="Channel 2^Detector de presión"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Activa_marcha_motor_cinta" VarB="Channel 5^Activa la marcha el motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desconecta_parte_operativa" VarB="Channel 1^Desconecta parte operativa (desarma)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Invierte_marcha_motor_cinta" VarB="Channel 6^Invierte la marcha del motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_falta_material" VarB="Channel 4^Lámpara de falta material"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_marcha" VarB="Channel 3^Lámpara de marcha"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Retenedor_pale_baja" VarB="Channel 7^Cilindro del retenedor de palés baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Separador_pale_sube" VarB="Channel 8^Cilindro del separador de palés sube"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Avisador_sonoro" VarB="Channel 1^Avisador sonoro"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_alarma" VarB="Channel 1^Avisador sonoro"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Desplazador_detras" VarB="Channel 7^Cilindro del desplazador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Horizontal_descargador_delante" VarB="Channel 2^Cilindro horizontal del descargador delante (sobre el palé)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Horizontal_descargador_detras" VarB="Channel 1^Cilindro horizontal del descargador detrás (sobre el punto de descarga)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_arriba" VarB="Channel 5^Cilindro del verificador arriba"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vertical_descargador_abajo" VarB="Channel 4^Cilindro vertical del descargador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vertical_descargador_arriba" VarB="Channel 3^Cilindro vertical del descargador arriba"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Alimentador_delante" VarB="Channel 1^Cilindro del alimentador delante"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Base_en_Alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador" VarB="Channel 2^Vacío obtenido en el vacuostado del descargador"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Alimentador_adelante" VarB="Channel 7^Cilindro del alimentador adelante (hacia el punto de verificación)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_adelante" VarB="Channel 1^Cilindro del descargador adelante (hacia el palé)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_atras" VarB="Channel 2^Cilindro del descargador atrás (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_baja" VarB="Channel 3^Cilindro del descargador baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desplazador_adelante" VarB="Channel 6^Cilindro del desplazador adelante (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Eyector_succiona" VarB="Channel 8^Eyector de vacío del descargador succiona"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Rechazador_adelante" VarB="Channel 4^Cilindro del rechazador adelante"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Verificador_baja" VarB="Channel 5^Cilindro del verificador baja"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>
