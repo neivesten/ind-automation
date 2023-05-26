@@ -135,6 +135,7 @@ CLK();
 		CiclosPendientes := CiclosPendientes,
 		CiclosAceptados := CiclosAceptados,
 		CiclosSolicitados := CiclosSolicitados,
+		CiclosRechazados := CiclosRechazados,
 		SFCPause := NOT EstadoReinicia AND EstadoPausa,
         SFCReset := EstadoReinicia,
 		Ack := TRUE,
@@ -322,6 +323,7 @@ ModoAnterior := Director.Modo;]]></ST>
       <LineId Id="210" Count="0" />
       <LineId Id="213" Count="0" />
       <LineId Id="674" Count="0" />
+      <LineId Id="1398" Count="0" />
       <LineId Id="214" Count="1" />
       <LineId Id="217" Count="2" />
       <LineId Id="687" Count="0" />
