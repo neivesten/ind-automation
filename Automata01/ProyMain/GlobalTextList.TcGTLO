@@ -1,180 +1,380 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <GlobalTextList Name="GlobalTextList" Id="{d8d30042-cba3-4642-9f37-5fac0b63bdb0}">
+  <GlobalTextList Name="GlobalTextList" Id="{fb2003e8-6a0b-42e1-9503-eed64cffd134}">
     <XmlArchive>
       <Data>
         <o xml:space="preserve" t="GlobalTextListObject">
           <l n="TextList" t="ArrayList" cet="TextListRow">
             <o>
-              <v n="TextID">"307"</v>
-              <v n="TextDefault">"%i"</v>
+              <v n="TextID">"939"</v>
+              <v n="TextDefault">"%d"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"789"</v>
-              <v n="TextDefault">"Abajo"</v>
+              <v n="TextID">"602"</v>
+              <v n="TextDefault">"%s"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"231"</v>
-              <v n="TextDefault">"Aceptados"</v>
+              <v n="TextID">"833"</v>
+              <v n="TextDefault">"+"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"224"</v>
-              <v n="TextDefault">"Alimentador"</v>
+              <v n="TextID">"832"</v>
+              <v n="TextDefault">"-"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"25"</v>
-              <v n="TextDefault">"Arriba"</v>
+              <v n="TextID">"402"</v>
+              <v n="TextDefault">".0"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"701"</v>
-              <v n="TextDefault">"Ciclos"</v>
+              <v n="TextID">"16"</v>
+              <v n="TextDefault">".1"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"642"</v>
-              <v n="TextDefault">"Ciclos Completados"</v>
+              <v n="TextID">"415"</v>
+              <v n="TextDefault">".2"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"957"</v>
-              <v n="TextDefault">"Cinta"</v>
+              <v n="TextID">"831"</v>
+              <v n="TextDefault">"0"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"81"</v>
-              <v n="TextDefault">"Colocado"</v>
+              <v n="TextID">"830"</v>
+              <v n="TextDefault">"1"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"497"</v>
-              <v n="TextDefault">"Comenzar"</v>
+              <v n="TextID">"834"</v>
+              <v n="TextDefault">"2"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"481"</v>
-              <v n="TextDefault">"Delante"</v>
+              <v n="TextID">"3"</v>
+              <v n="TextDefault">"2023"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"437"</v>
-              <v n="TextDefault">"Descargador"</v>
+              <v n="TextID">"827"</v>
+              <v n="TextDefault">"3"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"936"</v>
-              <v n="TextDefault">"Desplazador"</v>
+              <v n="TextID">"39"</v>
+              <v n="TextDefault">"4"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"445"</v>
-              <v n="TextDefault">"Detrás"</v>
+              <v n="TextID">"583"</v>
+              <v n="TextDefault">"A"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"908"</v>
-              <v n="TextDefault">"Estado"</v>
+              <v n="TextID">"743"</v>
+              <v n="TextDefault">"Alto"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"286"</v>
-              <v n="TextDefault">"Estoy Abajo"</v>
+              <v n="TextID">"739"</v>
+              <v n="TextDefault">"B"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"148"</v>
-              <v n="TextDefault">"Estoy Arriba"</v>
+              <v n="TextID">"984"</v>
+              <v n="TextDefault">"Bajo"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"878"</v>
-              <v n="TextDefault">"FALTA M."</v>
+              <v n="TextID">"782"</v>
+              <v n="TextDefault">"C"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"750"</v>
-              <v n="TextDefault">"Lámpara"</v>
+              <v n="TextID">"941"</v>
+              <v n="TextDefault">"Cargador Cilindro"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"634"</v>
-              <v n="TextDefault">"Material"</v>
+              <v n="TextID">"486"</v>
+              <v n="TextDefault">"Cargador Eyector"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"935"</v>
-              <v n="TextDefault">"Pieza NO OK"</v>
+              <v n="TextID">"228"</v>
+              <v n="TextDefault">"CI"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"336"</v>
-              <v n="TextDefault">"Pieza OK"</v>
+              <v n="TextID">"912"</v>
+              <v n="TextDefault">"Cinta Motor"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"741"</v>
-              <v n="TextDefault">"Pieza Ok"</v>
+              <v n="TextID">"423"</v>
+              <v n="TextDefault">"Cinta Retenedor"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"852"</v>
+              <v n="TextDefault">"Cinta Separador"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"951"</v>
+              <v n="TextDefault">"Conectada"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"122"</v>
+              <v n="TextDefault">"cp"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"419"</v>
+              <v n="TextDefault">"Código Palé"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"820"</v>
+              <v n="TextDefault">"D"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"1323"</v>
+              <v n="TextDefault">"Desconecta"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"469"</v>
+              <v n="TextDefault">"E"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"695"</v>
+              <v n="TextDefault">"Emergencia"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"87"</v>
+              <v n="TextDefault">"Entrada Palé"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"585"</v>
+              <v n="TextDefault">"Estructurado"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"902"</v>
+              <v n="TextDefault">"Extractor"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"896"</v>
+              <v n="TextDefault">"FMS-203"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"243"</v>
+              <v n="TextDefault">"GEMMA"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"489"</v>
+              <v n="TextDefault">"Grupo Hidráulico"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"222"</v>
+              <v n="TextDefault">"H"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"129"</v>
+              <v n="TextDefault">"Hidráulico"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
               <v n="TextID">"524"</v>
-              <v n="TextDefault">"Planta"</v>
+              <v n="TextDefault">"Introductor"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"783"</v>
-              <v n="TextDefault">"Preparado"</v>
+              <v n="TextID">"372"</v>
+              <v n="TextDefault">"ISA"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"876"</v>
-              <v n="TextDefault">"Rechazador"</v>
+              <v n="TextID">"531"</v>
+              <v n="TextDefault">"KM"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"970"</v>
-              <v n="TextDefault">"Rechazados"</v>
+              <v n="TextID">"927"</v>
+              <v n="TextDefault">"L. Alarma"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"888"</v>
-              <v n="TextDefault">"Rechazads"</v>
+              <v n="TextID">"664"</v>
+              <v n="TextDefault">"L. Marcha"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"94"</v>
-              <v n="TextDefault">"Rehczados"</v>
+              <v n="TextID">"537"</v>
+              <v n="TextDefault">"Manipulador"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"560"</v>
-              <v n="TextDefault">"Restantes"</v>
+              <v n="TextID">"287"</v>
+              <v n="TextDefault">"Manipulador Cilindro"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"629"</v>
-              <v n="TextDefault">"Vacío"</v>
+              <v n="TextID">"139"</v>
+              <v n="TextDefault">"Manipulador Eyector"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"125"</v>
-              <v n="TextDefault">"Verificador"</v>
+              <v n="TextID">"923"</v>
+              <v n="TextDefault">"Manual"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
-              <v n="TextID">"839"</v>
-              <v n="TextDefault">"Verificador Activado"</v>
+              <v n="TextID">"332"</v>
+              <v n="TextDefault">"Modo"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"544"</v>
+              <v n="TextDefault">"P. Marcha"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"15"</v>
+              <v n="TextDefault">"P. Parada"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"438"</v>
+              <v n="TextDefault">"PANEL"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"584"</v>
+              <v n="TextDefault">"PARÁMETROS"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"37"</v>
+              <v n="TextDefault">"Pausa"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"513"</v>
+              <v n="TextDefault">"Pendientes"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"284"</v>
+              <v n="TextDefault">"PLANTA"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"676"</v>
+              <v n="TextDefault">"pp"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"424"</v>
+              <v n="TextDefault">"PRENSADO HIDRÁULICO DEL RODAMIENTO"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"64"</v>
+              <v n="TextDefault">"Prensador"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"366"</v>
+              <v n="TextDefault">"Presostato"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"258"</v>
+              <v n="TextDefault">"Protector"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"171"</v>
+              <v n="TextDefault">"R"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"915"</v>
+              <v n="TextDefault">"Realizadas"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"328"</v>
+              <v n="TextDefault">"Reposo"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"621"</v>
+              <v n="TextDefault">"Reset"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"190"</v>
+              <v n="TextDefault">"Retenedor"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"248"</v>
+              <v n="TextDefault">"S"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"949"</v>
+              <v n="TextDefault">"Salida Palé"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"693"</v>
+              <v n="TextDefault">"Separador"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"333"</v>
+              <v n="TextDefault">"Solicitadas"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"390"</v>
+              <v n="TextDefault">"TAREA"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"569"</v>
+              <v n="TextDefault">"Transf. Palé"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"441"</v>
+              <v n="TextDefault">"V"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
           </l>
           <l n="Languages" t="ArrayList" />
-          <v n="GuidInit">{748eac9c-5d36-4e5a-a329-fcfa7aeb5ac9}</v>
-          <v n="GuidReInit">{2fbe0a7e-9f46-43b5-a0a2-ed4caed6d392}</v>
-          <v n="GuidExitX">{b8451cfc-fc1d-43a7-848c-42d21184ab96}</v>
+          <v n="GuidInit">{837f1608-9735-4e3c-88d2-ae94b45aacf3}</v>
+          <v n="GuidReInit">{7107db9c-7bef-4d34-9056-12c6fdbd4937}</v>
+          <v n="GuidExitX">{52150d3d-efe8-4b32-a234-e4edf9c3d8e1}</v>
         </o>
       </Data>
       <TypeList>

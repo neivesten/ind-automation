@@ -1,20 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="MAIN" Id="{56f4075e-4895-4e88-bf82-4d98b9642bb1}" SpecialFunc="None">
+  <POU Name="MAIN" Id="{c478c710-59ab-4b65-8697-a4d1a270272c}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
-	
-	//Pulsador AT %I*: BOOL;
-	//Lampara AT %Q*: BOOL;
-	
-	test_pieza: FB_Bloque;
-
-END_VAR]]></Declaration>
+    Estacion: FB_Estacion;
+END_VAR
+]]></Declaration>
     <Implementation>
-      <ST><![CDATA[test_pieza();]]></ST>
+      <ST><![CDATA[Estacion();
+]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
-      <LineId Id="29" Count="0" />
+      <LineId Id="2" Count="0" />
+      <LineId Id="7" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
