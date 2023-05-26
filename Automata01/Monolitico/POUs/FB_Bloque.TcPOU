@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_Bloque" Id="{0c102bf0-d2ee-4790-8611-bbcb80572984}" SpecialFunc="None">
+  <POU Name="FB_Bloque" Id="{ec5bfe8f-5238-4cef-82c6-2f925b841434}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Bloque
 VAR_INPUT
 	Tcheck: TIME := T#1S;
@@ -8081,17 +8081,17 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
-    <Action Name="notOK_exit" Id="{7c7983fe-474f-4382-8939-3f4e8ea06912}">
+    <Action Name="notOK_exit" Id="{07375664-efc3-4adf-b0b0-a037ed282644}">
       <Implementation>
         <ST><![CDATA[pieza_ok := FALSE;]]></ST>
       </Implementation>
     </Action>
-    <Action Name="OK_exit" Id="{6923b980-9502-4e1c-97e4-e82bb8b6c6b3}">
+    <Action Name="OK_exit" Id="{71fdc0d3-9a4d-43a1-9501-ea0ef3b2e92a}">
       <Implementation>
         <ST><![CDATA[pieza_ok := true;]]></ST>
       </Implementation>
     </Action>
-    <Action Name="Preparado_entry" Id="{304360c9-4dcf-4b7e-9bf1-3317d2c36270}">
+    <Action Name="Preparado_entry" Id="{c24d1924-ac38-41b9-809d-9a84317adff6}">
       <Implementation>
         <ST><![CDATA[//Ciclos:= 3;
 Rechazados :=0;
@@ -8110,12 +8110,12 @@ Restantes:=Ciclos;]]></ST>
 END_IF]]></ST>
       </Implementation>
     </Action>
-    <Action Name="Rechaza_exit" Id="{8ccff171-5b8c-4f3f-b00b-570fce4abd22}">
+    <Action Name="Rechaza_exit" Id="{f753a87a-6ed7-4fd8-92ae-0c27075b215f}">
       <Implementation>
         <ST><![CDATA[Rechazados:= Rechazados+1;]]></ST>
       </Implementation>
     </Action>
-    <Action Name="Step1_exit" Id="{4c99de15-c4a8-4ce6-a026-b728c1b7c456}">
+    <Action Name="Step1_exit" Id="{7ab2790f-e6a7-4cf7-a12c-3fff6a637426}">
       <Implementation>
         <ST><![CDATA[Aceptados:=Aceptados+1;
 Restantes:=Restantes-1;]]></ST>
