@@ -1258,7 +1258,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -2689,7 +2689,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Descargador_baja"</v>
+                          <v n="Value">"MAIN.Estacion.Descargador_baja"</v>
                         </o>
                       </l>
                     </o>
@@ -2773,7 +2773,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_baja"</v>
+                      <v n="Value">"MAIN.Estacion.Descargador_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4299,7 +4299,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4403,7 +4403,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                          <v n="Value">"MAIN.Estacion.Descargador_adelante"</v>
                         </o>
                       </l>
                     </o>
@@ -4487,7 +4487,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">"MAIN.Estacion.Descargador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4591,7 +4591,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Rechazador_adelante"</v>
+                          <v n="Value">"MAIN.Estacion.Rechazador_adelante"</v>
                         </o>
                       </l>
                     </o>
@@ -4675,7 +4675,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Rechazador_adelante"</v>
+                      <v n="Value">"MAIN.Estacion.Rechazador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4779,7 +4779,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Verificador_baja"</v>
+                          <v n="Value">"MAIN.Estacion.Verificador_baja"</v>
                         </o>
                       </l>
                     </o>
@@ -4863,7 +4863,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Verificador_baja"</v>
+                      <v n="Value">"MAIN.Estacion.Verificador_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -4967,7 +4967,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Desplazador_adelante"</v>
+                          <v n="Value">"MAIN.Estacion.Desplazador_adelante"</v>
                         </o>
                       </l>
                     </o>
@@ -5051,7 +5051,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Desplazador_adelante"</v>
+                      <v n="Value">"MAIN.Estacion.Desplazador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5155,27 +5155,13 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Alimentador_adelante"</v>
+                          <v n="Value">"MAIN.Estacion.Alimentador_adelante"</v>
                         </o>
                       </l>
                     </o>
                     <v n="SignatureName">"Visu_TapInput"</v>
                     <v n="Name">"Tap"</v>
                     <v n="Description">"Configure the tapping of a Boolean variable"</v>
-                  </o>
-                  <o>
-                    <n n="DescriptionTree" />
-                    <o n="VisualElemMemberList" t="VisualElemMemberList">
-                      <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
-                        <o>
-                          <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Descargador_baja"</v>
-                        </o>
-                      </l>
-                    </o>
-                    <v n="SignatureName">"Visu_ToggleInput"</v>
-                    <v n="Name">"Toggle"</v>
-                    <v n="Description">"Configure the toggling of a Boolean variable"</v>
                   </o>
                 </a>
                 <l n="Elements" t="ArrayList" />
@@ -5253,7 +5239,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Alimentador_adelante"</v>
+                      <v n="Value">"MAIN.Estacion.Alimentador_adelante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5357,7 +5343,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Eyector_succiona"</v>
+                          <v n="Value">"MAIN.Estacion.Eyector_succiona"</v>
                         </o>
                       </l>
                     </o>
@@ -5441,7 +5427,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Eyector_succiona"</v>
+                      <v n="Value">"MAIN.Estacion.Eyector_succiona"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5614,7 +5600,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5787,7 +5773,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -5960,7 +5946,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6133,7 +6119,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6306,7 +6292,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_adelante"</v>
+                      <v n="Value">""</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6410,7 +6396,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Descargador_atras"</v>
+                          <v n="Value">"MAIN.Estacion.Descargador_atras"</v>
                         </o>
                       </l>
                     </o>
@@ -6494,7 +6480,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Descargador_atras"</v>
+                      <v n="Value">"MAIN.Estacion.Descargador_atras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6591,22 +6577,7 @@
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
-                <a n="ConfiguredComplexInputs" cet="ComplexInput">
-                  <o>
-                    <n n="DescriptionTree" />
-                    <o n="VisualElemMemberList" t="VisualElemMemberList">
-                      <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
-                        <o>
-                          <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Horizontal_descargador_detras"</v>
-                        </o>
-                      </l>
-                    </o>
-                    <v n="SignatureName">"Visu_TapInput"</v>
-                    <v n="Name">"Tap"</v>
-                    <v n="Description">"Configure the tapping of a Boolean variable"</v>
-                  </o>
-                </a>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
                 <l n="Elements" t="ArrayList" />
                 <n n="VisualElementDescription" />
                 <o n="VisualElemMemberList" t="VisualElemMemberList">
@@ -6682,7 +6653,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Horizontal_descargador_detras"</v>
+                      <v n="Value">"MAIN.Estacion.Horizontal_descargador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6779,22 +6750,7 @@
                 <l n="UserManagementAccessRights" t="ArrayList" />
               </o>
               <o>
-                <a n="ConfiguredComplexInputs" cet="ComplexInput">
-                  <o>
-                    <n n="DescriptionTree" />
-                    <o n="VisualElemMemberList" t="VisualElemMemberList">
-                      <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
-                        <o>
-                          <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Horizontal_descargador_delante"</v>
-                        </o>
-                      </l>
-                    </o>
-                    <v n="SignatureName">"Visu_TapInput"</v>
-                    <v n="Name">"Tap"</v>
-                    <v n="Description">"Configure the tapping of a Boolean variable"</v>
-                  </o>
-                </a>
+                <a n="ConfiguredComplexInputs" et="ComplexInput" />
                 <l n="Elements" t="ArrayList" />
                 <n n="VisualElementDescription" />
                 <o n="VisualElemMemberList" t="VisualElemMemberList">
@@ -6870,7 +6826,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Horizontal_descargador_delante"</v>
+                      <v n="Value">"MAIN.Estacion.Horizontal_descargador_delante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -6974,7 +6930,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Vertical_descargador_arriba"</v>
+                          <v n="Value">"MAIN.Estacion.Vertical_descargador_arriba"</v>
                         </o>
                       </l>
                     </o>
@@ -7058,7 +7014,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Vertical_descargador_arriba"</v>
+                      <v n="Value">"MAIN.Estacion.Vertical_descargador_arriba"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7162,7 +7118,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Vertical_descargador_abajo"</v>
+                          <v n="Value">"MAIN.Estacion.Vertical_descargador_abajo"</v>
                         </o>
                       </l>
                     </o>
@@ -7246,7 +7202,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Vertical_descargador_abajo"</v>
+                      <v n="Value">"MAIN.Estacion.Vertical_descargador_abajo"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7543,7 +7499,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Verificador_arriba"</v>
+                          <v n="Value">"MAIN.Estacion.Verificador_arriba"</v>
                         </o>
                       </l>
                     </o>
@@ -7627,7 +7583,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Verificador_arriba"</v>
+                      <v n="Value">"MAIN.Estacion.Verificador_arriba"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7731,7 +7687,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Desplazador_detras"</v>
+                          <v n="Value">"MAIN.Estacion.Desplazador_detras"</v>
                         </o>
                       </l>
                     </o>
@@ -7815,7 +7771,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Desplazador_detras"</v>
+                      <v n="Value">"MAIN.Estacion.Desplazador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -7919,7 +7875,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Alimentador_detras"</v>
+                          <v n="Value">"MAIN.Estacion.Alimentador_detras"</v>
                         </o>
                       </l>
                     </o>
@@ -8003,7 +7959,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Alimentador_detras"</v>
+                      <v n="Value">"MAIN.Estacion.Alimentador_detras"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8487,7 +8443,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Verificador_abajo"</v>
+                          <v n="Value">"MAIN.Estacion.Verificador_abajo"</v>
                         </o>
                       </l>
                     </o>
@@ -8571,7 +8527,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Verificador_abajo"</v>
+                      <v n="Value">"MAIN.Estacion.Verificador_abajo"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -8865,7 +8821,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Alimentador_delante"</v>
+                          <v n="Value">"MAIN.Estacion.Alimentador_delante"</v>
                         </o>
                       </l>
                     </o>
@@ -8949,7 +8905,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Alimentador_delante"</v>
+                      <v n="Value">"MAIN.Estacion.Alimentador_delante"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -9053,7 +9009,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador"</v>
+                          <v n="Value">"MAIN.Estacion.Vacio_obtenido_vacuostato_descargador"</v>
                         </o>
                       </l>
                     </o>
@@ -9137,7 +9093,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador"</v>
+                      <v n="Value">"MAIN.Estacion.Vacio_obtenido_vacuostato_descargador"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10399,7 +10355,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
+                          <v n="Value">"MAIN.Estacion.Base_en_Alimentador"</v>
                         </o>
                       </l>
                     </o>
@@ -10483,7 +10439,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Base_en_Alimentador"</v>
+                      <v n="Value">"MAIN.Estacion.Base_en_Alimentador"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10587,7 +10543,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Lampara_falta_material"</v>
+                          <v n="Value">"MAIN.Estacion.Lampara_falta_material"</v>
                         </o>
                       </l>
                     </o>
@@ -10674,7 +10630,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Lampara_falta_material"</v>
+                      <v n="Value">"MAIN.Estacion.Lampara_falta_material"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10778,7 +10734,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Presencia_pale"</v>
+                          <v n="Value">"MAIN.Estacion.Presencia_pale"</v>
                         </o>
                       </l>
                     </o>
@@ -10862,7 +10818,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Presencia_pale"</v>
+                      <v n="Value">"MAIN.Estacion.Presencia_pale"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -10966,7 +10922,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                          <v n="Value">"MAIN.Estacion.Activa_marcha_motor_cinta"</v>
                         </o>
                       </l>
                     </o>
@@ -11050,7 +11006,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.Estacion.Activa_marcha_motor_cinta"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11154,7 +11110,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Invierte_marcha_motor_cinta"</v>
+                          <v n="Value">"MAIN.Estacion.Invierte_marcha_motor_cinta"</v>
                         </o>
                       </l>
                     </o>
@@ -11238,7 +11194,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Invierte_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.Estacion.Invierte_marcha_motor_cinta"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11411,7 +11367,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Activa_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.Estacion.Activa_marcha_motor_cinta"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11584,7 +11540,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Invierte_marcha_motor_cinta"</v>
+                      <v n="Value">"MAIN.Estacion.Invierte_marcha_motor_cinta"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11688,7 +11644,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Retenedor_pale_baja"</v>
+                          <v n="Value">"MAIN.Estacion.Retenedor_pale_baja"</v>
                         </o>
                       </l>
                     </o>
@@ -11772,7 +11728,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Retenedor_pale_baja"</v>
+                      <v n="Value">"MAIN.Estacion.Retenedor_pale_baja"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -11876,7 +11832,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Separador_pale_sube"</v>
+                          <v n="Value">"MAIN.Estacion.Separador_pale_sube"</v>
                         </o>
                       </l>
                     </o>
@@ -11960,7 +11916,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Separador_pale_sube"</v>
+                      <v n="Value">"MAIN.Estacion.Separador_pale_sube"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12064,7 +12020,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Pulsador_parada_emergencia"</v>
+                          <v n="Value">"MAIN.Estacion.Pulsador_parada_emergencia"</v>
                         </o>
                       </l>
                     </o>
@@ -12148,7 +12104,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Pulsador_parada_emergencia"</v>
+                      <v n="Value">"MAIN.Estacion.Pulsador_parada_emergencia"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12252,7 +12208,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Pulsador_marcha"</v>
+                          <v n="Value">"MAIN.Estacion.Pulsador_marcha"</v>
                         </o>
                       </l>
                     </o>
@@ -12336,7 +12292,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Pulsador_marcha"</v>
+                      <v n="Value">"MAIN.Estacion.Pulsador_marcha"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12440,7 +12396,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Pulsador_parada_NC"</v>
+                          <v n="Value">"MAIN.Estacion.Pulsador_parada_NC"</v>
                         </o>
                       </l>
                     </o>
@@ -12524,7 +12480,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Pulsador_parada_NC"</v>
+                      <v n="Value">"MAIN.Estacion.Pulsador_parada_NC"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12628,7 +12584,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Lampara_alarma"</v>
+                          <v n="Value">"MAIN.Estacion.Lampara_alarma"</v>
                         </o>
                       </l>
                     </o>
@@ -12715,7 +12671,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Lampara_alarma"</v>
+                      <v n="Value">"MAIN.Estacion.Lampara_alarma"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -12819,7 +12775,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.test_pieza.Lampara_marcha"</v>
+                          <v n="Value">"MAIN.Estacion.Lampara_marcha"</v>
                         </o>
                       </l>
                     </o>
@@ -12906,7 +12862,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.test_pieza.Lampara_marcha"</v>
+                      <v n="Value">"MAIN.Estacion.Lampara_marcha"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -13347,7 +13303,7 @@
                     </o>
                     <o>
                       <v n="Id">743958181L</v>
-                      <v n="Value">"MAIN.test_pieza.pieza_ok"</v>
+                      <v n="Value">"MAIN.Estacion.pieza_ok"</v>
                     </o>
                     <o>
                       <v n="Id">2597686782L</v>
@@ -13902,7 +13858,7 @@
             </o>
             <v n="DialogDut">{fb6d3ee8-59d7-45c5-948c-52ba534bd934}</v>
           </o>
-          <v n="LastUsedIdForIdentifier">334</v>
+          <v n="LastUsedIdForIdentifier">488</v>
           <o n="TextDocument" t="TextDocument">
             <a n="TextLines" cet="TextLine">
               <o>

@@ -1,20 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <ImagePool Name="ImagePool" Id="{efa52768-d811-4de4-a52c-0712e8e31c00}">
+  <ImagePool Name="ImagePool" Id="{bf729593-a378-4227-bafc-a4011407108d}">
     <XmlArchive>
       <Data>
         <o xml:space="preserve" t="ImagePoolObject">
-          <v n="UniqueIdGenerator">"1"</v>
+          <v n="UniqueIdGenerator">"5"</v>
           <l n="BitmapPool" t="ArrayList" cet="ImagePoolItem">
+            <o>
+              <v n="BitmapID">"Base No OK"</v>
+              <v n="FileID">"5ce3da45-db07-42e7-a21c-a00fff4ed8f6|VISUs\Foto\Base No OK.png"</v>
+              <v n="ItemID">1</v>
+            </o>
+            <o>
+              <v n="BitmapID">"Base OK"</v>
+              <v n="FileID">"5ce3da45-db07-42e7-a21c-a00fff4ed8f6|VISUs\Foto\Base OK.png"</v>
+              <v n="ItemID">4</v>
+            </o>
+            <o>
+              <v n="BitmapID">"Base Sola"</v>
+              <v n="FileID">"5ce3da45-db07-42e7-a21c-a00fff4ed8f6|VISUs\Foto\Base Sola.png"</v>
+              <v n="ItemID">5</v>
+            </o>
             <o>
               <v n="BitmapID">""</v>
               <v n="FileID">""</v>
-              <v n="ItemID">1</v>
+              <v n="ItemID">2</v>
             </o>
           </l>
-          <v n="GuidInit">{fbf8308a-5328-41dc-acf3-7521c8eb6f1d}</v>
-          <v n="GuidReInit">{e3aba7fb-b7ff-44ee-baab-03715fca71af}</v>
-          <v n="GuidExitX">{00e53d8d-a719-4811-8b1a-ca1d38d09658}</v>
+          <v n="GuidInit">{4ada0163-829b-4820-83a9-d6712c81feb6}</v>
+          <v n="GuidReInit">{678a0af5-ae64-470d-92cd-8b8f86179541}</v>
+          <v n="GuidExitX">{0ca68dee-8604-4d91-9633-bdf0e1b589b7}</v>
           <v n="ValidIds">false</v>
         </o>
       </Data>
