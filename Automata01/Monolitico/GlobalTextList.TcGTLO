@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <GlobalTextList Name="GlobalTextList" Id="{40e97983-724f-47e3-994f-0a3ecb8cc596}">
+  <GlobalTextList Name="GlobalTextList" Id="{cdcea6f0-1445-4605-a4ad-fb95c965431a}">
     <XmlArchive>
       <Data>
         <o xml:space="preserve" t="GlobalTextListObject">
@@ -387,9 +387,9 @@
             </o>
           </l>
           <l n="Languages" t="ArrayList" />
-          <v n="GuidInit">{f141e347-399c-4ebb-9405-59d89a7699a4}</v>
-          <v n="GuidReInit">{e5eba6e2-b0f5-42bf-800d-0061cec4a159}</v>
-          <v n="GuidExitX">{cce4eb36-bc71-4b35-a4d5-053074fa75ae}</v>
+          <v n="GuidInit">{4a4e31ae-9e61-4285-a6bd-11b761123fc7}</v>
+          <v n="GuidReInit">{8aed8bfe-3fb2-4d2c-9ec4-47bebf2bd712}</v>
+          <v n="GuidExitX">{a043188a-3213-4e4c-ae07-34f79fdbcc40}</v>
         </o>
       </Data>
       <TypeList>
