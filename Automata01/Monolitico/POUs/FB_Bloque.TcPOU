@@ -20,7 +20,6 @@ VAR
 	
 	//Terminal 2
 	Pulsador_parada_emergencia AT %I*: BOOL;
-	Selector_modo_manual AT %I*: BOOL;
 	Pulsador_marcha AT %I*: BOOL;
 	Pulsador_parada_NC AT %I*: BOOL;
 	Parte_operativa_conectada AT %I*: BOOL;

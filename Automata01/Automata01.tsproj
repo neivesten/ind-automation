@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.35">
+<TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.40">
 	<ImageDatas>
 		<ImageData Id="1000">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ff808080808080808080808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ff0000c00000c0ffffffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
 		<ImageData Id="1001">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000120b0000120b00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
 		<ImageData Id="1002">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
 	</ImageDatas>
-	<Project ProjectGUID="{C0F4A37A-DAFF-4C66-8EF5-4EFCC8479166}" TargetNetId="5.67.250.180.1.1" ShowHideConfigurations="#x106">
+	<Project ProjectGUID="{C0F4A37A-DAFF-4C66-8EF5-4EFCC8479166}" TargetNetId="5.67.250.180.1.1" Target64Bit="true" ShowHideConfigurations="#x106">
 		<System>
 			<Tasks>
 				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
@@ -202,7 +202,7 @@
 					</TaskPouOids>
 				</Instance>
 			</Project>
-			<Project Disabled="true" GUID="{B4CA52BB-61BB-48DB-B6EA-92716308840E}" Name="Monolitico" PrjFilePath="Monolitico\Monolitico.plcproj" TmcFilePath="Monolitico\Monolitico.tmc" ReloadTmc="true" AmsPort="852" FileArchiveSettings="#x000e" SymbolicMapping="true">
+			<Project GUID="{B4CA52BB-61BB-48DB-B6EA-92716308840E}" Name="Monolitico" PrjFilePath="Monolitico\Monolitico.plcproj" TmcFilePath="Monolitico\Monolitico.tmc" ReloadTmc="true" AmsPort="852" FileArchiveSettings="#x000e" SymbolicMapping="true">
 				<Instance Id="#x08502040" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Monolitico\Monolitico.tmc" TmcHash="{D0836808-4F2A-F973-857D-869D3D6BDDC0}">
 					<Name>Monolitico Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
@@ -843,9 +843,113 @@ Lampara AT %Q*: BOOL;]]></Comment>
 		</Io>
 	</Project>
 	<Mappings>
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
 		<OwnerA Name="TIPC^Manual^Manual Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_0" VarB="Channel 7^Codigo de palé bit 0"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_1" VarB="Channel 8^Codigo de palé bit 1"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Parte_operativa_conectada" VarB="Channel 5^Parte operativa conectada (armada)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Presencia_pale" VarB="Channel 6^presencia de palé"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_marcha" VarB="Channel 3^Pulsador de marcha"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_NC" VarB="Channel 4^Pulsador de parada [NC]"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_emergencia" VarB="Channel 1^Pulsador de parada de emergencia"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Selector_modo_manual" VarB="Channel 2^Selector de modo manual"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_2" VarB="Channel 1^Código de palé bit 2"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Detector_presion" VarB="Channel 2^Detector de presión"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Activa_marcha_motor_cinta" VarB="Channel 5^Activa la marcha el motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Avisador_sonoro" VarB="Channel 2^Lámpara de alarma"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desconecta_parte_operativa" VarB="Channel 1^Desconecta parte operativa (desarma)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Invierte_marcha_motor_cinta" VarB="Channel 6^Invierte la marcha del motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_falta_material" VarB="Channel 4^Lámpara de falta material"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_marcha" VarB="Channel 3^Lámpara de marcha"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Retenedor_pale_baja" VarB="Channel 7^Cilindro del retenedor de palés baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Separador_pale_sube" VarB="Channel 8^Cilindro del separador de palés sube"/>
+			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
 				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_alarma" VarB="Channel 1^Avisador sonoro"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Desplazador_detras" VarB="Channel 7^Cilindro del desplazador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Horizontal_descargador_delante" VarB="Channel 2^Cilindro horizontal del descargador delante (sobre el palé)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Horizontal_descargador_detras" VarB="Channel 1^Cilindro horizontal del descargador detrás (sobre el punto de descarga)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_arriba" VarB="Channel 5^Cilindro del verificador arriba"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vertical_descargador_abajo" VarB="Channel 4^Cilindro vertical del descargador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vertical_descargador_arriba" VarB="Channel 3^Cilindro vertical del descargador arriba"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Alimentador_delante" VarB="Channel 1^Cilindro del alimentador delante"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Base_en_Alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador" VarB="Channel 2^Vacío obtenido en el vacuostado del descargador"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Alimentador_adelante" VarB="Channel 7^Cilindro del alimentador adelante (hacia el punto de verificación)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_adelante" VarB="Channel 1^Cilindro del descargador adelante (hacia el palé)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_atras" VarB="Channel 2^Cilindro del descargador atrás (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_baja" VarB="Channel 3^Cilindro del descargador baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desplazador_adelante" VarB="Channel 6^Cilindro del desplazador adelante (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Eyector_succiona" VarB="Channel 8^Eyector de vacío del descargador succiona"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Rechazador_adelante" VarB="Channel 4^Cilindro del rechazador adelante"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Verificador_baja" VarB="Channel 5^Cilindro del verificador baja"/>
+			</OwnerB>
+		</OwnerA>
+		<OwnerA Name="TIPC^Monolitico^Monolitico Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Selector_modo_manual" VarB="Channel 2^Selector de modo manual"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_0" VarB="Channel 7^Codigo de palé bit 0"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_1" VarB="Channel 8^Codigo de palé bit 1"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Parte_operativa_conectada" VarB="Channel 5^Parte operativa conectada (armada)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Presencia_pale" VarB="Channel 6^presencia de palé"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_marcha" VarB="Channel 3^Pulsador de marcha"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_NC" VarB="Channel 4^Pulsador de parada [NC]"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Pulsador_parada_emergencia" VarB="Channel 1^Pulsador de parada de emergencia"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Codigo_pale_bit_2" VarB="Channel 1^Código de palé bit 2"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Detector_presion" VarB="Channel 2^Detector de presión"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Activa_marcha_motor_cinta" VarB="Channel 5^Activa la marcha el motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desconecta_parte_operativa" VarB="Channel 1^Desconecta parte operativa (desarma)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Invierte_marcha_motor_cinta" VarB="Channel 6^Invierte la marcha del motor de la cinta"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_falta_material" VarB="Channel 4^Lámpara de falta material"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_marcha" VarB="Channel 3^Lámpara de marcha"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Retenedor_pale_baja" VarB="Channel 7^Cilindro del retenedor de palés baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Separador_pale_sube" VarB="Channel 8^Cilindro del separador de palés sube"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Avisador_sonoro" VarB="Channel 1^Avisador sonoro"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Lampara_alarma" VarB="Channel 1^Avisador sonoro"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Alimentador_detras" VarB="Channel 8^Cilindro del alimentador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Desplazador_detras" VarB="Channel 7^Cilindro del desplazador detrás"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Horizontal_descargador_delante" VarB="Channel 2^Cilindro horizontal del descargador delante (sobre el palé)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Horizontal_descargador_detras" VarB="Channel 1^Cilindro horizontal del descargador detrás (sobre el punto de descarga)"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_abajo" VarB="Channel 6^Cilindro del verificador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Verificador_arriba" VarB="Channel 5^Cilindro del verificador arriba"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vertical_descargador_abajo" VarB="Channel 4^Cilindro vertical del descargador abajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vertical_descargador_arriba" VarB="Channel 3^Cilindro vertical del descargador arriba"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Alimentador_delante" VarB="Channel 1^Cilindro del alimentador delante"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Base_en_Alimentador" VarB="Channel 3^Presencia de base en el alimentador"/>
+				<Link VarA="PlcTask Inputs^MAIN.test_pieza.Vacio_obtenido_vacuostato_descargador" VarB="Channel 2^Vacío obtenido en el vacuostado del descargador"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Alimentador_adelante" VarB="Channel 7^Cilindro del alimentador adelante (hacia el punto de verificación)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_adelante" VarB="Channel 1^Cilindro del descargador adelante (hacia el palé)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_atras" VarB="Channel 2^Cilindro del descargador atrás (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Descargador_baja" VarB="Channel 3^Cilindro del descargador baja"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Desplazador_adelante" VarB="Channel 6^Cilindro del desplazador adelante (hacia el punto de descarga)"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Eyector_succiona" VarB="Channel 8^Eyector de vacío del descargador succiona"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Rechazador_adelante" VarB="Channel 4^Cilindro del rechazador adelante"/>
+				<Link VarA="PlcTask Outputs^MAIN.test_pieza.Verificador_baja" VarB="Channel 5^Cilindro del verificador baja"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>
