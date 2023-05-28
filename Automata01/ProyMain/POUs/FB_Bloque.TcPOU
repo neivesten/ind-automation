@@ -11,10 +11,11 @@ END_VAR
 VAR_OUTPUT
 END_VAR
 VAR
-	Ciclos: INT;
-	Aceptados:INT;
-	Rechazados: INT;
-	Restantes: INT;
+	//Variables de Control, No se usan en el Manual
+	//Ciclos: INT;
+	//Aceptados:INT;
+	//Rechazados: INT;
+	//Restantes: INT;
 	
 	pieza_ok: BOOL;
 	
