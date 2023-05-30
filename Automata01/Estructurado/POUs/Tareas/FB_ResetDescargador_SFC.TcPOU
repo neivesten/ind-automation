@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_ResetDescargador_SFC" Id="{0a71c7c4-f3c2-415f-aa6b-f942ac09e83d}" SpecialFunc="None">
+  <POU Name="FB_ResetDescargador_SFC" Id="{93829831-eb30-4810-992a-71b04d0a49a1}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_ResetDescargador_SFC
 
 VAR_INPUT

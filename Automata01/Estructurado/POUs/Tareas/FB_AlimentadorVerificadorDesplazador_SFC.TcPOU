@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_AlimentadorVerificadorDesplazador_SFC" Id="{d435c292-a218-4517-82a8-98de558199c5}" SpecialFunc="None">
+  <POU Name="FB_AlimentadorVerificadorDesplazador_SFC" Id="{d0e02cd0-9cc1-42c8-afe4-bef33f1d13d0}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_AlimentadorVerificadorDesplazador_SFC
 VAR_INPUT
 	//Tiempo
@@ -2637,12 +2637,12 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
-    <Action Name="notOK_exit" Id="{b0a78a57-d88c-46b7-a4ad-4a30e82ee872}">
+    <Action Name="notOK_exit" Id="{81cbfc81-a284-4b53-b11b-1cd41d253b6b}">
       <Implementation>
         <ST><![CDATA[pieza_ok := FALSE;]]></ST>
       </Implementation>
     </Action>
-    <Action Name="OK_exit" Id="{3392bf54-4745-4a11-aa31-cca47c5cf578}">
+    <Action Name="OK_exit" Id="{7dd72752-0df9-435b-b4fe-3c9ac0cf4f73}">
       <Implementation>
         <ST><![CDATA[pieza_ok := TRUE;]]></ST>
       </Implementation>

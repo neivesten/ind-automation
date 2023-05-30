@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_TransferirPale_SFC" Id="{15ad5887-5800-4862-8886-2182498b3710}" SpecialFunc="None">
+  <POU Name="FB_TransferirPale_SFC" Id="{4c273752-55dd-4668-9d9d-7f87b0eb2b29}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_TransferirPale_SFC
 VAR_INPUT
 	

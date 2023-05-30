@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_Estacion" Id="{df0570d8-ffbb-4d88-bb38-12d681ec79be}" SpecialFunc="None">
+  <POU Name="FB_Estacion" Id="{b931997a-e702-4e5f-99bc-19509e72a06d}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Estacion
 VAR_INPUT
     EstadoPausa: BOOL;

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_CheckMaterial_SFC" Id="{3af8f292-ab0d-4949-849c-a31fe1741044}" SpecialFunc="None">
+  <POU Name="FB_CheckMaterial_SFC" Id="{ecfe9ebb-c58d-4e2f-bca7-842d5f6ed28b}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_CheckMaterial_SFC
 VAR_INPUT
 	// SFC-Flags

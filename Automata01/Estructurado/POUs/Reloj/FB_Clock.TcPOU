@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_Clock" Id="{0e267069-a3c3-4596-8c75-7a01d200315b}" SpecialFunc="None">
+  <POU Name="FB_Clock" Id="{86d11164-0b8e-4a0c-a852-63b7a6547d68}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Clock
 (*
 Square wave oscillator

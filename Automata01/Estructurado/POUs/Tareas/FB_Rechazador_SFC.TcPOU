@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_Rechazador_SFC" Id="{1eabb9a0-6567-4086-a958-a635db8f5df5}" SpecialFunc="None">
+  <POU Name="FB_Rechazador_SFC" Id="{f4214f36-f1b2-4ea8-b61c-4ba01b83119c}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Rechazador_SFC
 VAR_INPUT
 	
@@ -1052,7 +1052,7 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
-    <Action Name="Rechaza_exit" Id="{cabcc51b-a5d3-4663-a1a2-d554ea9f60dd}">
+    <Action Name="Rechaza_exit" Id="{0d6b0c18-f0ed-4800-8a32-b185cb7b27ae}">
       <Implementation>
         <ST><![CDATA[]]></ST>
       </Implementation>

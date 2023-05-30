@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_SituarPale_SFC" Id="{273a3972-5d8d-433a-b32e-61ca959a9370}" SpecialFunc="None">
+  <POU Name="FB_SituarPale_SFC" Id="{d3b801ac-f790-45d4-a4a6-f8bf18fc51ad}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_SituarPale_SFC
 VAR_INPUT
 	//nuestras_variables

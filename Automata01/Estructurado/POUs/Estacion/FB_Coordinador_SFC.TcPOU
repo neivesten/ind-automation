@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_Coordinador_SFC" Id="{71b93a32-98c3-40e8-882e-9ce7bdbace69}" SpecialFunc="None">
+  <POU Name="FB_Coordinador_SFC" Id="{74a2e304-b488-43b8-b9af-a48889a51d5f}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Coordinador_SFC
 
 VAR_IN_OUT
@@ -3867,7 +3867,7 @@ END_VAR
         <ST><![CDATA[CiclosRechazados := CiclosRechazados + 1;]]></ST>
       </Implementation>
     </Action>
-    <Action Name="Initial_exit" Id="{8ec35d20-aecc-4d29-aefd-5a57190ef6fe}">
+    <Action Name="Initial_exit" Id="{12c69389-0833-4fb9-9388-049e996d2bd0}">
       <Implementation>
         <ST><![CDATA[IF (CiclosPendientes = 0) THEN
 	CiclosPendientes := CiclosSolicitados;
@@ -3876,7 +3876,7 @@ END_VAR
 END_IF]]></ST>
       </Implementation>
     </Action>
-    <Action Name="S6_entry" Id="{00775444-6179-4080-b74f-2a18f1a30b4e}">
+    <Action Name="S6_entry" Id="{f233fefe-0496-49b3-b531-69280b883a3c}">
       <Implementation>
         <ST><![CDATA[CiclosPendientes := CiclosPendientes - 1;
 CiclosAceptados := CiclosAceptados + 1;]]></ST>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
-  <POU Name="FB_Descargador_SFC" Id="{aa97f2d1-a208-47aa-84e6-6d8790c1de5a}" SpecialFunc="None">
+  <POU Name="FB_Descargador_SFC" Id="{3dbc4dc6-41ea-4495-85d6-6a8b12014b7b}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Descargador_SFC
 VAR_INPUT
 	//nuestras_variables
